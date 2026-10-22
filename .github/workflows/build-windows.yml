@@ -1,0 +1,63 @@
+# 在 GitHub 云端打包 Windows 安装包（NSIS .exe）
+# 触发方式：
+# 1. Actions 页手动 Run workflow
+# 2. 推送形如 v0.1.0 的 tag
+# 安装包会挂到同名 Release 的 Assets 里（版本号取 src-tauri/tauri.conf.json 的 version）。
+name: Build Windows
+
+on:
+  workflow_dispatch:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  build-windows:
+    permissions:
+      contents: write
+    runs-on: windows-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: lts/*
+          cache: npm
+
+      # Rust 版本以 rust-toolchain.toml 为准，避免本地与云端各装各的
+      - name: Read pinned Rust version
+        id: rust
+        shell: bash
+        run: echo "version=$(sed -n 's/^channel *= *"\(.*\)"/\1/p' rust-toolchain.toml | tr -d '\r')" >> "$GITHUB_OUTPUT"
+
+      - name: Install Rust
+        uses: dtolnay/rust-toolchain@master
+        with:
+          toolchain: ${{ steps.rust.outputs.version }}
+
+      - name: Rust cache
+        uses: swatinem/rust-cache@v2
+        with:
+          workspaces: './src-tauri -> target'
+
+      # package-lock.json 里的 resolved 可能是公司内网镜像地址，云端访问不到：先去掉，改走公共仓库
+      - name: Use public npm registry for lockfile
+        run: node scripts/sanitize-lockfile.mjs
+
+      - name: Install frontend dependencies
+        run: npm ci --registry=https://registry.npmjs.org/
+
+      - name: Build Tauri (Windows)
+        uses: tauri-apps/tauri-action@v0
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tagName: v__VERSION__
+          releaseName: '猜成语（精简版） v__VERSION__'
+          releaseBody: |
+            Windows 安装包见下方 Assets。
+            - `.exe`：NSIS 安装程序（安装后窗口标题仍为「猜成语」）
+          releaseDraft: false
+          prerelease: false
+          args: --bundles nsis

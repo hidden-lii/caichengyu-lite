@@ -1,0 +1,1178 @@
+{
+ "version": 1,
+ "lexicon": "merged",
+ "note": "锁字位误杀回归：输入固定，期望=桌面 TS+补丁",
+ "scenarios": [
+  {
+   "id": "s0125",
+   "kind": "answer-consistent",
+   "answer": "直木先伐",
+   "includePolyphones": true,
+   "guesses": [
+    {
+     "word": "手到拿来",
+     "pinyin": "shǒu dào ná lái",
+     "chars": [
+      {
+       "c": "手",
+       "py": "shou",
+       "sm": "sh",
+       "ym": "ou",
+       "tone": 3
+      },
+      {
+       "c": "到",
+       "py": "dao",
+       "sm": "d",
+       "ym": "ao",
+       "tone": 4
+      },
+      {
+       "c": "拿",
+       "py": "na",
+       "sm": "n",
+       "ym": "a",
+       "tone": 2
+      },
+      {
+       "c": "来",
+       "py": "lai",
+       "sm": "l",
+       "ym": "ai",
+       "tone": 2
+      }
+     ],
+     "marks": [
+      {
+       "char": "absent",
+       "sm": "absent",
+       "ym": "absent",
+       "tone": "absent",
+       "combo": "absent",
+       "comboTone": false,
+       "autoSm": false,
+       "autoYm": false,
+       "autoTone": false
+      },
+      {
+       "char": "absent",
+       "sm": "absent",
+       "ym": "absent",
+       "tone": "hit",
+       "combo": "absent",
+       "comboTone": false,
+       "autoSm": false,
+       "autoYm": false,
+       "autoTone": false
+      },
+      {
+       "char": "absent",
+       "sm": "absent",
+       "ym": "present",
+       "tone": "present",
+       "combo": "absent",
+       "comboTone": false,
+       "autoSm": false,
+       "autoYm": false,
+       "autoTone": false
+      },
+      {
+       "char": "absent",
+       "sm": "absent",
+       "ym": "absent",
+       "tone": "hit",
+       "combo": "absent",
+       "comboTone": false,
+       "autoSm": false,
+       "autoYm": false,
+       "autoTone": false
+      }
+     ]
+    },
+    {
+     "word": "夯雀先飞",
+     "pinyin": "bèn què xiān fēi",
+     "chars": [
+      {
+       "c": "夯",
+       "py": "ben",
+       "sm": "b",
+       "ym": "en",
+       "tone": 4
+      },
+      {
+       "c": "雀",
+       "py": "que",
+       "sm": "q",
+       "ym": "ue",
+       "tone": 4
+      },
+      {
+       "c": "先",
+       "py": "xian",
+       "sm": "x",
+       "ym": "ian",
+       "tone": 1
+      },
+      {
+       "c": "飞",
+       "py": "fei",
+       "sm": "f",
+       "ym": "ei",
+       "tone": 1
+      }
+     ],
+     "marks": [
+      {
+       "char": "absent",
+       "sm": "absent",
+       "ym": "absent",
+       "tone": "absent",
+       "combo": "absent",
+       "comboTone": false,
+       "autoSm": false,
+       "autoYm": false,
+       "autoTone": false
+      },
+      {
+       "char": "absent",
+       "sm": "absent",
+       "ym": "absent",
+       "tone": "hit",
+       "combo": "absent",
+       "comboTone": false,
+       "autoSm": false,
+       "autoYm": false,
+       "autoTone": false
+      },
+      {
+       "char": "hit",
+       "sm": null,
+       "ym": null,
+       "tone": "hit",
+       "combo": "absent",
+       "comboTone": false,
+       "autoSm": false,
+       "autoYm": false,
+       "autoTone": false
+      },
+      {
+       "char": "absent",
+       "sm": "hit",
+       "ym": "absent",
+       "tone": "absent",
+       "combo": "absent",
+       "comboTone": false,
+       "autoSm": false,
+       "autoYm": false,
+       "autoTone": false
+      }
+     ]
+    },
+    {
+     "word": "玉女披衣",
+     "pinyin": "yù nǚ pī yī",
+     "chars": [
+      {
+       "c": "玉",
+       "py": "yu",
+       "sm": "y",
+       "ym": "u",
+       "tone": 4
+      },
+      {
+       "c": "女",
+       "py": "nv",
+       "sm": "n",
+       "ym": "v",
+       "tone": 3
+      },
+      {
+       "c": "披",
+       "py": "pi",
+       "sm": "p",
+       "ym": "i",
+       "tone": 1
+      },
+      {
+       "c": "衣",
+       "py": "yi",
+       "sm": "y",
+       "ym": "i",
+       "tone": 1
+      }
+     ],
+     "marks": [
+      {
+       "char": "absent",
+       "sm": "absent",
+       "ym": "present",
+       "tone": "present",
+       "combo": "absent",
+       "comboTone": false,
+       "autoSm": false,
+       "autoYm": false,
+       "autoTone": false
+      },
+      {
+       "char": "absent",
+       "sm": "absent",
+       "ym": "absent",
+       "tone": "absent",
+       "combo": "absent",
+       "comboTone": false,
+       "autoSm": false,
+       "autoYm": false,
+       "autoTone": false
+      },
+      {
+       "char": "absent",
+       "sm": "absent",
+       "ym": "present",
+       "tone": "hit",
+       "combo": "absent",
+       "comboTone": false,
+       "autoSm": false,
+       "autoYm": false,
+       "autoTone": false
+      },
+      {
+       "char": "absent",
+       "sm": "absent",
+       "ym": "absent",
+       "tone": "absent",
+       "combo": "absent",
+       "comboTone": false,
+       "autoSm": false,
+       "autoYm": false,
+       "autoTone": false
+      }
+     ]
+    }
+   ],
+   "total": 1,
+   "first": [
+    {
+     "word": "直木先伐",
+     "pinyin": "zhí mù xiān fá"
+    }
+   ],
+   "digest": "d0d9f0dcddb9efcb",
+   "legacyTotal": 0,
+   "legacyAnswerKept": false,
+   "words": [
+    "直木先伐"
+   ]
+  },
+  {
+   "id": "s0551",
+   "kind": "edge",
+   "answer": "封人三祝",
+   "includePolyphones": false,
+   "guesses": [
+    {
+     "word": "封刀挂剑",
+     "pinyin": "fēng dāo guà jiàn",
+     "chars": [
+      {
+       "c": "封",
+       "py": "feng",
+       "sm": "f",
+       "ym": "eng",
+       "tone": 1
+      },
+      {
+       "c": "刀",
+       "py": "dao",
+       "sm": "d",
+       "ym": "ao",
+       "tone": 1
+      },
+      {
+       "c": "挂",
+       "py": "gua",
+       "sm": "g",
+       "ym": "ua",
+       "tone": 4
+      },
+      {
+       "c": "剑",
+       "py": "jian",
+       "sm": "j",
+       "ym": "ian",
+       "tone": 4
+      }
+     ],
+     "marks": [
+      {
+       "char": "hit",
+       "sm": null,
+       "ym": "hit",
+       "tone": null,
+       "combo": "absent",
+       "comboTone": false,
+       "autoSm": false,
+       "autoYm": false,
+       "autoTone": false
+      },
+      {
+       "char": "absent",
+       "sm": "absent",
+       "ym": "absent",
+       "tone": "present",
+       "combo": "absent",
+       "comboTone": false,
+       "autoSm": false,
+       "autoYm": false,
+       "autoTone": false
+      },
+      {
+       "char": "absent",
+       "sm": "absent",
+       "ym": "absent",
+       "tone": "absent",
+       "combo": "absent",
+       "comboTone": false,
+       "autoSm": false,
+       "autoYm": false,
+       "autoTone": false
+      },
+      {
+       "char": "absent",
+       "sm": "absent",
+       "ym": "absent",
+       "tone": "hit",
+       "combo": "absent",
+       "comboTone": false,
+       "autoSm": false,
+       "autoYm": false,
+       "autoTone": false
+      }
+     ]
+    },
+    {
+     "word": "玉石俱燼",
+     "pinyin": "yù shí jù jìn",
+     "chars": [
+      {
+       "c": "玉",
+       "py": "yu",
+       "sm": "y",
+       "ym": "u",
+       "tone": 4
+      },
+      {
+       "c": "石",
+       "py": "shi",
+       "sm": "sh",
+       "ym": "i",
+       "tone": 2
+      },
+      {
+       "c": "俱",
+       "py": "ju",
+       "sm": "j",
+       "ym": "u",
+       "tone": 4
+      },
+      {
+       "c": "燼",
+       "py": "jin",
+       "sm": "j",
+       "ym": "in",
+       "tone": 4
+      }
+     ],
+     "marks": [
+      {
+       "char": "absent",
+       "sm": "absent",
+       "ym": "present",
+       "tone": "absent",
+       "combo": "absent",
+       "comboTone": false,
+       "autoSm": false,
+       "autoYm": false,
+       "autoTone": false
+      },
+      {
+       "char": "absent",
+       "sm": "absent",
+       "ym": null,
+       "tone": "hit",
+       "combo": "absent",
+       "comboTone": false,
+       "autoSm": false,
+       "autoYm": false,
+       "autoTone": false
+      },
+      {
+       "char": "absent",
+       "sm": "absent",
+       "ym": "absent",
+       "tone": "absent",
+       "combo": "absent",
+       "comboTone": false,
+       "autoSm": false,
+       "autoYm": false,
+       "autoTone": false
+      },
+      {
+       "char": "absent",
+       "sm": "absent",
+       "ym": "absent",
+       "tone": "hit",
+       "combo": "absent",
+       "comboTone": false,
+       "autoSm": false,
+       "autoYm": false,
+       "autoTone": false
+      }
+     ]
+    }
+   ],
+   "total": 1,
+   "first": [
+    {
+     "word": "封人三祝",
+     "pinyin": "fēng rén sān zhù"
+    }
+   ],
+   "digest": "c6486c412d6c96af",
+   "legacyTotal": 0,
+   "legacyAnswerKept": false,
+   "words": [
+    "封人三祝"
+   ]
+  },
+  {
+   "id": "s0562",
+   "kind": "edge",
+   "answer": "师严道尊",
+   "includePolyphones": false,
+   "guesses": [
+    {
+     "word": "论长道短",
+     "pinyin": "lùn cháng dào duǎn",
+     "chars": [
+      {
+       "c": "论",
+       "py": "lun",
+       "sm": "l",
+       "ym": "un",
+       "tone": 4
+      },
+      {
+       "c": "长",
+       "py": "chang",
+       "sm": "ch",
+       "ym": "ang",
+       "tone": 2
+      },
+      {
+       "c": "道",
+       "py": "dao",
+       "sm": "d",
+       "ym": "ao",
+       "tone": 4
+      },
+      {
+       "c": "短",
+       "py": "duan",
+       "sm": "d",
+       "ym": "uan",
+       "tone": 3
+      }
+     ],
+     "marks": [
+      {
+       "char": "absent",
+       "sm": "absent",
+       "ym": "present",
+       "tone": "absent",
+       "combo": "absent",
+       "comboTone": false,
+       "autoSm": false,
+       "autoYm": false,
+       "autoTone": false
+      },
+      {
+       "char": "absent",
+       "sm": "absent",
+       "ym": "absent",
+       "tone": "hit",
+       "combo": "absent",
+       "comboTone": false,
+       "autoSm": false,
+       "autoYm": false,
+       "autoTone": false
+      },
+      {
+       "char": "hit",
+       "sm": "hit",
+       "ym": "hit",
+       "tone": "hit",
+       "combo": "absent",
+       "comboTone": false,
+       "autoSm": false,
+       "autoYm": true,
+       "autoTone": false
+      },
+      {
+       "char": "absent",
+       "sm": "absent",
+       "ym": "absent",
+       "tone": "absent",
+       "combo": "absent",
+       "comboTone": false,
+       "autoSm": false,
+       "autoYm": false,
+       "autoTone": false
+      }
+     ]
+    },
+    {
+     "word": "个中缘由",
+     "pinyin": "gè zhōng yuán yóu",
+     "chars": [
+      {
+       "c": "个",
+       "py": "ge",
+       "sm": "g",
+       "ym": "e",
+       "tone": 4
+      },
+      {
+       "c": "中",
+       "py": "zhong",
+       "sm": "zh",
+       "ym": "ong",
+       "tone": 1
+      },
+      {
+       "c": "缘",
+       "py": "yuan",
+       "sm": "y",
+       "ym": "uan",
+       "tone": 2
+      },
+      {
+       "c": "由",
+       "py": "you",
+       "sm": "y",
+       "ym": "ou",
+       "tone": 2
+      }
+     ],
+     "marks": [
+      {
+       "char": "absent",
+       "sm": "absent",
+       "ym": "absent",
+       "tone": "present",
+       "combo": "absent",
+       "comboTone": false,
+       "autoSm": false,
+       "autoYm": false,
+       "autoTone": false
+      },
+      {
+       "char": "absent",
+       "sm": "absent",
+       "ym": "absent",
+       "tone": "present",
+       "combo": "absent",
+       "comboTone": false,
+       "autoSm": false,
+       "autoYm": false,
+       "autoTone": false
+      },
+      {
+       "char": "absent",
+       "sm": "present",
+       "ym": "absent",
+       "tone": "present",
+       "combo": "absent",
+       "comboTone": false,
+       "autoSm": false,
+       "autoYm": false,
+       "autoTone": false
+      },
+      {
+       "char": "absent",
+       "sm": "absent",
+       "ym": "absent",
+       "tone": "absent",
+       "combo": "absent",
+       "comboTone": false,
+       "autoSm": false,
+       "autoYm": false,
+       "autoTone": false
+      }
+     ]
+    }
+   ],
+   "total": 1,
+   "first": [
+    {
+     "word": "师严道尊",
+     "pinyin": "shī yán dào zūn"
+    }
+   ],
+   "digest": "305ae5b92b5afbff",
+   "legacyTotal": 0,
+   "legacyAnswerKept": false,
+   "words": [
+    "师严道尊"
+   ]
+  },
+  {
+   "id": "s0569",
+   "kind": "edge",
+   "answer": "娇声娇气",
+   "includePolyphones": false,
+   "guesses": [
+    {
+     "word": "娇艳惊人",
+     "pinyin": "jiāo yàn jīng rén",
+     "chars": [
+      {
+       "c": "娇",
+       "py": "jiao",
+       "sm": "j",
+       "ym": "iao",
+       "tone": 1
+      },
+      {
+       "c": "艳",
+       "py": "yan",
+       "sm": "y",
+       "ym": "an",
+       "tone": 4
+      },
+      {
+       "c": "惊",
+       "py": "jing",
+       "sm": "j",
+       "ym": "ing",
+       "tone": 1
+      },
+      {
+       "c": "人",
+       "py": "ren",
+       "sm": "r",
+       "ym": "en",
+       "tone": 2
+      }
+     ],
+     "marks": [
+      {
+       "char": "hit",
+       "sm": "hit",
+       "ym": "hit",
+       "tone": "hit",
+       "combo": "absent",
+       "comboTone": false,
+       "autoSm": false,
+       "autoYm": false,
+       "autoTone": false
+      },
+      {
+       "char": "absent",
+       "sm": "absent",
+       "ym": "absent",
+       "tone": "present",
+       "combo": "absent",
+       "comboTone": false,
+       "autoSm": false,
+       "autoYm": false,
+       "autoTone": false
+      },
+      {
+       "char": "absent",
+       "sm": "hit",
+       "ym": "absent",
+       "tone": "hit",
+       "combo": "absent",
+       "comboTone": false,
+       "autoSm": false,
+       "autoYm": false,
+       "autoTone": false
+      },
+      {
+       "char": "absent",
+       "sm": "absent",
+       "ym": "absent",
+       "tone": "absent",
+       "combo": "absent",
+       "comboTone": false,
+       "autoSm": false,
+       "autoYm": false,
+       "autoTone": false
+      }
+     ]
+    },
+    {
+     "word": "立地成佛",
+     "pinyin": "lì dì chéng fó",
+     "chars": [
+      {
+       "c": "立",
+       "py": "li",
+       "sm": "l",
+       "ym": "i",
+       "tone": 4
+      },
+      {
+       "c": "地",
+       "py": "di",
+       "sm": "d",
+       "ym": "i",
+       "tone": 4
+      },
+      {
+       "c": "成",
+       "py": "cheng",
+       "sm": "ch",
+       "ym": "eng",
+       "tone": 2
+      },
+      {
+       "c": "佛",
+       "py": "fo",
+       "sm": "f",
+       "ym": "o",
+       "tone": 2
+      }
+     ],
+     "marks": [
+      {
+       "char": "absent",
+       "sm": "absent",
+       "ym": "present",
+       "tone": "present",
+       "combo": "absent",
+       "comboTone": false,
+       "autoSm": false,
+       "autoYm": false,
+       "autoTone": false
+      },
+      {
+       "char": "absent",
+       "sm": "absent",
+       "ym": "absent",
+       "tone": "absent",
+       "combo": "absent",
+       "comboTone": false,
+       "autoSm": false,
+       "autoYm": false,
+       "autoTone": false
+      },
+      {
+       "char": "absent",
+       "sm": "absent",
+       "ym": "present",
+       "tone": "absent",
+       "combo": "absent",
+       "comboTone": false,
+       "autoSm": false,
+       "autoYm": false,
+       "autoTone": false
+      },
+      {
+       "char": "absent",
+       "sm": "absent",
+       "ym": "absent",
+       "tone": "absent",
+       "combo": "absent",
+       "comboTone": false,
+       "autoSm": false,
+       "autoYm": false,
+       "autoTone": false
+      }
+     ]
+    }
+   ],
+   "total": 1,
+   "first": [
+    {
+     "word": "娇声娇气",
+     "pinyin": "jiāo shēng jiāo qì"
+    }
+   ],
+   "digest": "1c87484dab1706ab",
+   "legacyTotal": 0,
+   "legacyAnswerKept": false,
+   "words": [
+    "娇声娇气"
+   ]
+  },
+  {
+   "id": "s0585",
+   "kind": "edge",
+   "answer": "绝祸未萌",
+   "includePolyphones": true,
+   "guesses": [
+    {
+     "word": "错上加错",
+     "pinyin": "cuò shàng jiā cuò",
+     "chars": [
+      {
+       "c": "错",
+       "py": "cuo",
+       "sm": "c",
+       "ym": "uo",
+       "tone": 4
+      },
+      {
+       "c": "上",
+       "py": "shang",
+       "sm": "sh",
+       "ym": "ang",
+       "tone": 4
+      },
+      {
+       "c": "加",
+       "py": "jia",
+       "sm": "j",
+       "ym": "ia",
+       "tone": 1
+      },
+      {
+       "c": "错",
+       "py": "cuo",
+       "sm": "c",
+       "ym": "uo",
+       "tone": 4
+      }
+     ],
+     "marks": [
+      {
+       "char": "absent",
+       "sm": "absent",
+       "ym": "present",
+       "tone": "present",
+       "combo": "absent",
+       "comboTone": false,
+       "autoSm": false,
+       "autoYm": false,
+       "autoTone": false
+      },
+      {
+       "char": "absent",
+       "sm": "absent",
+       "ym": "absent",
+       "tone": "hit",
+       "combo": "absent",
+       "comboTone": false,
+       "autoSm": false,
+       "autoYm": false,
+       "autoTone": false
+      },
+      {
+       "char": "absent",
+       "sm": "present",
+       "ym": "absent",
+       "tone": "absent",
+       "combo": "absent",
+       "comboTone": false,
+       "autoSm": false,
+       "autoYm": false,
+       "autoTone": false
+      },
+      {
+       "char": "absent",
+       "sm": "absent",
+       "ym": "absent",
+       "tone": "absent",
+       "combo": "absent",
+       "comboTone": false,
+       "autoSm": false,
+       "autoYm": false,
+       "autoTone": false
+      }
+     ]
+    },
+    {
+     "word": "绝代佳人",
+     "pinyin": "jué dài jiā rén",
+     "chars": [
+      {
+       "c": "绝",
+       "py": "jue",
+       "sm": "j",
+       "ym": "ue",
+       "tone": 2
+      },
+      {
+       "c": "代",
+       "py": "dai",
+       "sm": "d",
+       "ym": "ai",
+       "tone": 4
+      },
+      {
+       "c": "佳",
+       "py": "jia",
+       "sm": "j",
+       "ym": "ia",
+       "tone": 1
+      },
+      {
+       "c": "人",
+       "py": "ren",
+       "sm": "r",
+       "ym": "en",
+       "tone": 2
+      }
+     ],
+     "marks": [
+      {
+       "char": "hit",
+       "sm": "hit",
+       "ym": "hit",
+       "tone": "hit",
+       "combo": "absent",
+       "comboTone": false,
+       "autoSm": true,
+       "autoYm": false,
+       "autoTone": true
+      },
+      {
+       "char": "absent",
+       "sm": "absent",
+       "ym": "absent",
+       "tone": "hit",
+       "combo": "absent",
+       "comboTone": false,
+       "autoSm": false,
+       "autoYm": false,
+       "autoTone": false
+      },
+      {
+       "char": "absent",
+       "sm": "absent",
+       "ym": "absent",
+       "tone": "absent",
+       "combo": "absent",
+       "comboTone": false,
+       "autoSm": false,
+       "autoYm": false,
+       "autoTone": false
+      },
+      {
+       "char": "absent",
+       "sm": "absent",
+       "ym": "absent",
+       "tone": "hit",
+       "combo": "absent",
+       "comboTone": false,
+       "autoSm": false,
+       "autoYm": false,
+       "autoTone": false
+      }
+     ]
+    }
+   ],
+   "total": 1,
+   "first": [
+    {
+     "word": "绝祸未萌",
+     "pinyin": "jué huò wèi méng"
+    }
+   ],
+   "digest": "25b999630ec7c620",
+   "legacyTotal": 7,
+   "legacyAnswerKept": false,
+   "words": [
+    "绝祸未萌"
+   ]
+  },
+  {
+   "id": "s0587",
+   "kind": "edge",
+   "answer": "文昭武穆",
+   "includePolyphones": false,
+   "guesses": [
+    {
+     "word": "首下尻高",
+     "pinyin": "shǒu xià kāo gāo",
+     "chars": [
+      {
+       "c": "首",
+       "py": "shou",
+       "sm": "sh",
+       "ym": "ou",
+       "tone": 3
+      },
+      {
+       "c": "下",
+       "py": "xia",
+       "sm": "x",
+       "ym": "ia",
+       "tone": 4
+      },
+      {
+       "c": "尻",
+       "py": "kao",
+       "sm": "k",
+       "ym": "ao",
+       "tone": 1
+      },
+      {
+       "c": "高",
+       "py": "gao",
+       "sm": "g",
+       "ym": "ao",
+       "tone": 1
+      }
+     ],
+     "marks": [
+      {
+       "char": "absent",
+       "sm": "absent",
+       "ym": "absent",
+       "tone": "present",
+       "combo": "absent",
+       "comboTone": false,
+       "autoSm": false,
+       "autoYm": false,
+       "autoTone": false
+      },
+      {
+       "char": "absent",
+       "sm": "absent",
+       "ym": "absent",
+       "tone": "present",
+       "combo": "absent",
+       "comboTone": false,
+       "autoSm": false,
+       "autoYm": false,
+       "autoTone": false
+      },
+      {
+       "char": "absent",
+       "sm": "absent",
+       "ym": "present",
+       "tone": "present",
+       "combo": "absent",
+       "comboTone": false,
+       "autoSm": false,
+       "autoYm": false,
+       "autoTone": false
+      },
+      {
+       "char": "absent",
+       "sm": "absent",
+       "ym": "absent",
+       "tone": "absent",
+       "combo": "absent",
+       "comboTone": false,
+       "autoSm": false,
+       "autoYm": false,
+       "autoTone": false
+      }
+     ]
+    },
+    {
+     "word": "文修武偃",
+     "pinyin": "wén xiū wǔ yǎn",
+     "chars": [
+      {
+       "c": "文",
+       "py": "wen",
+       "sm": "w",
+       "ym": "en",
+       "tone": 2
+      },
+      {
+       "c": "修",
+       "py": "xiu",
+       "sm": "x",
+       "ym": "iu",
+       "tone": 1
+      },
+      {
+       "c": "武",
+       "py": "wu",
+       "sm": "w",
+       "ym": "u",
+       "tone": 3
+      },
+      {
+       "c": "偃",
+       "py": "yan",
+       "sm": "y",
+       "ym": "an",
+       "tone": 3
+      }
+     ],
+     "marks": [
+      {
+       "char": "hit",
+       "sm": "hit",
+       "ym": null,
+       "tone": null,
+       "combo": "absent",
+       "comboTone": false,
+       "autoSm": false,
+       "autoYm": false,
+       "autoTone": false
+      },
+      {
+       "char": "absent",
+       "sm": "absent",
+       "ym": "absent",
+       "tone": "hit",
+       "combo": "absent",
+       "comboTone": false,
+       "autoSm": false,
+       "autoYm": false,
+       "autoTone": false
+      },
+      {
+       "char": "hit",
+       "sm": "hit",
+       "ym": null,
+       "tone": "hit",
+       "combo": "absent",
+       "comboTone": false,
+       "autoSm": false,
+       "autoYm": false,
+       "autoTone": false
+      },
+      {
+       "char": "absent",
+       "sm": "absent",
+       "ym": "absent",
+       "tone": "absent",
+       "combo": "absent",
+       "comboTone": false,
+       "autoSm": false,
+       "autoYm": false,
+       "autoTone": false
+      }
+     ]
+    }
+   ],
+   "total": 2,
+   "first": [
+    {
+     "word": "文韬武略",
+     "pinyin": "wén tāo wǔ lüè"
+    },
+    {
+     "word": "文昭武穆",
+     "pinyin": "wén zhāo wǔ mù"
+    }
+   ],
+   "digest": "249383ff1cfde3fb",
+   "legacyTotal": 1,
+   "legacyAnswerKept": false,
+   "words": [
+    "文韬武略",
+    "文昭武穆"
+   ]
+  }
+ ]
+}

@@ -1,0 +1,766 @@
+/* 基础控件的样式（src/components/ui/*）。
+ * 数值全部来自 MaterialUI.swift / AppBar.swift / AppearanceSettingsView.swift；字号写成 calc(Npx * var(--cc-font-scale))，
+ * 对应 Swift 的 Theme.serif(N)（整体缩放已含在内）。颜色 / 圆角 / 阴影用 --cc-* 主题变量。 */
+
+/* —— 系统原生控件（滑块、下拉、分段选择器）的明暗不跟主题色走，跟「系统控件明暗」(color-scheme) —— */
+:root {
+  --m-ctl-bg: #ffffff;
+  --m-ctl-border: rgb(0 0 0 / 0.1);
+  --m-ctl-shadow: 0 0.5px 1.5px rgb(0 0 0 / 0.28);
+  --m-ctl-track: rgb(0 0 0 / 0.075);
+  --m-ctl-track-fill: rgb(0 0 0 / 0.33);
+  --m-ctl-selected: rgb(0 0 0 / 0.115);
+  --m-ctl-tick: rgb(0 0 0 / 0.28);
+  --m-ctl-thumb: #ffffff;
+  --m-ctl-rim: rgb(0 0 0 / 0.1);
+}
+:root[data-scheme="dark"] {
+  --m-ctl-bg: rgb(255 255 255 / 0.12);
+  --m-ctl-border: rgb(255 255 255 / 0.1);
+  --m-ctl-shadow: 0 0.5px 1.5px rgb(0 0 0 / 0.5);
+  --m-ctl-track: rgb(255 255 255 / 0.1);
+  --m-ctl-track-fill: rgb(255 255 255 / 0.5);
+  --m-ctl-selected: rgb(255 255 255 / 0.17);
+  --m-ctl-tick: rgb(255 255 255 / 0.32);
+  --m-ctl-thumb: #e6e6e6;
+  --m-ctl-rim: rgb(255 255 255 / 0.12);
+}
+
+/* ============================ 文字按钮 ============================ */
+.m-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  height: var(--m-h, 40px);
+  padding: 0 var(--m-pad, 24px);
+  border-radius: var(--cc-button-radius);
+  font-family: var(--cc-font-ui);
+  font-size: calc(var(--m-fs, 14px) * var(--cc-font-scale));
+  font-weight: 600; /* 基准里的 .medium 渲染得比 Chrome 的 500 更实（墨迹量约 600 的水平） */
+  line-height: 1.2;
+  white-space: nowrap;
+  color: var(--cc-accent);
+}
+.m-btn__label {
+  min-width: 0;
+}
+.m-btn__icon {
+  display: inline-flex;
+  align-items: center;
+}
+.m-btn__icon + .m-btn__label {
+  margin-left: 0.5px; /* 基准里图标（含 SF Symbol 自带的空）到文字约 9px */
+}
+.m-btn .m-icon {
+  stroke-width: 1.9;
+}
+.m-btn__check {
+  --m-check-gap: 8px;
+  font-size: 12px;
+}
+.m-btn--filled {
+  background: var(--cc-accent);
+  color: var(--cc-on-accent);
+}
+.m-btn--tonal {
+  background: var(--cc-tonal);
+  color: var(--cc-on-tonal);
+}
+.m-btn--text {
+  color: var(--cc-accent);
+}
+.m-btn--textDanger {
+  color: var(--cc-danger);
+}
+.m-btn--filter {
+  border-radius: 8px;
+  color: var(--cc-muted);
+  box-shadow: inset 0 0 0 1px var(--cc-border);
+}
+.m-btn--filter.is-active {
+  background: var(--cc-tonal);
+  color: var(--cc-on-tonal);
+  box-shadow: none;
+}
+/* 悬停阴影 e1（填充 / 色调） */
+.m-btn--filled:hover:not(:active, :disabled),
+.m-btn--tonal:hover:not(:active, :disabled) {
+  box-shadow: var(--cc-shadow-e1);
+}
+
+/* ============================ 图标按钮 / FAB / 触摸层 / 卡片按钮 ============================ */
+.m-icon-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: none;
+  width: var(--m-size, 40px);
+  height: var(--m-size, 40px);
+  border-radius: 50%;
+  color: var(--cc-muted);
+  font-size: var(--m-icon-fs, 20px);
+  line-height: 1;
+  --m-press-scale: 0.92;
+}
+
+.m-fab {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  height: 56px;
+  padding: 0 20px 0 16px;
+  border-radius: 16px;
+  background: var(--cc-accent-soft);
+  color: var(--cc-on-accent-soft);
+  font-family: var(--cc-font-ui);
+  font-size: calc(15px * var(--cc-font-scale));
+  font-weight: var(--cc-w-medium, 500);
+  white-space: nowrap;
+  box-shadow: var(--cc-shadow-e3);
+  --m-press-scale: 0.96;
+}
+.m-fab:hover:not(:active, :disabled) {
+  box-shadow:
+    var(--cc-shadow-e3),
+    var(--cc-shadow-e4);
+}
+
+.m-touch {
+  display: inline-block;
+  font: inherit;
+  color: inherit;
+  text-align: inherit;
+}
+.m-touch--block {
+  display: block;
+  width: 100%;
+}
+
+.m-card-btn {
+  display: block;
+  width: 100%;
+  text-align: left;
+  border-radius: var(--m-radius, 16px);
+  background: var(--m-fill, var(--cc-surface-high));
+  color: var(--m-fg, var(--cc-ink));
+  --m-press-scale: 0.98;
+  --m-lift: 1;
+  transition:
+    scale 0.12s ease-out,
+    translate 0.15s ease-out,
+    box-shadow 0.15s ease-out,
+    background-color 0.22s ease-out,
+    color 0.22s ease-out;
+}
+.m-card-btn.is-selected {
+  background: var(--m-selected-fill, var(--cc-accent-soft));
+  color: var(--m-selected-fg, var(--cc-on-accent-soft));
+  box-shadow: inset 0 0 0 2px var(--m-ring, var(--cc-accent));
+}
+.m-card-btn:hover:not(:active, :disabled) {
+  box-shadow: var(--cc-shadow-e1);
+}
+.m-card-btn.is-selected:hover:not(:active, :disabled) {
+  box-shadow:
+    inset 0 0 0 2px var(--m-ring, var(--cc-accent)),
+    var(--cc-shadow-e1);
+}
+
+/* ============================ 分段按钮（Material） ============================ */
+.m-seg {
+  position: relative;
+  display: flex;
+  height: 40px;
+  border-radius: 1000px;
+  overflow: hidden;
+}
+.m-seg::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  box-shadow: inset 0 0 0 1px var(--cc-outline);
+  pointer-events: none;
+  z-index: 3;
+}
+.m-seg__divider {
+  flex: none;
+  width: 1px;
+  background: var(--cc-outline);
+}
+.m-seg__item {
+  flex: 1 1 0;
+  min-width: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  height: 100%;
+  border-radius: 0;
+  font-family: var(--cc-font-ui);
+  font-size: calc(13px * var(--cc-font-scale));
+  font-weight: var(--cc-w-medium, 500);
+  white-space: nowrap;
+  color: var(--cc-ink);
+  --m-press-scale: 1;
+}
+.m-seg__item.is-selected {
+  background: var(--cc-tonal);
+  color: var(--cc-on-tonal);
+}
+.m-seg__check {
+  --m-check-gap: 4px;
+  font-size: 12px;
+  stroke-width: 2.5;
+}
+
+/* ============================ 芯片 / 徽标 ============================ */
+.m-chip {
+  display: inline-flex;
+  align-items: center;
+  white-space: nowrap;
+  color: var(--cc-muted);
+}
+.m-chip--assist {
+  gap: 8px;
+  height: 32px;
+  padding: 0 12px;
+  border-radius: 8px;
+  font-family: var(--cc-font-ui);
+  font-size: calc(14px * var(--cc-font-scale));
+  font-weight: var(--cc-w-medium, 500);
+  box-shadow: inset 0 0 0 1px var(--cc-border);
+}
+.m-chip--poly {
+  gap: 3.5px;
+  height: 24px;
+  padding: 0 9.5px; /* 基准里多音字芯片比 9pt 内边距的理论宽度宽约 1pt（SF Symbol 对勾带侧距），按像素对比扫出 9.5 最合适 */
+  border-radius: 1000px;
+  font-family: var(--cc-font-mono);
+  font-size: calc(12px * var(--cc-font-scale));
+  font-weight: 400;
+  box-shadow: inset 0 0 0 1px var(--cc-border);
+  --m-press-scale: 0.94;
+}
+.m-chip--poly.is-active {
+  background: var(--cc-tonal);
+  color: var(--cc-on-tonal);
+  box-shadow: none;
+  font-weight: 600;
+}
+.m-chip__check {
+  /* SF Symbol checkmark 9pt bold 的墨迹宽约 9pt，比我们的 SVG 在 9px 下宽；基准里「✓ 与文字」间距也多半个点 */
+  --m-check-gap: 3.5px;
+  font-size: 10px;
+  stroke-width: 2.5;
+}
+
+.m-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 22px;
+  min-height: 22px;
+  padding: 0 7px;
+  border-radius: 1000px;
+  background: var(--cc-accent-soft);
+  color: var(--cc-on-accent-soft);
+  font-family: var(--cc-font-ui);
+  font-size: calc(12px * var(--cc-font-scale));
+  font-weight: 600;
+  line-height: 1;
+}
+
+/* ============================ 表面 / 转圈 / 忙碌遮罩 ============================ */
+.m-surface {
+  position: relative;
+}
+
+.m-spinner {
+  display: inline-block;
+  flex: none;
+  color: color-mix(in srgb, var(--cc-ink) 70%, transparent);
+  animation: m-spin 0.9s steps(12) infinite;
+}
+@keyframes m-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.m-busy {
+  position: absolute;
+  inset: 0;
+  z-index: 40;
+  display: grid;
+  place-items: center;
+}
+.m-busy--window {
+  background: var(--cc-scrim);
+}
+.m-busy--panel {
+  background: var(--cc-scrim-soft);
+}
+.m-busy__card {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 18px 24px;
+  border-radius: 24px;
+  background: var(--cc-surface-high);
+  color: var(--cc-ink);
+  box-shadow: var(--cc-shadow-e3);
+}
+.m-busy--panel .m-busy__card {
+  gap: 12px;
+  padding: 14px 18px;
+  border-radius: 10px;
+  background: var(--cc-surface);
+  box-shadow:
+    inset 0 0 0 1px var(--cc-border),
+    var(--cc-card-shadow);
+}
+.m-busy__title {
+  font-family: var(--cc-font-ui);
+  font-size: calc(14px * var(--cc-font-scale));
+  font-weight: 600;
+}
+.m-busy__detail {
+  margin-top: 2px;
+  font-family: var(--cc-font-ui);
+  font-size: calc(12px * var(--cc-font-scale));
+  color: var(--cc-muted);
+}
+
+/* ============================ 模态弹层 / 对话框 ============================ */
+.m-modal-root {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.m-modal-root--center {
+  align-items: center;
+}
+.m-sheet-scrim {
+  position: absolute;
+  inset: 0;
+  background: var(--cc-sheet-scrim);
+}
+.m-sheet {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  background: var(--cc-bg);
+  color: var(--cc-ink);
+  outline: none;
+  overflow: hidden;
+  box-shadow:
+    0 0 0 0.5px rgb(0 0 0 / 0.25),
+    0 22px 70px 4px rgb(0 0 0 / 0.35);
+}
+:root[data-scheme="dark"] .m-sheet {
+  box-shadow:
+    0 0 0 1px rgb(255 255 255 / 0.12),
+    0 22px 70px 4px rgb(0 0 0 / 0.6);
+}
+.m-sheet--top {
+  max-width: 100%;
+  max-height: calc(100% - 24px);
+  border-radius: 0 0 var(--m-sheet-radius, 12px) var(--m-sheet-radius, 12px);
+}
+.m-sheet--center {
+  max-width: calc(100% - 32px);
+  max-height: calc(100% - 32px);
+  border-radius: var(--m-sheet-radius, 20px);
+  background: var(--cc-surface-high);
+}
+.m-sheet-enter-active,
+.m-sheet-leave-active {
+  transition: opacity 0.2s ease-out;
+}
+.m-sheet-enter-active .m-sheet,
+.m-sheet-leave-active .m-sheet {
+  transition:
+    transform 0.28s var(--m-ease),
+    opacity 0.2s ease-out;
+}
+.m-sheet-enter-from,
+.m-sheet-leave-to {
+  opacity: 0;
+}
+.m-sheet-enter-from .m-sheet--top,
+.m-sheet-leave-to .m-sheet--top {
+  transform: translateY(-32px);
+}
+.m-sheet-enter-from .m-sheet--center,
+.m-sheet-leave-to .m-sheet--center {
+  transform: scale(0.94);
+}
+
+.m-dialog {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  padding: 24px 24px 16px;
+}
+.m-dialog__title {
+  margin: 0;
+  font-family: var(--cc-font-ui);
+  font-size: calc(18px * var(--cc-font-scale));
+  font-weight: 600;
+  line-height: 1.3;
+}
+.m-dialog__message {
+  margin: 0;
+  font-family: var(--cc-font-ui);
+  font-size: calc(13.5px * var(--cc-font-scale));
+  line-height: 1.5;
+  color: var(--cc-muted);
+}
+.m-dialog__actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+  margin-top: 8px;
+}
+
+/* ============================ 表单控件 ============================ */
+.m-field {
+  display: block;
+  width: 100%;
+  min-width: 0;
+  padding: 5px 8px;
+  border: 0;
+  border-radius: 6px;
+  background: var(--cc-field);
+  box-shadow: inset 0 0 0 1px var(--cc-border);
+  font-family: var(--cc-font-ui);
+  font-size: calc(14px * var(--cc-font-scale));
+  line-height: 1.3;
+  color: var(--cc-ink);
+  transition: box-shadow 0.15s ease-out;
+}
+.m-field:hover {
+  box-shadow: inset 0 0 0 1px var(--cc-outline);
+}
+.m-field:focus {
+  box-shadow: inset 0 0 0 2px var(--cc-accent);
+}
+
+/* 滑块：6px 轨道、20×16 白色滑块，下面一排刻度点 */
+.m-slider {
+  position: relative;
+  flex: none;
+  /* 布局高度 16（基准里每行滑块 + 10 间距 = 26）；刻度点画在下方溢出的 17px 处，不占布局 */
+  height: 16px;
+  --m-thumb-w: 20px;
+}
+.m-slider input[type="range"] {
+  appearance: none;
+  -webkit-appearance: none;
+  position: relative;
+  z-index: 1;
+  display: block;
+  width: 100%;
+  height: 16px;
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  outline-offset: 4px;
+}
+.m-slider input[type="range"]::-webkit-slider-runnable-track {
+  height: 6px;
+  border-radius: 3px;
+  background: linear-gradient(
+    to right,
+    var(--m-ctl-track-fill) 0 calc(var(--m-thumb-w) / 2 + var(--m-frac) * (100% - var(--m-thumb-w))),
+    var(--m-ctl-track) 0
+  );
+  background-color: var(--m-ctl-track);
+}
+.m-slider input[type="range"]::-webkit-slider-thumb {
+  appearance: none;
+  -webkit-appearance: none;
+  width: var(--m-thumb-w);
+  height: 16px;
+  margin-top: -5px;
+  border: 0;
+  border-radius: 8px;
+  background: var(--m-ctl-thumb);
+  box-shadow:
+    0 0 0 0.5px rgb(0 0 0 / 0.12),
+    0 1px 3px rgb(0 0 0 / 0.35);
+}
+.m-slider input[type="range"]::-moz-range-track {
+  height: 6px;
+  border-radius: 3px;
+  background: var(--m-ctl-track);
+}
+.m-slider input[type="range"]::-moz-range-thumb {
+  width: var(--m-thumb-w);
+  height: 16px;
+  border: 0;
+  border-radius: 8px;
+  background: var(--m-ctl-thumb);
+  box-shadow: 0 1px 3px rgb(0 0 0 / 0.35);
+}
+.m-slider__ticks {
+  position: absolute;
+  top: 13px;
+  height: 2px;
+  left: calc(var(--m-thumb-w) / 2 - ((100% - var(--m-thumb-w)) / (var(--m-ticks) - 1)) / 2);
+  width: calc(((100% - var(--m-thumb-w)) / (var(--m-ticks) - 1)) * var(--m-ticks));
+  background-image: radial-gradient(circle at center, var(--m-ctl-tick) 0.9px, transparent 1.2px);
+  background-size: calc(100% / var(--m-ticks)) 100%;
+  background-repeat: repeat-x;
+  pointer-events: none;
+}
+.m-slider.is-disabled {
+  opacity: 0.4;
+}
+
+/* 下拉选择（macOS 弹出式按钮） */
+.m-select {
+  position: relative;
+  display: inline-flex;
+  flex: none;
+  height: 24px;
+}
+.m-select__control {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 100%;
+  height: 100%;
+  padding: 0 24px 0 9px;
+  border: 0;
+  border-radius: 6px;
+  background: var(--m-ctl-bg);
+  box-shadow:
+    var(--m-ctl-shadow),
+    inset 0 0 0 0.5px var(--m-ctl-border);
+  font-family: var(--cc-font-ui);
+  font-size: calc(13px * var(--cc-font-scale));
+  color: var(--cc-ink);
+  text-overflow: ellipsis;
+}
+.m-select__arrows {
+  position: absolute;
+  top: 0;
+  right: 7px;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0;
+  font-size: 7px;
+  color: var(--cc-muted);
+  pointer-events: none;
+}
+.m-select__arrows .m-icon {
+  stroke-width: 2.6;
+  margin: -1.5px 0;
+}
+
+/* 分段选择器（macOS 原生分段控件）：按内容定宽、各段等宽（= 最宽的标签 + 左右各 12px），在外层固定宽度的框里居中；
+ * 原生控件的字体是固定的系统字体（不跟界面字体、不跟整体字号），基准里每个汉字约 12px */
+.m-picker-frame {
+  display: flex;
+  flex: none;
+  justify-content: center;
+}
+.m-picker {
+  display: inline-grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 1fr;
+  height: 24px;
+  padding: 0;
+  border-radius: 7px;
+  background: var(--m-ctl-track);
+}
+.m-picker__item {
+  min-width: 0;
+  padding: 0 12px;
+  border-radius: 6px;
+  font-family: var(--cc-font-system, var(--cc-font-ui));
+  font-size: 12px;
+  letter-spacing: 0;
+  color: var(--cc-ink);
+  white-space: nowrap;
+  text-align: center;
+  transition: background-color 0.15s ease-out;
+}
+.m-picker__item.is-selected {
+  background: var(--m-ctl-selected);
+}
+
+/* 折叠组 */
+.m-disclosure__head {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 0;
+  width: auto;
+}
+.m-disclosure__chevron {
+  font-size: 9px;
+  color: color-mix(in srgb, var(--cc-ink) 45%, transparent);
+  transition: rotate 0.15s ease-out;
+  rotate: -90deg;
+}
+.m-disclosure.is-open .m-disclosure__chevron {
+  rotate: 0deg;
+}
+.m-disclosure__title {
+  font-family: var(--cc-font-ui);
+  font-size: calc(14px * var(--cc-font-scale));
+  font-weight: 600;
+}
+.m-disclosure__body {
+  padding-top: 8px;
+}
+
+/* 取色器：药丸形色块 + 浮出面板 */
+.m-well-wrap {
+  display: inline-flex;
+  flex: none;
+}
+.m-well {
+  width: 48px;
+  height: 24px;
+  padding: 3px;
+  border-radius: 12px;
+  background: var(--m-ctl-rim);
+  box-shadow: inset 0 0 0 0.5px var(--m-ctl-border);
+}
+.m-well__swatch {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-radius: 9px;
+  overflow: hidden;
+  /* 透明度的棋盘格 */
+  background:
+    conic-gradient(#fff 25%, #cfcfcf 0 50%, #fff 0 75%, #cfcfcf 0) 0 0 / 8px 8px;
+}
+.m-well__color {
+  position: absolute;
+  inset: 0;
+}
+.m-well__swatch::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  box-shadow: inset 0 0 0 1px rgb(0 0 0 / 0.42);
+}
+.m-colorpop {
+  position: fixed;
+  z-index: 2000;
+  width: 232px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border-radius: 12px;
+  background: var(--cc-surface-high);
+  color: var(--cc-ink);
+  box-shadow:
+    0 0 0 0.5px rgb(0 0 0 / 0.2),
+    0 8px 28px rgb(0 0 0 / 0.28);
+}
+:root[data-scheme="dark"] .m-colorpop {
+  box-shadow:
+    0 0 0 1px rgb(255 255 255 / 0.12),
+    0 8px 28px rgb(0 0 0 / 0.55);
+}
+.m-colorpop__sv {
+  position: relative;
+  height: 132px;
+  border-radius: 6px;
+  touch-action: none;
+}
+.m-colorpop__sv-white,
+.m-colorpop__sv-black {
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+}
+.m-colorpop__sv-white {
+  background: linear-gradient(to right, #fff, rgb(255 255 255 / 0));
+}
+.m-colorpop__sv-black {
+  background: linear-gradient(to top, #000, rgb(0 0 0 / 0));
+}
+.m-colorpop__knob {
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  margin: -7px 0 0 -7px;
+  border-radius: 50%;
+  box-shadow:
+    0 0 0 2px #fff,
+    0 0 0 3px rgb(0 0 0 / 0.3);
+  pointer-events: none;
+}
+.m-colorpop__bar {
+  position: relative;
+  height: 12px;
+  border-radius: 6px;
+  touch-action: none;
+}
+.m-colorpop__bar .m-colorpop__knob {
+  top: 50%;
+}
+.m-colorpop__hue {
+  background: linear-gradient(to right, #f00, #ff0 17%, #0f0 33%, #0ff 50%, #00f 67%, #f0f 83%, #f00);
+}
+.m-colorpop__alpha {
+  background: conic-gradient(#fff 25%, #cfcfcf 0 50%, #fff 0 75%, #cfcfcf 0) 0 0 / 8px 8px;
+}
+.m-colorpop__alpha-fill {
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+}
+.m-colorpop__row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.m-colorpop__preview {
+  position: relative;
+  flex: none;
+  width: 28px;
+  height: 20px;
+  border-radius: 5px;
+  overflow: hidden;
+  background: conic-gradient(#fff 25%, #cfcfcf 0 50%, #fff 0 75%, #cfcfcf 0) 0 0 / 8px 8px;
+  box-shadow: inset 0 0 0 1px rgb(0 0 0 / 0.3);
+}
+.m-colorpop__preview > span {
+  position: absolute;
+  inset: 0;
+}
+.m-colorpop__hex {
+  flex: 1;
+  min-width: 0;
+  height: 22px;
+  padding: 0 6px;
+  border: 0;
+  border-radius: 5px;
+  background: var(--cc-field);
+  box-shadow: inset 0 0 0 1px var(--cc-border);
+  font-family: var(--cc-font-mono);
+  font-size: 12px;
+  color: var(--cc-ink);
+}
+.m-colorpop__hex:focus {
+  box-shadow: inset 0 0 0 2px var(--cc-accent);
+}

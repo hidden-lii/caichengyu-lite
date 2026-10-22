@@ -1,0 +1,246 @@
+/* 全局基础样式：reset、字体、选区、焦点环、滚动条、减弱动态效果。
+ * 颜色 / 字体 / 圆角全部来自 src/theme 写在 <html> 上的 --cc-* 变量（见 src/theme/cssVars.ts）。 */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body,
+#app {
+  height: 100%;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+  background: var(--cc-bg);
+  /* 窗口模态的 inert 内容、拖拽时不要出现橡皮筋 */
+  overscroll-behavior: none;
+}
+
+body {
+  margin: 0;
+  /* SwiftUI 的 Text 默认 13pt；各组件自己再设字号（calc(Npx * var(--cc-font-scale)) 对应 Theme.serif(N)） */
+  font-family: var(--cc-font-ui);
+  font-size: calc(13px * var(--cc-font-scale, 1));
+  font-weight: 400;
+  line-height: normal;
+  color: var(--cc-ink);
+  background: var(--cc-bg-gradient, var(--cc-bg));
+  background-attachment: fixed;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+  font-synthesis-weight: none;
+  /* 原生 App 的文字默认不能选；需要选的地方加 .m-selectable，输入框天然可选 */
+  -webkit-user-select: none;
+  user-select: none;
+  -webkit-touch-callout: none;
+  cursor: default;
+}
+
+/* —— 苹方汉字别名 "CC CJK"（macOS / 浏览器预览） ——
+ * SwiftUI 里系统字体的汉字（苹方）比 Chrome 里同字号的小一圈（基准图实测）。
+ * 只缩汉字、不动拉丁字母 / 数字——拉丁字母在基准里与 Chrome 一样宽，所以不能用全局 letter-spacing 去收。
+ * 做法：同一个苹方字体，换个别名 + unicode-range 只覆盖汉字与全角标点 + size-adjust 缩小。
+ * 找不到苹方（Windows / Linux）时 local() 失败，这个别名整个失效，回落到字体栈后面的字体。
+ * 缩放比例 92% 是用 main / empty / menu / detail / 设置页 / 外观页的像素对比扫出来的（88~95% 里整体最优；90% 与 95% 都更差）。 */
+@font-face {
+  font-family: "CC CJK";
+  font-weight: 300;
+  src: local("PingFangSC-Light");
+  unicode-range: U+2E80-9FFF, U+3000-303F, U+FF00-FFEF, U+2018-201F, U+2026;
+  size-adjust: 92%;
+}
+@font-face {
+  font-family: "CC CJK";
+  font-weight: 400;
+  src: local("PingFangSC-Regular");
+  unicode-range: U+2E80-9FFF, U+3000-303F, U+FF00-FFEF, U+2018-201F, U+2026;
+  size-adjust: 92%;
+}
+@font-face {
+  font-family: "CC CJK";
+  font-weight: 500;
+  src: local("PingFangSC-Medium");
+  unicode-range: U+2E80-9FFF, U+3000-303F, U+FF00-FFEF, U+2018-201F, U+2026;
+  size-adjust: 98%; /* 中等字重的汉字在基准里比常规字重宽（FAB / 面板标题实测），P2 按像素对比重新扫过 */
+}
+@font-face {
+  font-family: "CC CJK";
+  font-weight: 600 900;
+  src: local("PingFangSC-Semibold");
+  unicode-range: U+2E80-9FFF, U+3000-303F, U+FF00-FFEF, U+2018-201F, U+2026;
+  size-adjust: 92%;
+}
+
+/* "CC CJK W"：工作台（主界面 / 详细弹层 / 外观菜单）专用的稍宽一档——这里的中等 / 半粗字重汉字在基准里比设置页、外观页宽一点
+ * （按像素对比分别扫出：500 → 98%，600 → 95%；设置 / 外观页仍用上面的 92%）。其余字重与 "CC CJK" 相同。 */
+@font-face {
+  font-family: "CC CJK W";
+  font-weight: 300;
+  src: local("PingFangSC-Light");
+  unicode-range: U+2E80-9FFF, U+3000-303F, U+FF00-FFEF, U+2018-201F, U+2026;
+  size-adjust: 92%;
+}
+@font-face {
+  font-family: "CC CJK W";
+  font-weight: 400;
+  src: local("PingFangSC-Regular");
+  unicode-range: U+2E80-9FFF, U+3000-303F, U+FF00-FFEF, U+2018-201F, U+2026;
+  size-adjust: 92%;
+}
+@font-face {
+  font-family: "CC CJK W";
+  font-weight: 500;
+  src: local("PingFangSC-Medium");
+  unicode-range: U+2E80-9FFF, U+3000-303F, U+FF00-FFEF, U+2018-201F, U+2026;
+  size-adjust: 98%;
+}
+@font-face {
+  font-family: "CC CJK W";
+  font-weight: 600 900;
+  src: local("PingFangSC-Semibold");
+  unicode-range: U+2E80-9FFF, U+3000-303F, U+FF00-FFEF, U+2018-201F, U+2026;
+  size-adjust: 95%;
+}
+
+/* 全局不收字距：汉字的「比 Chrome 紧」由上面的 "CC CJK" 字体别名在字形层面解决。这里显式写 0 并提高优先级（:root），
+ * 免得组件里把 `:global(html…) .x { letter-spacing }` 这类选择器写坏（Vue 会把它编译成对整个 <html> 生效）而污染全部文字。
+ * 个别组件需要自己的字距（候选 / 字芯片的放宽等）照常在自己的元素上写。 */
+:root:is([data-platform="macos"], [data-platform="web"]) {
+  letter-spacing: 0;
+}
+
+#app {
+  position: relative;
+  isolation: isolate;
+}
+
+[hidden] {
+  display: none !important;
+}
+
+img,
+svg,
+canvas {
+  display: block;
+}
+
+/* —— 表单控件：继承字体颜色，去掉浏览器默认外观 —— */
+button,
+input,
+select,
+textarea {
+  font: inherit;
+  color: inherit;
+  letter-spacing: inherit;
+  margin: 0;
+}
+
+button {
+  padding: 0;
+  border: 0;
+  background: none;
+  text-align: inherit;
+  appearance: none;
+  -webkit-appearance: none;
+  cursor: default;
+}
+
+input,
+textarea {
+  -webkit-user-select: text;
+  user-select: text;
+  cursor: text;
+}
+
+input[type="range"],
+input[type="color"],
+input[type="checkbox"],
+select {
+  cursor: default;
+}
+
+::placeholder {
+  color: var(--cc-muted);
+  opacity: 0.7;
+}
+
+.m-selectable,
+.m-selectable * {
+  -webkit-user-select: text;
+  user-select: text;
+  cursor: text;
+}
+
+/* —— 选区 —— */
+::selection {
+  background: color-mix(in srgb, var(--cc-accent) 30%, transparent);
+  color: inherit;
+}
+
+/* SwiftUI 的 Text 不做全角标点挤压；Chrome 默认会把相邻的全角标点（如「）；」）收紧，这里关掉，间距才和基准一致 */
+html {
+  text-spacing-trim: space-all;
+}
+
+/* —— 焦点环：只在键盘聚焦时出现（鼠标点击不出现） —— */
+:focus {
+  outline: none;
+}
+:focus-visible {
+  outline: 2px solid var(--cc-accent);
+  outline-offset: 2px;
+}
+input:focus-visible,
+textarea:focus-visible {
+  outline: none;
+}
+
+/* —— 滚动条：细、圆、不抢眼，接近 macOS 的叠加式滚动条（轨道透明，滑块 4px，悬停加深） —— */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: color-mix(in srgb, var(--cc-ink) 30%, transparent) transparent;
+}
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+  background: transparent;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background-color: color-mix(in srgb, var(--cc-ink) 28%, transparent);
+  background-clip: content-box;
+  border: 3px solid transparent;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: color-mix(in srgb, var(--cc-ink) 46%, transparent);
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+/* 横向滚动但不想显示滚动条的区域（字位列那一排）：加 .m-no-scrollbar */
+.m-no-scrollbar {
+  scrollbar-width: none;
+}
+.m-no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+
+/* —— 减弱动态效果：动画 / 过渡缩到几乎为零（水波纹另由 JS 跳过） —— */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+  }
+}

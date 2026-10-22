@@ -1,0 +1,845 @@
+/* 「猜成语」工作台的样式（= DeduceView / MarkStageView / MarkChips / CandidatesView / DetailSheet 里的尺寸与排版）。
+ * 约定：类名前缀 dd-；字号写成 calc(Npx * var(--cc-font-scale))，对应 Swift 的 Theme.serif(N) / word(N) / mono(N)。
+ * 详细弹层是 Teleport 到 <body> 下的，所以这里不用 scoped。 */
+
+.dd-root {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  min-height: 0;
+  --cc-font-ui: var(--cc-font-ui-w);
+  /* SwiftUI 的 Text 行高约 1.2 倍字号，浏览器默认的 normal（中文字体常到 1.4）会让每一行都偏高；非系统界面字体更紧（≈1.0），见 cssVars.ts */
+  line-height: var(--cc-ui-lh, 1.2);
+}
+.dd-detail {
+  /* 详细弹层里的文字行高按基准图量出来是 1.25 倍 */
+  line-height: 1.25;
+  --cc-font-ui: var(--cc-font-ui-w); /* 弹层 Teleport 到 body 下，不在 .dd-root 里，单独覆盖 */
+}
+/* 等宽字体（拼音 / 声韵调）不受界面字体影响，行高保持 1.2 */
+.dd-guess__pinyin,
+.dd-hist__pinyin,
+.dd-card__pinyin,
+.dd-tip__pinyin,
+.dd-chip--pron,
+.dd-chip--combo,
+.dd-fab__kbd {
+  line-height: 1.2;
+}
+/* 字头用的字体（宋体 / 楷体）保持各自的默认行高 */
+.dd-guess__word,
+.dd-hist__word,
+.dd-card__word,
+.dd-tip__word,
+.dd-chip--char,
+.dd-fit {
+  line-height: normal;
+}
+
+/* ============================ 搜索栏（M3 Search Bar） ============================ */
+.dd-search-wrap {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  min-width: 0;
+}
+.dd-search {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+  max-width: 620px;
+  height: 48px;
+  padding: 0 6px 0 10px;
+  border-radius: 1000px;
+  background: var(--cc-surface-high);
+  transition:
+    background-color 0.2s ease-out,
+    box-shadow 0.2s ease-out;
+}
+.dd-search.is-focused {
+  background: var(--cc-field);
+  box-shadow:
+    inset 0 0 0 2px var(--cc-accent),
+    var(--cc-shadow-e2);
+}
+.dd-search__icon {
+  flex: none;
+  margin-left: 6px;
+  font-size: 17px;
+  color: var(--cc-muted);
+}
+.dd-search__input {
+  flex: 1 1 0;
+  min-width: 0;
+  height: 100%;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  font-family: var(--cc-font-ui);
+  font-size: calc(17px * var(--cc-font-scale));
+  letter-spacing: 1px;
+  color: var(--cc-ink);
+  outline: none;
+}
+.dd-search__input::selection {
+  /* NSTextField 的选区是中性灰（窗口非激活 / 快照里），不跟主题色走 */
+  background: color-mix(in srgb, var(--cc-ink) 16%, transparent);
+}
+.dd-pop-enter-active,
+.dd-pop-leave-active {
+  transition:
+    transform 0.18s ease-out,
+    opacity 0.18s ease-out;
+}
+.dd-pop-enter-from,
+.dd-pop-leave-to {
+  transform: scale(0.5);
+  opacity: 0;
+}
+
+/* ============================ 工具行 ============================ */
+.dd-toolrow {
+  flex: none;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  height: 52px;
+  padding: 0 24px;
+}
+.dd-message {
+  flex: 1 1 0;
+  min-width: 0;
+  font-family: var(--cc-font-ui);
+  font-size: calc(13.5px * var(--cc-font-scale));
+  color: var(--cc-muted);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.dd-message.is-ok {
+  color: var(--cc-ok);
+}
+.dd-message.is-warn {
+  color: var(--cc-warn);
+}
+.dd-message.is-err {
+  color: var(--cc-danger);
+}
+.dd-legend {
+  flex: none;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-family: var(--cc-font-ui);
+  font-size: calc(12px * var(--cc-font-scale));
+  color: var(--cc-muted);
+  white-space: nowrap;
+}
+.dd-legend__item {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  height: 28px;
+  padding: 0 10px;
+  border-radius: 1000px;
+  background: var(--cc-surface-low);
+}
+.dd-legend__swatch {
+  flex: none;
+  width: 10px;
+  height: 10px;
+  border-radius: 3px;
+}
+.dd-legend__arrow {
+  opacity: 0.5;
+}
+.dd-legend__hint {
+  opacity: 0.7;
+}
+
+/* ============================ 双栏 ============================ */
+.dd-workbench {
+  flex: 1 1 0;
+  min-height: 0;
+  display: grid;
+  /* 左 1.12 : 右 1，右栏至少 304 */
+  grid-template-columns: minmax(0, 1.12fr) minmax(304px, 1fr);
+  grid-template-rows: minmax(0, 1fr);
+  gap: 16px;
+  padding: 0 20px 20px;
+}
+.dd-left {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  min-width: 0;
+  min-height: 0;
+}
+
+/* 右下角「确认本条并筛选」 */
+.dd-fab {
+  position: absolute;
+  right: 36px;
+  bottom: 34px;
+  z-index: 30;
+}
+.dd-fab__kbd {
+  padding: 2px 7px;
+  border-radius: 6px;
+  background: color-mix(in srgb, var(--cc-on-accent-soft) 14%, transparent);
+  font-family: var(--cc-font-mono);
+  font-size: calc(12px * var(--cc-font-scale));
+  font-weight: 500;
+}
+
+/* ============================ 面板（已记录 / 候选） ============================ */
+.dd-panel {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  min-height: 0;
+  padding: 14px 10px 10px 18px;
+}
+.dd-panel__head {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.dd-panel__title {
+  font-family: var(--cc-font-ui);
+  font-size: calc(16px * var(--cc-font-scale));
+  font-weight: var(--cc-w-medium, 500);
+  color: var(--cc-ink);
+}
+.dd-panel__helper {
+  padding: 2px 0 10px;
+  font-family: var(--cc-font-ui);
+  font-size: calc(12.5px * var(--cc-font-scale));
+  color: var(--cc-muted);
+}
+.dd-scroll {
+  flex: 1 1 0;
+  min-height: 0;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+/* ============================ 标记台 ============================ */
+.dd-stage {
+  position: relative;
+  flex: none;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  min-height: 318px;
+  padding: 16px 18px;
+}
+.dd-stage__flash {
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  box-shadow: inset 0 0 0 2px var(--cc-accent);
+  opacity: 0;
+  pointer-events: none;
+  z-index: 3;
+}
+.dd-pinyinbar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.dd-pinyinbar__input {
+  flex: 1 1 0;
+  min-width: 0;
+  padding: 8px 12px;
+  border: 0;
+  border-radius: var(--cc-field-radius);
+  background: var(--cc-field);
+  box-shadow: inset 0 0 0 1px var(--cc-border);
+  font-family: var(--cc-font-mono);
+  font-size: calc(13px * var(--cc-font-scale));
+  font-weight: 400;
+  color: var(--cc-ink);
+  outline: none;
+}
+.dd-guess {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.dd-guess__head {
+  display: flex;
+  align-items: flex-start;
+}
+.dd-guess__title {
+  flex: 1 1 0;
+  min-width: 0;
+  margin-right: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.dd-guess__word {
+  font-family: var(--cc-font-word);
+  font-size: calc(34px * var(--cc-font-scale));
+  font-weight: 600;
+  letter-spacing: 4.5px;
+  color: var(--cc-ink);
+}
+.dd-guess__pinyin {
+  font-family: var(--cc-font-mono);
+  font-size: calc(12.5px * var(--cc-font-scale));
+  font-weight: 400;
+  color: var(--cc-muted);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.dd-guess__actions {
+  flex: none;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding-top: 4px;
+}
+.dd-empty {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 6px;
+  min-height: 250px;
+}
+.dd-empty__icon {
+  display: grid;
+  place-items: center;
+  width: 72px;
+  height: 72px;
+  margin-bottom: 10px;
+  border-radius: 28px;
+  background: var(--cc-accent-soft);
+  color: var(--cc-on-accent-soft);
+  font-size: 30px;
+}
+.dd-empty__title {
+  font-family: var(--cc-font-ui);
+  font-size: calc(16px * var(--cc-font-scale));
+  font-weight: var(--cc-w-medium, 500);
+  color: var(--cc-ink);
+}
+.dd-empty__sub {
+  font-family: var(--cc-font-ui);
+  font-size: calc(13px * var(--cc-font-scale));
+  color: var(--cc-muted);
+}
+.dd-stage__actions {
+  display: flex;
+  justify-content: flex-end;
+}
+
+/* ============================ 缩放文字（minimumScaleFactor） ============================ */
+.dd-fit {
+  display: block;
+  overflow-x: clip;
+  white-space: nowrap;
+  min-width: 0;
+}
+.dd-fit__inner {
+  display: inline-block;
+  transform-origin: left center;
+}
+
+/* ============================ 字位行 / 字位列 / 标记芯片 ============================ */
+.dd-charrow {
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+.dd-charrow__inner {
+  display: grid;
+  align-items: start;
+  width: 100%;
+}
+
+.dd-col {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  min-width: 0;
+  padding: 12px 6px;
+  border-radius: var(--cc-column-radius);
+  background: var(--cc-field);
+}
+.dd-col.is-compact {
+  gap: 6px;
+  padding: 8px 4px;
+}
+.dd-col__chips {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+}
+.dd-col.is-compact .dd-col__chips {
+  gap: 2px;
+}
+.dd-syl {
+  flex: none;
+  width: 84px;
+  height: 30px;
+  padding: 0;
+  border: 0;
+  border-radius: 8px;
+  background: transparent;
+  box-shadow: inset 0 0 0 1px var(--cc-border);
+  font-family: var(--cc-font-mono);
+  font-size: calc(13px * var(--cc-font-scale));
+  font-weight: 400;
+  text-align: center;
+  color: var(--cc-ink);
+  outline: none;
+  transition: box-shadow 0.15s ease-out;
+}
+.dd-syl:hover {
+  box-shadow: inset 0 0 0 1px var(--cc-outline);
+}
+.dd-syl:focus {
+  box-shadow: inset 0 0 0 2px var(--cc-accent);
+}
+.dd-poly {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 4px;
+  max-width: 100%;
+}
+
+.dd-chip {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex: none;
+  background: var(--chip-bg);
+  color: var(--chip-fg);
+  --m-tint: var(--chip-fg);
+  box-shadow: inset 0 0 0 0.75px var(--cc-chip-outline);
+  white-space: nowrap;
+  touch-action: manipulation;
+  transition:
+    scale 0.12s ease-out,
+    translate 0.15s ease-out,
+    box-shadow 0.15s ease-out,
+    background-color 0.22s ease-out,
+    color 0.22s ease-out;
+}
+.dd-chip.has-underline {
+  text-decoration: underline;
+  text-decoration-color: var(--cc-combo-underline);
+}
+.dd-chip--char {
+  width: 56px;
+  height: 56px;
+  border-radius: var(--cc-tile-radius);
+  font-family: var(--cc-font-word);
+  font-size: calc(30px * var(--cc-font-scale));
+  font-weight: 600;
+}
+.dd-chip--pron,
+.dd-chip--combo {
+  min-width: 25px;
+  min-height: 28px;
+  padding: 0 5px;
+  border-radius: var(--cc-chip-radius);
+  font-family: var(--cc-font-mono);
+  font-weight: 600;
+}
+.dd-chip--pron {
+  font-size: calc(13px * var(--cc-font-scale));
+}
+.dd-chip--combo {
+  font-size: calc(11px * var(--cc-font-scale));
+}
+.dd-chip.is-compact.dd-chip--char {
+  width: 36px;
+  height: 36px;
+  border-radius: calc(var(--cc-tile-radius) * 0.7);
+  font-size: calc(19px * var(--cc-font-scale));
+}
+.dd-chip.is-compact.dd-chip--pron,
+.dd-chip.is-compact.dd-chip--combo {
+  min-width: 19px;
+  min-height: 19px;
+  padding: 0 3px;
+  border-radius: max(2px, calc(var(--cc-chip-radius) - 2px));
+}
+.dd-chip.is-compact.dd-chip--pron {
+  font-size: calc(10.5px * var(--cc-font-scale));
+}
+.dd-chip.is-compact.dd-chip--combo {
+  font-size: calc(9px * var(--cc-font-scale));
+}
+
+/* ============================ 已记录猜测 ============================ */
+.dd-hist-list {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 0 8px 6px 0;
+}
+.dd-hist {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 6px 10px 10px 16px;
+}
+.dd-hist__head {
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+.dd-hist__title {
+  flex: 1 1 0;
+  min-width: 0;
+  display: flex !important;
+  align-items: center; /* 一行内容在 44 高的点击区里垂直居中 */
+  min-height: 44px;
+  text-align: left;
+}
+.dd-hist__row {
+  display: flex;
+  align-items: baseline;
+  gap: 12px;
+  min-width: 0;
+}
+.dd-hist__word {
+  flex: none;
+  font-family: var(--cc-font-word);
+  font-size: calc(21px * var(--cc-font-scale));
+  font-weight: 600;
+  letter-spacing: 2.5px;
+  color: var(--cc-ink);
+}
+.dd-hist__pinyin {
+  min-width: 0;
+  font-family: var(--cc-font-mono);
+  font-size: calc(12px * var(--cc-font-scale));
+  font-weight: 400;
+  color: var(--cc-muted);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.dd-chevron {
+  transition: rotate 0.28s ease-in-out;
+}
+.dd-chevron.is-open {
+  rotate: 180deg;
+}
+
+/* ============================ 候选 ============================ */
+.dd-cand {
+  position: relative;
+}
+.dd-cand__head {
+  min-height: 40px;
+  padding-right: 8px;
+}
+.dd-cand__spacer {
+  flex: 1 1 0;
+  min-width: 6px;
+}
+.dd-cand__helper {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  overflow: hidden;
+}
+.dd-cand__helper.is-ok {
+  color: var(--cc-ok);
+}
+.dd-cand__helper.is-err {
+  color: var(--cc-danger);
+}
+.dd-cand__empty {
+  padding: 40px 0;
+  text-align: center;
+  font-family: var(--cc-font-ui);
+  font-size: calc(14px * var(--cc-font-scale));
+  color: var(--cc-muted);
+}
+.dd-cand__grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+  padding-right: 8px;
+}
+.dd-cand__more {
+  padding-top: 8px;
+  font-family: var(--cc-font-ui);
+  font-size: calc(12.5px * var(--cc-font-scale));
+  color: var(--cc-muted);
+}
+.dd-cand__tail {
+  height: 88px; /* 给右下角的 FAB 让位 */
+}
+.dd-card {
+  min-height: 74px;
+  padding: 12px 36px 11px 16px;
+}
+.dd-card__word {
+  font-family: var(--cc-font-word);
+  font-size: calc(22px * var(--cc-font-scale));
+  font-weight: 600;
+  letter-spacing: 2.2px;
+}
+.dd-card__pinyin {
+  display: block;
+  margin-top: 3px;
+  font-family: var(--cc-font-mono);
+  font-size: calc(12.5px * var(--cc-font-scale));
+  font-weight: 400;
+  color: var(--cc-muted);
+}
+.is-selected .dd-card__pinyin {
+  color: color-mix(in srgb, var(--cc-on-accent-soft) 80%, transparent);
+}
+.dd-card__check {
+  position: absolute;
+  top: 11px;
+  right: 12px;
+  z-index: 1;
+  font-size: 20px;
+  color: var(--cc-accent);
+  opacity: 0;
+  transform: scale(0.01) rotate(-40deg);
+  transition:
+    transform 0.4s var(--m-spring),
+    opacity 0.2s ease-out;
+  pointer-events: none;
+}
+.is-selected .dd-card__check {
+  opacity: 1;
+  transform: none;
+}
+
+/* 悬停释义（画在候选区里的普通元素，不接收鼠标，点击直接落到卡片上） */
+.dd-tip-layer {
+  position: absolute;
+  inset: 0;
+  z-index: 20;
+  overflow: visible;
+  pointer-events: none;
+}
+.dd-tip {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 14px;
+  border-radius: 16px;
+  background: var(--cc-surface-high);
+  box-shadow:
+    inset 0 0 0 1px var(--cc-menu-outline),
+    var(--cc-shadow-e3);
+  overflow: hidden;
+}
+.dd-tip__head {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+}
+.dd-tip__word {
+  font-family: var(--cc-font-word);
+  font-size: calc(17px * var(--cc-font-scale));
+  font-weight: 600;
+  letter-spacing: 1.4px;
+  color: var(--cc-ink);
+}
+.dd-tip__pinyin {
+  font-family: var(--cc-font-mono);
+  font-size: calc(12px * var(--cc-font-scale));
+  font-weight: 400;
+  color: var(--cc-muted);
+}
+.dd-tip__text {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 10;
+  line-clamp: 10;
+  overflow: hidden;
+  font-family: var(--cc-font-ui);
+  font-size: calc(13px * var(--cc-font-scale));
+  color: var(--cc-ink);
+}
+.dd-tip__text.is-empty {
+  color: var(--cc-muted);
+}
+.dd-tip__hint {
+  font-family: var(--cc-font-ui);
+  font-size: calc(11.5px * var(--cc-font-scale));
+  color: var(--cc-muted);
+}
+.dd-tip-enter-active {
+  transition: opacity 0.12s ease-out;
+}
+.dd-tip-enter-from {
+  opacity: 0;
+}
+
+/* ============================ 详细标记弹层 ============================ */
+.dd-detail {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  height: 720px;
+  min-height: 0;
+  max-height: 100%;
+  padding: 16px;
+  background: var(--cc-surface);
+  color: var(--cc-ink);
+}
+.dd-detail__head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.dd-detail__title {
+  margin: 0;
+  font-family: var(--cc-font-ui);
+  font-size: calc(17px * var(--cc-font-scale));
+  font-weight: 600;
+  letter-spacing: -0.5px; /* 基准里这行标题（semibold 17）比 Chrome 的字距紧约 0.5px / 字 */
+}
+.dd-detail__body {
+  flex: 1 1 0;
+  min-height: 0;
+  overflow: auto;
+}
+.dd-detail__cols {
+  display: flex;
+  align-items: flex-start;
+  gap: 8px;
+  padding: 2px;
+  width: max-content;
+}
+.dd-detail__foot {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 8px;
+}
+.dd-pos {
+  flex: none;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 148px;
+  padding: 8px;
+  border-radius: var(--cc-detail-column-radius);
+  background: var(--cc-field);
+  box-shadow: inset 0 0 0 1px var(--cc-border);
+}
+.dd-pos__title {
+  text-align: center;
+  font-family: var(--cc-font-ui);
+  font-size: calc(12px * var(--cc-font-scale));
+  color: var(--cc-muted);
+}
+.dd-attr {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+.dd-attr__label {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  font-family: var(--cc-font-ui);
+  font-size: calc(11px * var(--cc-font-scale));
+  color: var(--cc-muted);
+}
+.dd-attr__auto {
+  padding: 0 3px;
+  border-radius: 3px;
+  background: var(--cc-accent-soft);
+  font-size: calc(10px * var(--cc-font-scale));
+  color: var(--cc-accent);
+}
+.dd-attr__value {
+  padding: 3px 0;
+  border-radius: 4px;
+  background: var(--chip-bg);
+  color: var(--chip-fg);
+  text-align: center;
+  font-family: var(--cc-font-mono);
+  font-size: calc(13px * var(--cc-font-scale));
+  font-weight: 600;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  transition:
+    background-color 0.2s ease-out,
+    color 0.2s ease-out;
+}
+.dd-attr__value.is-char {
+  font-family: var(--cc-font-ui);
+  font-size: calc(17px * var(--cc-font-scale));
+}
+.dd-attr__note {
+  font-family: var(--cc-font-ui);
+  font-size: calc(10px * var(--cc-font-scale));
+  color: var(--cc-muted);
+}
+.dd-attr__tone {
+  align-self: flex-start;
+}
+.dd-attr__btns {
+  display: flex;
+  gap: 3px;
+}
+.dd-attr__btn {
+  flex: 1 1 0;
+  min-width: 0;
+  padding: 3px 0;
+  text-align: center;
+  font-family: var(--cc-font-ui);
+  font-size: calc(12px * var(--cc-font-scale));
+  font-weight: var(--cc-w-medium, 500);
+  background: var(--cc-node-idle);
+  color: var(--cc-ink);
+  transition:
+    background-color 0.2s ease-out,
+    color 0.2s ease-out,
+    scale 0.12s ease-out;
+}
+.dd-attr__btn.is-active {
+  background: var(--btn-tint);
+  color: #fff;
+}
+
+/* 左栏里「已记录」占满剩余高度（至少 96） */
+.dd-history {
+  flex: 1 1 0;
+  min-height: 96px;
+}
+
+.dd-detail:focus,
+.dd-detail:focus-visible {
+  outline: none;
+}
+
+/* 声调下拉（Picker .menu + controlSize(.small)）：灰底小圆角，宽 50 */
+.dd-attr__tone {
+  height: 20px;
+}
+.dd-attr__tone .m-select__control {
+  background: var(--cc-node-idle);
+  box-shadow: none;
+  font-size: calc(12px * var(--cc-font-scale));
+}
+.dd-attr__tone .m-select__arrows {
+  font-size: 9px;
+}

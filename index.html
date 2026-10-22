@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="zh-Hans">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>猜成语</title>
+    <!-- 启动守卫：应用没能启动时把原因显示出来，而不是白屏（见 public/boot-guard.js） -->
+    <script src="/boot-guard.js"></script>
+  </head>
+  <body>
+    <!-- 应用挂载后会整体替换 #app 里的内容；主脚本没跑起来时，至少能看到这行字 -->
+    <div id="app"><p style="margin: 24px; font: 14px system-ui, sans-serif; color: #666">猜成语 · 正在启动…</p></div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

@@ -1,0 +1,185 @@
+/* 交互反馈（= MaterialUI.swift 的 MaterialPressFX / RippleLayer）。
+ *
+ * 每个可点的东西都有三层反馈：
+ *   · 悬停状态层   前景色 10% 的罩层，0.15s 淡入
+ *   · 按下状态层   16%，并轻微缩放（0.12s）
+ *   · 点击水波纹   从点击位置向外扩散的圆，被控件形状裁剪，0.65s 内淡出（cubic-bezier(.2,0,0,1)，不透明度 0.30 → 0）
+ *
+ * 用法：给元素加 class="m-fx"，圆角用 border-radius 表示形状；前景色用 color（或 --m-tint）；
+ * 水波纹由 useRipple() / v-ripple 在指针按下时往里塞 <span class="m-ripple">。
+ * 变量：--m-tint 状态层与水波纹的颜色（默认 currentColor）、--m-press-scale 按下缩放（默认 .97）、
+ *       --m-lift 悬停上浮（px，默认 0）。
+ */
+
+:root {
+  --m-ease: cubic-bezier(0.2, 0, 0, 1); /* M3 标准缓动，水波纹用 */
+  --m-spring: cubic-bezier(0.34, 1.56, 0.64, 1); /* 弹簧感（选中对勾、FAB 弹出） */
+}
+
+.m-fx {
+  position: relative;
+  isolation: isolate;
+  cursor: default;
+  -webkit-tap-highlight-color: transparent;
+  transition:
+    scale 0.12s ease-out,
+    translate 0.15s ease-out,
+    box-shadow 0.15s ease-out,
+    background-color 0.2s ease-out,
+    color 0.2s ease-out;
+}
+
+/* 状态层 */
+.m-fx::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: var(--m-tint, currentColor);
+  opacity: 0;
+  pointer-events: none;
+  z-index: 1;
+  transition: opacity 0.15s ease-out;
+}
+.m-fx:hover::after,
+.m-fx.is-hover::after {
+  opacity: 0.1;
+}
+.m-fx:active::after,
+.m-fx.is-pressed::after {
+  opacity: 0.16;
+}
+.m-fx:disabled::after,
+.m-fx[aria-disabled="true"]::after {
+  opacity: 0;
+}
+
+/* 悬停上浮（悬停阴影由各组件自己写：需要与自己的描边 / 基础阴影叠在一起） + 按下缩放 */
+.m-fx:hover:not(:active, :disabled, [aria-disabled="true"]) {
+  translate: 0 calc(var(--m-lift, 0) * -1px);
+}
+.m-fx:active:not(:disabled, [aria-disabled="true"]),
+.m-fx.is-pressed {
+  scale: var(--m-press-scale, 0.97);
+}
+.m-fx:disabled,
+.m-fx[aria-disabled="true"] {
+  opacity: var(--cc-disabled-opacity, 1);
+}
+
+/* 外部驱动版（标记芯片）：悬停放大由 --m-hover-scale 决定，按下 0.95（0.1s） */
+.m-fx-manual {
+  --m-press-scale: 0.95;
+}
+.m-fx-manual:hover:not(.is-pressed, :active) {
+  scale: var(--m-hover-scale, 1);
+}
+.m-fx-manual.is-pressed {
+  transition-duration: 0.1s;
+}
+
+/* 水波纹容器：被控件形状裁剪，不接收鼠标 */
+.m-ripples {
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  overflow: hidden;
+  pointer-events: none;
+  z-index: 2;
+}
+.m-ripple {
+  position: absolute;
+  border-radius: 50%;
+  background: var(--m-tint, currentColor);
+  opacity: 0;
+  pointer-events: none;
+  transform: scale(0.001);
+  animation: m-ripple 0.65s var(--m-ease) forwards;
+}
+@keyframes m-ripple {
+  from {
+    transform: scale(0.001);
+    opacity: 0.3;
+  }
+  to {
+    transform: scale(1);
+    opacity: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .m-ripple {
+    animation-duration: 0.01s;
+  }
+  .m-fx {
+    transition:
+      box-shadow 0.15s ease-out,
+      background-color 0.2s ease-out,
+      color 0.2s ease-out;
+  }
+}
+
+/* 通用小过渡：选中对勾（缩放 + 淡入，宽度展开） */
+.m-check-enter-active,
+.m-check-leave-active {
+  transition:
+    max-width 0.2s ease-out,
+    margin 0.2s ease-out,
+    opacity 0.2s ease-out,
+    transform 0.2s ease-out;
+  overflow: hidden;
+}
+.m-check-enter-from,
+.m-check-leave-to {
+  max-width: 0;
+  margin-right: calc(var(--m-check-gap, 8px) * -1);
+  opacity: 0;
+  transform: scale(0.4);
+}
+.m-check-enter-to,
+.m-check-leave-from {
+  max-width: 24px;
+}
+
+/* 悬浮菜单（ThemeMenu）的出场：从右上角 scale 0.92 + 淡入，0.22s easeOut */
+.m-menu-enter-active,
+.m-menu-leave-active {
+  transition:
+    transform 0.22s ease-out,
+    opacity 0.22s ease-out;
+  transform-origin: top right;
+}
+.m-menu-enter-from,
+.m-menu-leave-to {
+  transform: scale(0.92);
+  opacity: 0;
+}
+
+/* 右下角 FAB 的出场：scale 0.4（锚点右下）+ 淡入，弹簧 */
+.m-fab-enter-active {
+  transition:
+    transform 0.4s var(--m-spring),
+    opacity 0.2s ease-out;
+  transform-origin: bottom right;
+}
+.m-fab-leave-active {
+  transition:
+    transform 0.25s ease-out,
+    opacity 0.2s ease-out;
+  transform-origin: bottom right;
+}
+.m-fab-enter-from,
+.m-fab-leave-to {
+  transform: scale(0.4);
+  opacity: 0;
+}
+
+/* 通用淡入淡出 */
+.m-fade-enter-active,
+.m-fade-leave-active {
+  transition: opacity 0.2s ease-out;
+}
+.m-fade-enter-from,
+.m-fade-leave-to {
+  opacity: 0;
+}

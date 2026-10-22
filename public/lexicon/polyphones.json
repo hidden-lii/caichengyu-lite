@@ -1,0 +1,12845 @@
+{
+  "阿": {
+    "default": "ē",
+    "alts": [
+      "ā"
+    ]
+  },
+  "唉": {
+    "default": "āi",
+    "alts": [
+      "ài"
+    ]
+  },
+  "挨": {
+    "default": "āi",
+    "alts": [
+      "ái"
+    ]
+  },
+  "捱": {
+    "default": "āi",
+    "alts": [
+      "ái"
+    ]
+  },
+  "騃": {
+    "default": "ái",
+    "alts": [
+      "bā",
+      "sì"
+    ]
+  },
+  "嗳": {
+    "default": "āi",
+    "alts": [
+      "ài",
+      "ǎi"
+    ]
+  },
+  "艾": {
+    "default": "ài",
+    "alts": [
+      "yì"
+    ]
+  },
+  "安": {
+    "default": "an",
+    "alts": [
+      "ān"
+    ]
+  },
+  "谙": {
+    "default": "àn",
+    "alts": [
+      "ān"
+    ]
+  },
+  "犴": {
+    "default": "àn",
+    "alts": [
+      "hān"
+    ]
+  },
+  "洝": {
+    "default": "jìn",
+    "alts": [
+      "àn",
+      "è",
+      "yàn"
+    ]
+  },
+  "暗": {
+    "default": "zǎo",
+    "alts": [
+      "àn"
+    ]
+  },
+  "肮": {
+    "default": "ang",
+    "alts": [
+      "āng"
+    ]
+  },
+  "卬": {
+    "default": "áng",
+    "alts": [
+      "shān",
+      "yǎng"
+    ]
+  },
+  "凹": {
+    "default": "āo",
+    "alts": [
+      "wā"
+    ]
+  },
+  "敖": {
+    "default": "ào",
+    "alts": [
+      "áo"
+    ]
+  },
+  "熬": {
+    "default": "áo",
+    "alts": [
+      "āo"
+    ]
+  },
+  "磝": {
+    "default": "bìng",
+    "alts": [
+      "áo",
+      "qiāo"
+    ]
+  },
+  "謷": {
+    "default": "dà",
+    "alts": [
+      "áo"
+    ]
+  },
+  "拗": {
+    "default": "niù",
+    "alts": [
+      "ào",
+      "ǎo"
+    ]
+  },
+  "奥": {
+    "default": "ào",
+    "alts": [
+      "yù"
+    ]
+  },
+  "隩": {
+    "default": "yù",
+    "alts": [
+      "ào"
+    ]
+  },
+  "墺": {
+    "default": "qù",
+    "alts": [
+      "ào"
+    ]
+  },
+  "八": {
+    "default": "bá",
+    "alts": [
+      "bā"
+    ]
+  },
+  "巴": {
+    "default": "ba",
+    "alts": [
+      "bā"
+    ]
+  },
+  "扒": {
+    "default": "bā",
+    "alts": [
+      "pá"
+    ]
+  },
+  "抜": {
+    "default": "hàn",
+    "alts": [
+      "bá"
+    ]
+  },
+  "把": {
+    "default": "bǎ",
+    "alts": [
+      "bà"
+    ]
+  },
+  "罢": {
+    "default": "bà",
+    "alts": [
+      "pí",
+      "bā",
+      "ba"
+    ]
+  },
+  "耙": {
+    "default": "pá",
+    "alts": [
+      "bà"
+    ]
+  },
+  "白": {
+    "default": "bai",
+    "alts": [
+      "béi",
+      "bái"
+    ]
+  },
+  "百": {
+    "default": "boǐ",
+    "alts": [
+      "bó",
+      "běi",
+      "bǎ",
+      "bǎi"
+    ]
+  },
+  "佰": {
+    "default": "mò",
+    "alts": [
+      "bǎi"
+    ]
+  },
+  "柏": {
+    "default": "bǎi",
+    "alts": [
+      "bó",
+      "biǎ",
+      "bò"
+    ]
+  },
+  "摆": {
+    "default": "bài",
+    "alts": [
+      "bǎi"
+    ]
+  },
+  "扳": {
+    "default": "pān",
+    "alts": [
+      "bá",
+      "bān"
+    ]
+  },
+  "般": {
+    "default": "ban",
+    "alts": [
+      "bān"
+    ]
+  },
+  "辬": {
+    "default": "fān",
+    "alts": [
+      "bān"
+    ]
+  },
+  "办": {
+    "default": "àbn",
+    "alts": [
+      "bàn"
+    ]
+  },
+  "拌": {
+    "default": "bàn",
+    "alts": [
+      "pàn"
+    ]
+  },
+  "榜": {
+    "default": "bǎng",
+    "alts": [
+      "bàng"
+    ]
+  },
+  "膀": {
+    "default": "bǎng",
+    "alts": [
+      "páng"
+    ]
+  },
+  "髈": {
+    "default": "huān",
+    "alts": [
+      "bǎng"
+    ]
+  },
+  "蚌": {
+    "default": "bàng",
+    "alts": [
+      "bèng"
+    ]
+  },
+  "傍": {
+    "default": "páng",
+    "alts": [
+      "báng",
+      "bàng"
+    ]
+  },
+  "磅": {
+    "default": "páng",
+    "alts": [
+      "pāng",
+      "bàng"
+    ]
+  },
+  "褒": {
+    "default": "bǎo",
+    "alts": [
+      "bāo"
+    ]
+  },
+  "薄": {
+    "default": "bó",
+    "alts": [
+      "báo",
+      "bù",
+      "bò"
+    ]
+  },
+  "宝": {
+    "default": "bao",
+    "alts": [
+      "bǎo"
+    ]
+  },
+  "保": {
+    "default": "bao",
+    "alts": [
+      "bǎo"
+    ]
+  },
+  "堡": {
+    "default": "bǎo",
+    "alts": [
+      "bǔ",
+      "pù"
+    ]
+  },
+  "报": {
+    "default": "fù",
+    "alts": [
+      "boò",
+      "lěng",
+      "bào"
+    ]
+  },
+  "暴": {
+    "default": "bào",
+    "alts": [
+      "pù",
+      "pu"
+    ]
+  },
+  "卑": {
+    "default": "bei",
+    "alts": [
+      "bēi"
+    ]
+  },
+  "桮": {
+    "default": "qí",
+    "alts": [
+      "bēi"
+    ]
+  },
+  "北": {
+    "default": "běi",
+    "alts": [
+      "bēi",
+      "bèi"
+    ]
+  },
+  "背": {
+    "default": "bèi",
+    "alts": [
+      "bēi"
+    ]
+  },
+  "悖": {
+    "default": "bó",
+    "alts": [
+      "bèi"
+    ]
+  },
+  "被": {
+    "default": "pī",
+    "alts": [
+      "bèi",
+      "chuáng"
+    ]
+  },
+  "呗": {
+    "default": "bài",
+    "alts": [
+      "bei"
+    ]
+  },
+  "奔": {
+    "default": "bēn",
+    "alts": [
+      "bèn",
+      "ben"
+    ]
+  },
+  "贲": {
+    "default": "bēn",
+    "alts": [
+      "bì"
+    ]
+  },
+  "本": {
+    "default": "ben",
+    "alts": [
+      "bēn",
+      "běn"
+    ]
+  },
+  "绷": {
+    "default": "bēng",
+    "alts": [
+      "bèng",
+      "běng"
+    ]
+  },
+  "偪": {
+    "default": "bèng",
+    "alts": [
+      "bī"
+    ]
+  },
+  "鎞": {
+    "default": "pī",
+    "alts": [
+      "bì",
+      "bī"
+    ]
+  },
+  "比": {
+    "default": "bì",
+    "alts": [
+      "bi",
+      "bǐ"
+    ]
+  },
+  "秕": {
+    "default": "pī",
+    "alts": [
+      "bǐ"
+    ]
+  },
+  "鄙": {
+    "default": "bì",
+    "alts": [
+      "bǐ"
+    ]
+  },
+  "必": {
+    "default": "bù",
+    "alts": [
+      "bì"
+    ]
+  },
+  "诐": {
+    "default": "hǎo",
+    "alts": [
+      "wǎng",
+      "bì"
+    ]
+  },
+  "庳": {
+    "default": "bì",
+    "alts": [
+      "bēi"
+    ]
+  },
+  "敝": {
+    "default": "bǐ",
+    "alts": [
+      "bì"
+    ]
+  },
+  "裨": {
+    "default": "bì",
+    "alts": [
+      "pí"
+    ]
+  },
+  "避": {
+    "default": "bí",
+    "alts": [
+      "bì"
+    ]
+  },
+  "臂": {
+    "default": "bì",
+    "alts": [
+      "bei"
+    ]
+  },
+  "璧": {
+    "default": "bi",
+    "alts": [
+      "bì"
+    ]
+  },
+  "鞭": {
+    "default": "bīan1",
+    "alts": [
+      "biān"
+    ]
+  },
+  "扁": {
+    "default": "biǎn",
+    "alts": [
+      "piān"
+    ]
+  },
+  "抃": {
+    "default": "fù",
+    "alts": [
+      "biàn"
+    ]
+  },
+  "变": {
+    "default": "bià",
+    "alts": [
+      "biǎn",
+      "biàn"
+    ]
+  },
+  "便": {
+    "default": "biàn",
+    "alts": [
+      "pián",
+      "bian",
+      "bián"
+    ]
+  },
+  "徧": {
+    "default": "shí",
+    "alts": [
+      "biàn"
+    ]
+  },
+  "杓": {
+    "default": "biāo",
+    "alts": [
+      "sháo"
+    ]
+  },
+  "藨": {
+    "default": "biāo",
+    "alts": [
+      "pāo"
+    ]
+  },
+  "摽": {
+    "default": "biào",
+    "alts": [
+      "biāo"
+    ]
+  },
+  "别": {
+    "default": "bié",
+    "alts": [
+      "biè",
+      "bie",
+      "biě"
+    ]
+  },
+  "缤": {
+    "default": "yīng",
+    "alts": [
+      "bīn"
+    ]
+  },
+  "掤": {
+    "default": "bēng",
+    "alts": [
+      "bīng"
+    ]
+  },
+  "鞞": {
+    "default": "huī",
+    "alts": [
+      "bǐng"
+    ]
+  },
+  "并": {
+    "default": "bìng",
+    "alts": [
+      "bīng"
+    ]
+  },
+  "病": {
+    "default": "cán",
+    "alts": [
+      "bìng"
+    ]
+  },
+  "剥": {
+    "default": "bō",
+    "alts": [
+      "bāo",
+      "bo"
+    ]
+  },
+  "播": {
+    "default": "bò",
+    "alts": [
+      "bō"
+    ]
+  },
+  "蕃": {
+    "default": "fān",
+    "alts": [
+      "fán"
+    ]
+  },
+  "伯": {
+    "default": "bó",
+    "alts": [
+      "bō",
+      "mò",
+      "bà",
+      "bǎi"
+    ]
+  },
+  "勃": {
+    "default": "bó",
+    "alts": [
+      "bèi"
+    ]
+  },
+  "博": {
+    "default": "bō",
+    "alts": [
+      "bó"
+    ]
+  },
+  "簸": {
+    "default": "bǒ",
+    "alts": [
+      "bò"
+    ]
+  },
+  "擘": {
+    "default": "bò",
+    "alts": [
+      "bāi"
+    ]
+  },
+  "卜": {
+    "default": "bǔ",
+    "alts": [
+      "bo",
+      "bó"
+    ]
+  },
+  "不": {
+    "default": "bù",
+    "alts": [
+      "bu",
+      "bú",
+      "bǔ",
+      "bū",
+      "fǒu",
+      "rù",
+      "biāo",
+      "ù",
+      "zhī"
+    ]
+  },
+  "布": {
+    "default": "bùo2",
+    "alts": [
+      "bù"
+    ]
+  },
+  "步": {
+    "default": "bu",
+    "alts": [
+      "bú",
+      "mù",
+      "bù"
+    ]
+  },
+  "蔀": {
+    "default": "zhī",
+    "alts": [
+      "bù"
+    ]
+  },
+  "踄": {
+    "default": "bù",
+    "alts": [
+      "bó"
+    ]
+  },
+  "餔": {
+    "default": "tān",
+    "alts": [
+      "bǔ",
+      "bū"
+    ]
+  },
+  "簿": {
+    "default": "bù",
+    "alts": [
+      "bó"
+    ]
+  },
+  "嚓": {
+    "default": "chā",
+    "alts": [
+      "cā"
+    ]
+  },
+  "才": {
+    "default": "cāi",
+    "alts": [
+      "cái"
+    ]
+  },
+  "财": {
+    "default": "cá",
+    "alts": [
+      "cái"
+    ]
+  },
+  "裁": {
+    "default": "cai",
+    "alts": [
+      "cái"
+    ]
+  },
+  "采": {
+    "default": "cǎi",
+    "alts": [
+      "cài"
+    ]
+  },
+  "参": {
+    "default": "cān",
+    "alts": [
+      "shēn",
+      "cēn",
+      "sān"
+    ]
+  },
+  "飡": {
+    "default": "kòu",
+    "alts": [
+      "guāng",
+      "cān"
+    ]
+  },
+  "骖": {
+    "default": "cēn",
+    "alts": [
+      "cān"
+    ]
+  },
+  "残": {
+    "default": "bìng",
+    "alts": [
+      "cán"
+    ]
+  },
+  "蚕": {
+    "default": "chan",
+    "alts": [
+      "cán"
+    ]
+  },
+  "惭": {
+    "default": "cǎn",
+    "alts": [
+      "cán"
+    ]
+  },
+  "惨": {
+    "default": "chan",
+    "alts": [
+      "cǎn"
+    ]
+  },
+  "藏": {
+    "default": "cáng",
+    "alts": [
+      "shě",
+      "zàng"
+    ]
+  },
+  "操": {
+    "default": "chao",
+    "alts": [
+      "cāo"
+    ]
+  },
+  "草": {
+    "default": "xuě",
+    "alts": [
+      "cao",
+      "cǎo"
+    ]
+  },
+  "侧": {
+    "default": "cè",
+    "alts": [
+      "zè",
+      "zhāi"
+    ]
+  },
+  "厕": {
+    "default": "cì",
+    "alts": [
+      "cè"
+    ]
+  },
+  "筴": {
+    "default": "cè",
+    "alts": [
+      "jiá"
+    ]
+  },
+  "层": {
+    "default": "cheng",
+    "alts": [
+      "céng"
+    ]
+  },
+  "曾": {
+    "default": "zēng",
+    "alts": [
+      "céng",
+      "zeng"
+    ]
+  },
+  "叉": {
+    "default": "chā",
+    "alts": [
+      "chá",
+      "chǎ"
+    ]
+  },
+  "查": {
+    "default": "chá",
+    "alts": [
+      "zhā"
+    ]
+  },
+  "碴": {
+    "default": "chā",
+    "alts": [
+      "chá"
+    ]
+  },
+  "差": {
+    "default": "chà",
+    "alts": [
+      "chā",
+      "cī",
+      "chāi"
+    ]
+  },
+  "拆": {
+    "default": "chāi",
+    "alts": [
+      "cā"
+    ]
+  },
+  "孱": {
+    "default": "chán",
+    "alts": [
+      "càn"
+    ]
+  },
+  "禅": {
+    "default": "chán",
+    "alts": [
+      "shàn"
+    ]
+  },
+  "僝": {
+    "default": "chá",
+    "alts": [
+      "chán",
+      "yè",
+      "zhàn",
+      "zhuàn"
+    ]
+  },
+  "劖": {
+    "default": "jì",
+    "alts": [
+      "chán"
+    ]
+  },
+  "剗": {
+    "default": "chǎn",
+    "alts": [
+      "chàn"
+    ]
+  },
+  "刬": {
+    "default": "chǎn",
+    "alts": [
+      "chàn"
+    ]
+  },
+  "颤": {
+    "default": "chàn",
+    "alts": [
+      "zhàn"
+    ]
+  },
+  "昌": {
+    "default": "cháng",
+    "alts": [
+      "chāng"
+    ]
+  },
+  "肠": {
+    "default": "chá",
+    "alts": [
+      "cháng"
+    ]
+  },
+  "尝": {
+    "default": "cang",
+    "alts": [
+      "cháng"
+    ]
+  },
+  "常": {
+    "default": "qīng",
+    "alts": [
+      "cháng"
+    ]
+  },
+  "场": {
+    "default": "chǎng",
+    "alts": [
+      "cháng"
+    ]
+  },
+  "倡": {
+    "default": "chàng",
+    "alts": [
+      "chāng"
+    ]
+  },
+  "焯": {
+    "default": "zhuō",
+    "alts": [
+      "chāo",
+      "zhuó"
+    ]
+  },
+  "巢": {
+    "default": "chao",
+    "alts": [
+      "cháo"
+    ]
+  },
+  "朝": {
+    "default": "zhāo",
+    "alts": [
+      "cháo"
+    ]
+  },
+  "嘲": {
+    "default": "cháo",
+    "alts": [
+      "zhāo"
+    ]
+  },
+  "吵": {
+    "default": "chǎo",
+    "alts": [
+      "chāo"
+    ]
+  },
+  "车": {
+    "default": "chē",
+    "alts": [
+      "jū",
+      "yī"
+    ]
+  },
+  "撦": {
+    "default": "là",
+    "alts": [
+      "zōng",
+      "chě"
+    ]
+  },
+  "澈": {
+    "default": "che",
+    "alts": [
+      "chè"
+    ]
+  },
+  "嗔": {
+    "default": "chen",
+    "alts": [
+      "chēn"
+    ]
+  },
+  "尘": {
+    "default": "zhén",
+    "alts": [
+      "ché",
+      "chen",
+      "chén"
+    ]
+  },
+  "沉": {
+    "default": "shěn",
+    "alts": [
+      "chen",
+      "chén"
+    ]
+  },
+  "陈": {
+    "default": "ē",
+    "alts": [
+      "cheng",
+      "zhèn",
+      "chen",
+      "chén"
+    ]
+  },
+  "茞": {
+    "default": "zhǐ",
+    "alts": [
+      "chén"
+    ]
+  },
+  "晨": {
+    "default": "chún",
+    "alts": [
+      "chén"
+    ]
+  },
+  "称": {
+    "default": "chēng",
+    "alts": [
+      "chèn",
+      "chèng"
+    ]
+  },
+  "赪": {
+    "default": "zhǐ",
+    "alts": [
+      "chēng"
+    ]
+  },
+  "成": {
+    "default": "cheng",
+    "alts": [
+      "chěng",
+      "chéng"
+    ]
+  },
+  "乘": {
+    "default": "chéng",
+    "alts": [
+      "shèng",
+      "chèng",
+      "héng"
+    ]
+  },
+  "惩": {
+    "default": "chěng",
+    "alts": [
+      "chéng"
+    ]
+  },
+  "裎": {
+    "default": "chéng",
+    "alts": [
+      "chěng"
+    ]
+  },
+  "澄": {
+    "default": "chéng",
+    "alts": [
+      "dèng"
+    ]
+  },
+  "逞": {
+    "default": "chéng",
+    "alts": [
+      "chěng"
+    ]
+  },
+  "秤": {
+    "default": "chēng",
+    "alts": [
+      "chèng"
+    ]
+  },
+  "笞": {
+    "default": "chì",
+    "alts": [
+      "chī"
+    ]
+  },
+  "摛": {
+    "default": "xū",
+    "alts": [
+      "chī"
+    ]
+  },
+  "絺": {
+    "default": "zhǐ",
+    "alts": [
+      "chī"
+    ]
+  },
+  "弛": {
+    "default": "chi",
+    "alts": [
+      "chí"
+    ]
+  },
+  "池": {
+    "default": "shi",
+    "alts": [
+      "chí"
+    ]
+  },
+  "驰": {
+    "default": "chi",
+    "alts": [
+      "chí"
+    ]
+  },
+  "持": {
+    "default": "chì",
+    "alts": [
+      "chǐ",
+      "xhí",
+      "chí"
+    ]
+  },
+  "箎": {
+    "default": "chí",
+    "alts": [
+      "hǔ"
+    ]
+  },
+  "篪": {
+    "default": "chi",
+    "alts": [
+      "chí"
+    ]
+  },
+  "尺": {
+    "default": "chǐ",
+    "alts": [
+      "chě"
+    ]
+  },
+  "瘈": {
+    "default": "zhì",
+    "alts": [
+      "jì"
+    ]
+  },
+  "遫": {
+    "default": "chuò",
+    "alts": [
+      "chì"
+    ]
+  },
+  "充": {
+    "default": "chong",
+    "alts": [
+      "chōng"
+    ]
+  },
+  "冲": {
+    "default": "chōng",
+    "alts": [
+      "chòng"
+    ]
+  },
+  "虫": {
+    "default": "chén",
+    "alts": [
+      "chóng"
+    ]
+  },
+  "崇": {
+    "default": "suì",
+    "alts": [
+      "chóng"
+    ]
+  },
+  "宠": {
+    "default": "chǒn",
+    "alts": [
+      "chǒng"
+    ]
+  },
+  "抽": {
+    "default": "chō",
+    "alts": [
+      "chou",
+      "chōu"
+    ]
+  },
+  "仇": {
+    "default": "chóu",
+    "alts": [
+      "qiú"
+    ]
+  },
+  "绸": {
+    "default": "fǒu",
+    "alts": [
+      "chóu"
+    ]
+  },
+  "愁": {
+    "default": "cháo",
+    "alts": [
+      "chú",
+      "chóu"
+    ]
+  },
+  "偢": {
+    "default": "chǒu",
+    "alts": [
+      "qiū"
+    ]
+  },
+  "臭": {
+    "default": "chòu",
+    "alts": [
+      "xiù"
+    ]
+  },
+  "出": {
+    "default": "chu",
+    "alts": [
+      "chū"
+    ]
+  },
+  "褚": {
+    "default": "zhǔ",
+    "alts": [
+      "chǔ"
+    ]
+  },
+  "处": {
+    "default": "chǔ",
+    "alts": [
+      "chù",
+      "chu"
+    ]
+  },
+  "畜": {
+    "default": "xù",
+    "alts": [
+      "chù"
+    ]
+  },
+  "歜": {
+    "default": "zàn",
+    "alts": [
+      "chù"
+    ]
+  },
+  "揣": {
+    "default": "chuāi",
+    "alts": [
+      "chuǎi",
+      "chuài",
+      "tuán",
+      "zhuī"
+    ]
+  },
+  "啜": {
+    "default": "chuò",
+    "alts": [
+      "chuài"
+    ]
+  },
+  "川": {
+    "default": "chuāng",
+    "alts": [
+      "chuān"
+    ]
+  },
+  "传": {
+    "default": "chuán",
+    "alts": [
+      "zhuàn"
+    ]
+  },
+  "船": {
+    "default": "chuǎn",
+    "alts": [
+      "chuan",
+      "chuán"
+    ]
+  },
+  "椽": {
+    "default": "yuán",
+    "alts": [
+      "chuán"
+    ]
+  },
+  "创": {
+    "default": "chuàng",
+    "alts": [
+      "chuāng"
+    ]
+  },
+  "吹": {
+    "default": "chuí",
+    "alts": [
+      "chui",
+      "chuì",
+      "chuī"
+    ]
+  },
+  "垂": {
+    "default": "thuí",
+    "alts": [
+      "chui",
+      "chuí"
+    ]
+  },
+  "捶": {
+    "default": "chuī",
+    "alts": [
+      "chuí"
+    ]
+  },
+  "搥": {
+    "default": "chuī",
+    "alts": [
+      "duī",
+      "chuí"
+    ]
+  },
+  "春": {
+    "default": "chūn",
+    "alts": [
+      "chún"
+    ]
+  },
+  "淳": {
+    "default": "chún",
+    "alts": [
+      "zhūn"
+    ]
+  },
+  "逴": {
+    "default": "chuò",
+    "alts": [
+      "chāo",
+      "chuō"
+    ]
+  },
+  "惙": {
+    "default": "chuò",
+    "alts": [
+      "chuì"
+    ]
+  },
+  "绰": {
+    "default": "chuò",
+    "alts": [
+      "chuō",
+      "chuo",
+      "chāo"
+    ]
+  },
+  "趠": {
+    "default": "chào",
+    "alts": [
+      "chuō",
+      "zhuó"
+    ]
+  },
+  "歠": {
+    "default": "pá",
+    "alts": [
+      "huài",
+      "zhú",
+      "chuò"
+    ]
+  },
+  "呲": {
+    "default": "cī",
+    "alts": [
+      "zī"
+    ]
+  },
+  "髊": {
+    "default": "cī",
+    "alts": [
+      "cuō"
+    ]
+  },
+  "茨": {
+    "default": "cì",
+    "alts": [
+      "cí"
+    ]
+  },
+  "辞": {
+    "default": "yǔ",
+    "alts": [
+      "cí"
+    ]
+  },
+  "雌": {
+    "default": "cī",
+    "alts": [
+      "cí"
+    ]
+  },
+  "此": {
+    "default": "chi",
+    "alts": [
+      "cǐ"
+    ]
+  },
+  "伺": {
+    "default": "sì",
+    "alts": [
+      "cì"
+    ]
+  },
+  "刺": {
+    "default": "cì",
+    "alts": [
+      "cī"
+    ]
+  },
+  "赐": {
+    "default": "sì",
+    "alts": [
+      "cì"
+    ]
+  },
+  "怱": {
+    "default": "cōng",
+    "alts": [
+      "zōng"
+    ]
+  },
+  "聪": {
+    "default": "conɡ1",
+    "alts": [
+      "cōng"
+    ]
+  },
+  "从": {
+    "default": "cóng",
+    "alts": [
+      "zòng",
+      "cōng"
+    ]
+  },
+  "粗": {
+    "default": "cù",
+    "alts": [
+      "cū"
+    ]
+  },
+  "殂": {
+    "default": "jū",
+    "alts": [
+      "cú"
+    ]
+  },
+  "猝": {
+    "default": "cuì",
+    "alts": [
+      "cù"
+    ]
+  },
+  "蹿": {
+    "default": "cuàn",
+    "alts": [
+      "cuān"
+    ]
+  },
+  "窜": {
+    "default": "càn",
+    "alts": [
+      "cuàn"
+    ]
+  },
+  "翠": {
+    "default": "cui",
+    "alts": [
+      "cuì"
+    ]
+  },
+  "踆": {
+    "default": "cún",
+    "alts": [
+      "qūn"
+    ]
+  },
+  "存": {
+    "default": "dài",
+    "alts": [
+      "shǐ",
+      "cún"
+    ]
+  },
+  "寸": {
+    "default": "cù",
+    "alts": [
+      "cùn"
+    ]
+  },
+  "瑳": {
+    "default": "cùn",
+    "alts": [
+      "cuǒ",
+      "cuō"
+    ]
+  },
+  "撮": {
+    "default": "cuō",
+    "alts": [
+      "zuǒ"
+    ]
+  },
+  "剉": {
+    "default": "yíng",
+    "alts": [
+      "cuò"
+    ]
+  },
+  "挫": {
+    "default": "cè",
+    "alts": [
+      "cuò"
+    ]
+  },
+  "错": {
+    "default": "chuo",
+    "alts": [
+      "cuò"
+    ]
+  },
+  "嗒": {
+    "default": "tà",
+    "alts": [
+      "dā"
+    ]
+  },
+  "达": {
+    "default": "láo",
+    "alts": [
+      "dá"
+    ]
+  },
+  "沓": {
+    "default": "tà",
+    "alts": [
+      "tǎ",
+      "dá"
+    ]
+  },
+  "答": {
+    "default": "dá",
+    "alts": [
+      "dā"
+    ]
+  },
+  "打": {
+    "default": "dǎ",
+    "alts": [
+      "dá"
+    ]
+  },
+  "大": {
+    "default": "dà",
+    "alts": [
+      "dā",
+      "tài",
+      "dǎ",
+      "da",
+      "dài"
+    ]
+  },
+  "垯": {
+    "default": "dá",
+    "alts": [
+      "da"
+    ]
+  },
+  "瘩": {
+    "default": "dā",
+    "alts": [
+      "da",
+      "dá"
+    ]
+  },
+  "呆": {
+    "default": "dāi",
+    "alts": [
+      "bǎo"
+    ]
+  },
+  "逮": {
+    "default": "dǎi",
+    "alts": [
+      "dài"
+    ]
+  },
+  "骀": {
+    "default": "dài",
+    "alts": [
+      "tái"
+    ]
+  },
+  "带": {
+    "default": "ài",
+    "alts": [
+      "yù",
+      "dài"
+    ]
+  },
+  "待": {
+    "default": "dài",
+    "alts": [
+      "dà",
+      "dai",
+      "dāi"
+    ]
+  },
+  "单": {
+    "default": "dān",
+    "alts": [
+      "chán",
+      "shàn"
+    ]
+  },
+  "担": {
+    "default": "dān",
+    "alts": [
+      "dàn",
+      "dǎn"
+    ]
+  },
+  "瘅": {
+    "default": "dàn",
+    "alts": [
+      "dān"
+    ]
+  },
+  "儋": {
+    "default": "dàn",
+    "alts": [
+      "dān"
+    ]
+  },
+  "胆": {
+    "default": "hún",
+    "alts": [
+      "dǎn"
+    ]
+  },
+  "黮": {
+    "default": "qū",
+    "alts": [
+      "dàn",
+      "shèn"
+    ]
+  },
+  "弹": {
+    "default": "tán",
+    "alts": [
+      "dàn",
+      "tan"
+    ]
+  },
+  "惮": {
+    "default": "dàn",
+    "alts": [
+      "dá"
+    ]
+  },
+  "淡": {
+    "default": "dan",
+    "alts": [
+      "dàn"
+    ]
+  },
+  "澹": {
+    "default": "dàn",
+    "alts": [
+      "tán"
+    ]
+  },
+  "当": {
+    "default": "dāng",
+    "alts": [
+      "dàng",
+      "dang"
+    ]
+  },
+  "铛": {
+    "default": "chēng",
+    "alts": [
+      "kāng",
+      "dāng"
+    ]
+  },
+  "挡": {
+    "default": "dǎng",
+    "alts": [
+      "dàng"
+    ]
+  },
+  "愓": {
+    "default": "dàng",
+    "alts": [
+      "shāng",
+      "táng",
+      "yáng"
+    ]
+  },
+  "叨": {
+    "default": "dāo",
+    "alts": [
+      "tāo",
+      "dao"
+    ]
+  },
+  "导": {
+    "default": "dao",
+    "alts": [
+      "dǎo"
+    ]
+  },
+  "倒": {
+    "default": "dǎo",
+    "alts": [
+      "dào"
+    ]
+  },
+  "道": {
+    "default": "dao",
+    "alts": [
+      "dào"
+    ]
+  },
+  "得": {
+    "default": "dé",
+    "alts": [
+      "de",
+      "děi"
+    ]
+  },
+  "德": {
+    "default": "de",
+    "alts": [
+      "dè",
+      "yu",
+      "dé"
+    ]
+  },
+  "地": {
+    "default": "dì",
+    "alts": [
+      "de"
+    ]
+  },
+  "的": {
+    "default": "dì",
+    "alts": [
+      "dí",
+      "de"
+    ]
+  },
+  "灯": {
+    "default": "dé",
+    "alts": [
+      "dēng"
+    ]
+  },
+  "登": {
+    "default": "déng",
+    "alts": [
+      "dé",
+      "dēng"
+    ]
+  },
+  "蹬": {
+    "default": "dèng",
+    "alts": [
+      "dēng"
+    ]
+  },
+  "低": {
+    "default": "dì",
+    "alts": [
+      "dī"
+    ]
+  },
+  "滴": {
+    "default": "di",
+    "alts": [
+      "dī"
+    ]
+  },
+  "敌": {
+    "default": "dì",
+    "alts": [
+      "dí"
+    ]
+  },
+  "底": {
+    "default": "dǐ",
+    "alts": [
+      "de"
+    ]
+  },
+  "柢": {
+    "default": "dǐ",
+    "alts": [
+      "chí"
+    ]
+  },
+  "弟": {
+    "default": "dì",
+    "alts": [
+      "tì",
+      "tuí"
+    ]
+  },
+  "杕": {
+    "default": "duò",
+    "alts": [
+      "dì"
+    ]
+  },
+  "棣": {
+    "default": "dì",
+    "alts": [
+      "dài",
+      "tì"
+    ]
+  },
+  "甸": {
+    "default": "diàn",
+    "alts": [
+      "shèng",
+      "tián"
+    ]
+  },
+  "钿": {
+    "default": "diàn",
+    "alts": [
+      "tián"
+    ]
+  },
+  "调": {
+    "default": "tiáo",
+    "alts": [
+      "diào",
+      "zhōu"
+    ]
+  },
+  "藋": {
+    "default": "diào",
+    "alts": [
+      "dí",
+      "zhuó"
+    ]
+  },
+  "跌": {
+    "default": "dié",
+    "alts": [
+      "diē"
+    ]
+  },
+  "迭": {
+    "default": "diē",
+    "alts": [
+      "dié"
+    ]
+  },
+  "昳": {
+    "default": "yì",
+    "alts": [
+      "dié"
+    ]
+  },
+  "喋": {
+    "default": "dié",
+    "alts": [
+      "zhá"
+    ]
+  },
+  "蝶": {
+    "default": "fēng",
+    "alts": [
+      "dié"
+    ]
+  },
+  "丁": {
+    "default": "dīng",
+    "alts": [
+      "zhēng"
+    ]
+  },
+  "钉": {
+    "default": "dīng",
+    "alts": [
+      "dìng",
+      "ding"
+    ]
+  },
+  "酊": {
+    "default": "dǐng",
+    "alts": [
+      "dīng"
+    ]
+  },
+  "鼎": {
+    "default": "dǐ",
+    "alts": [
+      "dǐng"
+    ]
+  },
+  "薡": {
+    "default": "dīng",
+    "alts": [
+      "dǐng"
+    ]
+  },
+  "饤": {
+    "default": "dǐng",
+    "alts": [
+      "dìng"
+    ]
+  },
+  "丢": {
+    "default": "diu",
+    "alts": [
+      "diū"
+    ]
+  },
+  "东": {
+    "default": "dong",
+    "alts": [
+      "dōng"
+    ]
+  },
+  "蕫": {
+    "default": "dǒng",
+    "alts": [
+      "tóng"
+    ]
+  },
+  "动": {
+    "default": "dong",
+    "alts": [
+      "nòng",
+      "dòng"
+    ]
+  },
+  "恫": {
+    "default": "tōng",
+    "alts": [
+      "dòng"
+    ]
+  },
+  "都": {
+    "default": "dōu",
+    "alts": [
+      "dū"
+    ]
+  },
+  "斗": {
+    "default": "dǒu",
+    "alts": [
+      "dòu"
+    ]
+  },
+  "豆": {
+    "default": "dou",
+    "alts": [
+      "ěr",
+      "dòu"
+    ]
+  },
+  "毒": {
+    "default": "dú",
+    "alts": [
+      "dài"
+    ]
+  },
+  "独": {
+    "default": "duú",
+    "alts": [
+      "dú"
+    ]
+  },
+  "读": {
+    "default": "dú",
+    "alts": [
+      "shū",
+      "dòu"
+    ]
+  },
+  "渎": {
+    "default": "dú",
+    "alts": [
+      "dòu"
+    ]
+  },
+  "裻": {
+    "default": "kūn",
+    "alts": [
+      "dú"
+    ]
+  },
+  "肚": {
+    "default": "dù",
+    "alts": [
+      "dǔ"
+    ]
+  },
+  "度": {
+    "default": "dù",
+    "alts": [
+      "duó",
+      "duǒ",
+      "duo"
+    ]
+  },
+  "端": {
+    "default": "duan",
+    "alts": [
+      "duān"
+    ]
+  },
+  "短": {
+    "default": "duān",
+    "alts": [
+      "duǎn"
+    ]
+  },
+  "断": {
+    "default": "duān",
+    "alts": [
+      "dàn",
+      "duan",
+      "duàn"
+    ]
+  },
+  "敦": {
+    "default": "dūn",
+    "alts": [
+      "duì"
+    ]
+  },
+  "囤": {
+    "default": "tún",
+    "alts": [
+      "dùn"
+    ]
+  },
+  "楯": {
+    "default": "dùn",
+    "alts": [
+      "shǔn"
+    ]
+  },
+  "咄": {
+    "default": "duò",
+    "alts": [
+      "duō"
+    ]
+  },
+  "哆": {
+    "default": "chǐ",
+    "alts": [
+      "duō"
+    ]
+  },
+  "掇": {
+    "default": "duo",
+    "alts": [
+      "duō"
+    ]
+  },
+  "夺": {
+    "default": "duo",
+    "alts": [
+      "duó"
+    ]
+  },
+  "踱": {
+    "default": "duò",
+    "alts": [
+      "duó"
+    ]
+  },
+  "朵": {
+    "default": "duo",
+    "alts": [
+      "duǒ"
+    ]
+  },
+  "垛": {
+    "default": "duò",
+    "alts": [
+      "duǒ"
+    ]
+  },
+  "堕": {
+    "default": "duò",
+    "alts": [
+      "huī"
+    ]
+  },
+  "吪": {
+    "default": "é",
+    "alts": [
+      "huā"
+    ]
+  },
+  "蛾": {
+    "default": "é",
+    "alts": [
+      "ér",
+      "yǐ"
+    ]
+  },
+  "噁": {
+    "default": "wù",
+    "alts": [
+      "ě"
+    ]
+  },
+  "扼": {
+    "default": "é",
+    "alts": [
+      "è"
+    ]
+  },
+  "恶": {
+    "default": "è",
+    "alts": [
+      "wù",
+      "é",
+      "èr",
+      "wū",
+      "ē",
+      "lè",
+      "ě"
+    ]
+  },
+  "饿": {
+    "default": "e",
+    "alts": [
+      "è"
+    ]
+  },
+  "搤": {
+    "default": "hè",
+    "alts": [
+      "è"
+    ]
+  },
+  "頞": {
+    "default": "é",
+    "alts": [
+      "è"
+    ]
+  },
+  "恩": {
+    "default": "én",
+    "alts": [
+      "ēn"
+    ]
+  },
+  "儿": {
+    "default": "er",
+    "alts": [
+      "ní",
+      "ér"
+    ]
+  },
+  "而": {
+    "default": "er",
+    "alts": [
+      "é",
+      "ěr",
+      "ré",
+      "ér"
+    ]
+  },
+  "唲": {
+    "default": "ér",
+    "alts": [
+      "wā"
+    ]
+  },
+  "尔": {
+    "default": "er",
+    "alts": [
+      "ér",
+      "ěr"
+    ]
+  },
+  "耳": {
+    "default": "ér",
+    "alts": [
+      "dòu",
+      "ěr"
+    ]
+  },
+  "二": {
+    "default": "èer",
+    "alts": [
+      "er",
+      "èr"
+    ]
+  },
+  "贰": {
+    "default": "er",
+    "alts": [
+      "èr"
+    ]
+  },
+  "发": {
+    "default": "fā",
+    "alts": [
+      "fà",
+      "fǎ",
+      "bō"
+    ]
+  },
+  "伐": {
+    "default": "fā",
+    "alts": [
+      "fá"
+    ]
+  },
+  "法": {
+    "default": "fá",
+    "alts": [
+      "f",
+      "fǎ"
+    ]
+  },
+  "帆": {
+    "default": "fán",
+    "alts": [
+      "fāng",
+      "fān"
+    ]
+  },
+  "番": {
+    "default": "fān",
+    "alts": [
+      "pān"
+    ]
+  },
+  "幡": {
+    "default": "fán",
+    "alts": [
+      "fān"
+    ]
+  },
+  "颿": {
+    "default": "fān",
+    "alts": [
+      "fán"
+    ]
+  },
+  "籓": {
+    "default": "zǔ",
+    "alts": [
+      "fān",
+      "biān",
+      "pān"
+    ]
+  },
+  "烦": {
+    "default": "fá",
+    "alts": [
+      "fán"
+    ]
+  },
+  "繁": {
+    "default": "fán",
+    "alts": [
+      "fan",
+      "pó"
+    ]
+  },
+  "反": {
+    "default": "fān",
+    "alts": [
+      "fǎn"
+    ]
+  },
+  "泛": {
+    "default": "fěng",
+    "alts": [
+      "fàn"
+    ]
+  },
+  "方": {
+    "default": "fang",
+    "alts": [
+      "fāng"
+    ]
+  },
+  "坊": {
+    "default": "fāng",
+    "alts": [
+      "fáng"
+    ]
+  },
+  "防": {
+    "default": "fāng",
+    "alts": [
+      "fáng"
+    ]
+  },
+  "仿": {
+    "default": "báng",
+    "alts": [
+      "páng",
+      "fǎng"
+    ]
+  },
+  "放": {
+    "default": "fang",
+    "alts": [
+      "fàng"
+    ]
+  },
+  "飞": {
+    "default": "fěi",
+    "alts": [
+      "fē",
+      "fēi"
+    ]
+  },
+  "妃": {
+    "default": "fēi",
+    "alts": [
+      "pèi"
+    ]
+  },
+  "非": {
+    "default": "fěi",
+    "alts": [
+      "fēi"
+    ]
+  },
+  "菲": {
+    "default": "fěi",
+    "alts": [
+      "fēi"
+    ]
+  },
+  "扉": {
+    "default": "fei",
+    "alts": [
+      "fēi"
+    ]
+  },
+  "匪": {
+    "default": "féi",
+    "alts": [
+      "fěi"
+    ]
+  },
+  "斐": {
+    "default": "fěi",
+    "alts": [
+      "fēi"
+    ]
+  },
+  "分": {
+    "default": "fēn",
+    "alts": [
+      "fèn",
+      "fān",
+      "fěn",
+      "fen"
+    ]
+  },
+  "濆": {
+    "default": "fèn",
+    "alts": [
+      "fén",
+      "pēn"
+    ]
+  },
+  "份": {
+    "default": "fèn",
+    "alts": [
+      "bīn"
+    ]
+  },
+  "风": {
+    "default": "fēng",
+    "alts": [
+      "fèng",
+      "fenɡ1",
+      "feng",
+      "fěng"
+    ]
+  },
+  "蜂": {
+    "default": "dié",
+    "alts": [
+      "fēng"
+    ]
+  },
+  "冯": {
+    "default": "féng",
+    "alts": [
+      "píng"
+    ]
+  },
+  "讽": {
+    "default": "fèng",
+    "alts": [
+      "fěng"
+    ]
+  },
+  "凤": {
+    "default": "feng",
+    "alts": [
+      "fèng"
+    ]
+  },
+  "缝": {
+    "default": "fèng",
+    "alts": [
+      "féng"
+    ]
+  },
+  "否": {
+    "default": "pǐ",
+    "alts": [
+      "fǒu"
+    ]
+  },
+  "夫": {
+    "default": "fū",
+    "alts": [
+      "fú"
+    ]
+  },
+  "痡": {
+    "default": "pū",
+    "alts": [
+      "pù"
+    ]
+  },
+  "弗": {
+    "default": "fei",
+    "alts": [
+      "fú"
+    ]
+  },
+  "凫": {
+    "default": "fu",
+    "alts": [
+      "fú"
+    ]
+  },
+  "佛": {
+    "default": "fó",
+    "alts": [
+      "bì",
+      "bó",
+      "fú"
+    ]
+  },
+  "扶": {
+    "default": "úf",
+    "alts": [
+      "fú"
+    ]
+  },
+  "咈": {
+    "default": "zhé",
+    "alts": [
+      "fú"
+    ]
+  },
+  "怫": {
+    "default": "fèi",
+    "alts": [
+      "fú"
+    ]
+  },
+  "拂": {
+    "default": "bì",
+    "alts": [
+      "fú"
+    ]
+  },
+  "服": {
+    "default": "fú",
+    "alts": [
+      "féi",
+      "fu",
+      "fù"
+    ]
+  },
+  "浮": {
+    "default": "fu",
+    "alts": [
+      "fú"
+    ]
+  },
+  "莩": {
+    "default": "piǎo",
+    "alts": [
+      "fú"
+    ]
+  },
+  "福": {
+    "default": "fù",
+    "alts": [
+      "fú"
+    ]
+  },
+  "斧": {
+    "default": "fù",
+    "alts": [
+      "fǔ"
+    ]
+  },
+  "俛": {
+    "default": "fǔ",
+    "alts": [
+      "mǎ",
+      "miǎn",
+      "bì"
+    ]
+  },
+  "父": {
+    "default": "fù",
+    "alts": [
+      "fǔ"
+    ]
+  },
+  "付": {
+    "default": "fǔ",
+    "alts": [
+      "fù"
+    ]
+  },
+  "负": {
+    "default": "fǔ",
+    "alts": [
+      "fù"
+    ]
+  },
+  "附": {
+    "default": "fǔ",
+    "alts": [
+      "fu",
+      "fù"
+    ]
+  },
+  "阜": {
+    "default": "fǔ",
+    "alts": [
+      "fù"
+    ]
+  },
+  "复": {
+    "default": "fu",
+    "alts": [
+      "fù"
+    ]
+  },
+  "副": {
+    "default": "fù",
+    "alts": [
+      "pì"
+    ]
+  },
+  "傅": {
+    "default": "fǔ",
+    "alts": [
+      "fù"
+    ]
+  },
+  "富": {
+    "default": "fu",
+    "alts": [
+      "fù"
+    ]
+  },
+  "赋": {
+    "default": "fu",
+    "alts": [
+      "fù"
+    ]
+  },
+  "缚": {
+    "default": "fu",
+    "alts": [
+      "fù"
+    ]
+  },
+  "腹": {
+    "default": "fǔ",
+    "alts": [
+      "fù"
+    ]
+  },
+  "嘎": {
+    "default": "gā",
+    "alts": [
+      "gá",
+      "gǎ"
+    ]
+  },
+  "魀": {
+    "default": "gà",
+    "alts": [
+      "jiè"
+    ]
+  },
+  "改": {
+    "default": "yì",
+    "alts": [
+      "gǎi"
+    ]
+  },
+  "盖": {
+    "default": "gài",
+    "alts": [
+      "gě",
+      "hé"
+    ]
+  },
+  "甘": {
+    "default": "gan",
+    "alts": [
+      "gān"
+    ]
+  },
+  "杆": {
+    "default": "gǎn",
+    "alts": [
+      "gān"
+    ]
+  },
+  "敢": {
+    "default": "gan",
+    "alts": [
+      "gǎn"
+    ]
+  },
+  "感": {
+    "default": "gǎ",
+    "alts": [
+      "gàn",
+      "gǎn"
+    ]
+  },
+  "干": {
+    "default": "gān",
+    "alts": [
+      "gàn",
+      "qián"
+    ]
+  },
+  "旰": {
+    "default": "gàn",
+    "alts": [
+      "hàn"
+    ]
+  },
+  "刚": {
+    "default": "gang",
+    "alts": [
+      "gāng"
+    ]
+  },
+  "钢": {
+    "default": "gāng",
+    "alts": [
+      "gàng"
+    ]
+  },
+  "岗": {
+    "default": "gāng",
+    "alts": [
+      "gǎng"
+    ]
+  },
+  "港": {
+    "default": "gǎng",
+    "alts": [
+      "jiǎng"
+    ]
+  },
+  "戆": {
+    "default": "gàng",
+    "alts": [
+      "zhuàng"
+    ]
+  },
+  "皋": {
+    "default": "gāo",
+    "alts": [
+      "háo"
+    ]
+  },
+  "高": {
+    "default": "kāo",
+    "alts": [
+      "gāo"
+    ]
+  },
+  "膏": {
+    "default": "gāo",
+    "alts": [
+      "gào"
+    ]
+  },
+  "櫜": {
+    "default": "chǔ",
+    "alts": [
+      "chǐ",
+      "qióng",
+      "xié",
+      "gāo"
+    ]
+  },
+  "搞": {
+    "default": "gao",
+    "alts": [
+      "gǎo"
+    ]
+  },
+  "缟": {
+    "default": "gāo",
+    "alts": [
+      "gǎo"
+    ]
+  },
+  "槁": {
+    "default": "kū",
+    "alts": [
+      "gǎo"
+    ]
+  },
+  "告": {
+    "default": "gù",
+    "alts": [
+      "gōng",
+      "gào"
+    ]
+  },
+  "疙": {
+    "default": "gē",
+    "alts": [
+      "yì"
+    ]
+  },
+  "格": {
+    "default": "gē",
+    "alts": [
+      "gé"
+    ]
+  },
+  "鬲": {
+    "default": "gé",
+    "alts": [
+      "lì"
+    ]
+  },
+  "葛": {
+    "default": "gě",
+    "alts": [
+      "gé"
+    ]
+  },
+  "个": {
+    "default": "gè",
+    "alts": [
+      "ge",
+      "gě"
+    ]
+  },
+  "各": {
+    "default": "gè",
+    "alts": [
+      "gě"
+    ]
+  },
+  "给": {
+    "default": "jǐ",
+    "alts": [
+      "gěi"
+    ]
+  },
+  "根": {
+    "default": "geng",
+    "alts": [
+      "gēn"
+    ]
+  },
+  "亘": {
+    "default": "gè",
+    "alts": [
+      "gèn"
+    ]
+  },
+  "梗": {
+    "default": "gēng",
+    "alts": [
+      "gěng"
+    ]
+  },
+  "更": {
+    "default": "gēng",
+    "alts": [
+      "gèng",
+      "gēn"
+    ]
+  },
+  "工": {
+    "default": "sù",
+    "alts": [
+      "gōng"
+    ]
+  },
+  "供": {
+    "default": "gòng",
+    "alts": [
+      "gōng"
+    ]
+  },
+  "宫": {
+    "default": "dōng",
+    "alts": [
+      "gōng"
+    ]
+  },
+  "共": {
+    "default": "gòng",
+    "alts": [
+      "gōng"
+    ]
+  },
+  "勾": {
+    "default": "gōu",
+    "alts": [
+      "gòu"
+    ]
+  },
+  "狗": {
+    "default": "ɡou3",
+    "alts": [
+      "gǒu"
+    ]
+  },
+  "构": {
+    "default": "gou",
+    "alts": [
+      "gòu"
+    ]
+  },
+  "垢": {
+    "default": "gǒu",
+    "alts": [
+      "gòu"
+    ]
+  },
+  "估": {
+    "default": "gū",
+    "alts": [
+      "gù"
+    ]
+  },
+  "呱": {
+    "default": "gū",
+    "alts": [
+      "guǎ",
+      "guā"
+    ]
+  },
+  "孤": {
+    "default": "gu",
+    "alts": [
+      "gū"
+    ]
+  },
+  "扢": {
+    "default": "bào",
+    "alts": [
+      "jié",
+      "gē",
+      "gǔ",
+      "xì"
+    ]
+  },
+  "汩": {
+    "default": "gǔ",
+    "alts": [
+      "yù"
+    ]
+  },
+  "股": {
+    "default": "gu",
+    "alts": [
+      "gǔ"
+    ]
+  },
+  "骨": {
+    "default": "gǔ",
+    "alts": [
+      "gū",
+      "gú"
+    ]
+  },
+  "唃": {
+    "default": "huó",
+    "alts": [
+      "táo",
+      "gū"
+    ]
+  },
+  "鹄": {
+    "default": "hú",
+    "alts": [
+      "gǔ"
+    ]
+  },
+  "毂": {
+    "default": "gū",
+    "alts": [
+      "gòu",
+      "gǔ"
+    ]
+  },
+  "鼓": {
+    "default": "gu",
+    "alts": [
+      "gǔ"
+    ]
+  },
+  "鹘": {
+    "default": "hú",
+    "alts": [
+      "gǔ"
+    ]
+  },
+  "固": {
+    "default": "gū",
+    "alts": [
+      "gu",
+      "gù"
+    ]
+  },
+  "故": {
+    "default": "ɡu4",
+    "alts": [
+      "gǔ",
+      "gù"
+    ]
+  },
+  "寡": {
+    "default": "guǎi",
+    "alts": [
+      "gua",
+      "guǎ"
+    ]
+  },
+  "挂": {
+    "default": "guài",
+    "alts": [
+      "guà"
+    ]
+  },
+  "絓": {
+    "default": "guà",
+    "alts": [
+      "kuā"
+    ]
+  },
+  "掴": {
+    "default": "guó",
+    "alts": [
+      "guāi"
+    ]
+  },
+  "拐": {
+    "default": "guǎn",
+    "alts": [
+      "guǎi"
+    ]
+  },
+  "恠": {
+    "default": "cōng",
+    "alts": [
+      "guài"
+    ]
+  },
+  "观": {
+    "default": "guān",
+    "alts": [
+      "guāng",
+      "guàn"
+    ]
+  },
+  "冠": {
+    "default": "guàn",
+    "alts": [
+      "guān"
+    ]
+  },
+  "莞": {
+    "default": "wǎn",
+    "alts": [
+      "guǎn",
+      "guān"
+    ]
+  },
+  "管": {
+    "default": "guan",
+    "alts": [
+      "guǎn"
+    ]
+  },
+  "丱": {
+    "default": "kuàng",
+    "alts": [
+      "guàn"
+    ]
+  },
+  "祼": {
+    "default": "luǒ",
+    "alts": [
+      "guàn"
+    ]
+  },
+  "光": {
+    "default": "guang",
+    "alts": [
+      "guān",
+      "guāng"
+    ]
+  },
+  "广": {
+    "default": "guǎng",
+    "alts": [
+      "guang",
+      "ān",
+      "yǎn"
+    ]
+  },
+  "逛": {
+    "default": "kuàng",
+    "alts": [
+      "guàng"
+    ]
+  },
+  "归": {
+    "default": "huī",
+    "alts": [
+      "gui",
+      "guī"
+    ]
+  },
+  "龟": {
+    "default": "guī",
+    "alts": [
+      "gui",
+      "jūn",
+      "qiū"
+    ]
+  },
+  "规": {
+    "default": "gui",
+    "alts": [
+      "guī"
+    ]
+  },
+  "珪": {
+    "default": "zhǐ",
+    "alts": [
+      "guī"
+    ]
+  },
+  "轨": {
+    "default": "guī",
+    "alts": [
+      "guǐ"
+    ]
+  },
+  "佹": {
+    "default": "guī",
+    "alts": [
+      "yí",
+      "guǐ"
+    ]
+  },
+  "刽": {
+    "default": "kuài",
+    "alts": [
+      "guì"
+    ]
+  },
+  "柜": {
+    "default": "guì",
+    "alts": [
+      "jǔ"
+    ]
+  },
+  "贵": {
+    "default": "huì",
+    "alts": [
+      "guì"
+    ]
+  },
+  "瞶": {
+    "default": "guì",
+    "alts": [
+      "kuì"
+    ]
+  },
+  "棍": {
+    "default": "gùn",
+    "alts": [
+      "hùn"
+    ]
+  },
+  "彍": {
+    "default": "kuò",
+    "alts": [
+      "guō"
+    ]
+  },
+  "国": {
+    "default": "guo",
+    "alts": [
+      "guó"
+    ]
+  },
+  "腘": {
+    "default": "yù",
+    "alts": [
+      "guó"
+    ]
+  },
+  "馘": {
+    "default": "xù",
+    "alts": [
+      "guó"
+    ]
+  },
+  "果": {
+    "default": "guò",
+    "alts": [
+      "guǒ"
+    ]
+  },
+  "过": {
+    "default": "guò",
+    "alts": [
+      "guo",
+      "guō"
+    ]
+  },
+  "哈": {
+    "default": "hā",
+    "alts": [
+      "hà",
+      "hǎ"
+    ]
+  },
+  "蛤": {
+    "default": "há",
+    "alts": [
+      "gé"
+    ]
+  },
+  "咳": {
+    "default": "ké",
+    "alts": [
+      "hāi",
+      "hài"
+    ]
+  },
+  "还": {
+    "default": "huán",
+    "alts": [
+      "hái",
+      "huan"
+    ]
+  },
+  "骸": {
+    "default": "hài",
+    "alts": [
+      "hái"
+    ]
+  },
+  "唅": {
+    "default": "hán",
+    "alts": [
+      "hàn",
+      "hān"
+    ]
+  },
+  "寒": {
+    "default": "jǐng",
+    "alts": [
+      "han",
+      "hán"
+    ]
+  },
+  "汗": {
+    "default": "hàn",
+    "alts": [
+      "hán"
+    ]
+  },
+  "熯": {
+    "default": "shēng",
+    "alts": [
+      "hàn",
+      "chéng",
+      "rǎn"
+    ]
+  },
+  "夯": {
+    "default": "bèn",
+    "alts": [
+      "hāng"
+    ]
+  },
+  "迒": {
+    "default": "hàn",
+    "alts": [
+      "háng"
+    ]
+  },
+  "蒿": {
+    "default": "hàng",
+    "alts": [
+      "hāo"
+    ]
+  },
+  "貉": {
+    "default": "hè",
+    "alts": [
+      "hé"
+    ]
+  },
+  "好": {
+    "default": "hào",
+    "alts": [
+      "hǎo"
+    ]
+  },
+  "号": {
+    "default": "háo",
+    "alts": [
+      "hào"
+    ]
+  },
+  "呵": {
+    "default": "hē",
+    "alts": [
+      "a",
+      "kē"
+    ]
+  },
+  "欱": {
+    "default": "ē",
+    "alts": [
+      "hē",
+      "xià"
+    ]
+  },
+  "喝": {
+    "default": "hè",
+    "alts": [
+      "hē",
+      "yè"
+    ]
+  },
+  "合": {
+    "default": "hé",
+    "alts": [
+      "gé",
+      "gě"
+    ]
+  },
+  "纥": {
+    "default": "hé",
+    "alts": [
+      "gē"
+    ]
+  },
+  "何": {
+    "default": "hé",
+    "alts": [
+      "he",
+      "hè",
+      "hē"
+    ]
+  },
+  "和": {
+    "default": "hé",
+    "alts": [
+      "hè",
+      "huò",
+      "hú",
+      "huó"
+    ]
+  },
+  "核": {
+    "default": "hé",
+    "alts": [
+      "hú"
+    ]
+  },
+  "盍": {
+    "default": "hé",
+    "alts": [
+      "gài"
+    ]
+  },
+  "荷": {
+    "default": "hè",
+    "alts": [
+      "hé"
+    ]
+  },
+  "礉": {
+    "default": "hé",
+    "alts": [
+      "qiào",
+      "qiāo"
+    ]
+  },
+  "褐": {
+    "default": "hé",
+    "alts": [
+      "hè"
+    ]
+  },
+  "鹤": {
+    "default": "he",
+    "alts": [
+      "hè"
+    ]
+  },
+  "壑": {
+    "default": "huò",
+    "alts": [
+      "hè"
+    ]
+  },
+  "黑": {
+    "default": "hei",
+    "alts": [
+      "hēi"
+    ]
+  },
+  "嘿": {
+    "default": "mò",
+    "alts": [
+      "hēi"
+    ]
+  },
+  "亨": {
+    "default": "hēng",
+    "alts": [
+      "pēng"
+    ]
+  },
+  "哼": {
+    "default": "hēng",
+    "alts": [
+      "hng"
+    ]
+  },
+  "恒": {
+    "default": "gèng",
+    "alts": [
+      "héng"
+    ]
+  },
+  "横": {
+    "default": "héng",
+    "alts": [
+      "hèng"
+    ]
+  },
+  "哄": {
+    "default": "hōng",
+    "alts": [
+      "hòng",
+      "hǒng"
+    ]
+  },
+  "弘": {
+    "default": "hong",
+    "alts": [
+      "hóng"
+    ]
+  },
+  "红": {
+    "default": "hóng",
+    "alts": [
+      "gōng"
+    ]
+  },
+  "吰": {
+    "default": "hóng",
+    "alts": [
+      "hū"
+    ]
+  },
+  "闳": {
+    "default": "hong",
+    "alts": [
+      "hóng"
+    ]
+  },
+  "閧": {
+    "default": "hòng",
+    "alts": [
+      "xiàng"
+    ]
+  },
+  "澒": {
+    "default": "hòng",
+    "alts": [
+      "xiāng",
+      "gǒng"
+    ]
+  },
+  "侯": {
+    "default": "hóu",
+    "alts": [
+      "hòu"
+    ]
+  },
+  "后": {
+    "default": "hǔ",
+    "alts": [
+      "hòu"
+    ]
+  },
+  "糊": {
+    "default": "hú",
+    "alts": [
+      "hū",
+      "hu",
+      "hù"
+    ]
+  },
+  "虎": {
+    "default": "hu",
+    "alts": [
+      "hū",
+      "hú",
+      "hǔ"
+    ]
+  },
+  "唬": {
+    "default": "xià",
+    "alts": [
+      "hǔ"
+    ]
+  },
+  "瓠": {
+    "default": "hù",
+    "alts": [
+      "hú",
+      "huò"
+    ]
+  },
+  "楛": {
+    "default": "kǔ",
+    "alts": [
+      "hù"
+    ]
+  },
+  "花": {
+    "default": "hu",
+    "alts": [
+      "huà",
+      "huā"
+    ]
+  },
+  "哗": {
+    "default": "huá",
+    "alts": [
+      "huā"
+    ]
+  },
+  "砉": {
+    "default": "huā",
+    "alts": [
+      "xū"
+    ]
+  },
+  "华": {
+    "default": "huá",
+    "alts": [
+      "huā",
+      "huà"
+    ]
+  },
+  "骅": {
+    "default": "hua",
+    "alts": [
+      "huá"
+    ]
+  },
+  "滑": {
+    "default": "gǔ",
+    "alts": [
+      "huá"
+    ]
+  },
+  "化": {
+    "default": "huà",
+    "alts": [
+      "huā"
+    ]
+  },
+  "划": {
+    "default": "huà",
+    "alts": [
+      "huá",
+      "jí"
+    ]
+  },
+  "画": {
+    "default": "hua",
+    "alts": [
+      "huà"
+    ]
+  },
+  "话": {
+    "default": "huā",
+    "alts": [
+      "huà"
+    ]
+  },
+  "怀": {
+    "default": "huán",
+    "alts": [
+      "huai",
+      "huái"
+    ]
+  },
+  "徊": {
+    "default": "huí",
+    "alts": [
+      "huái"
+    ]
+  },
+  "褱": {
+    "default": "shèng",
+    "alts": [
+      "huái"
+    ]
+  },
+  "坏": {
+    "default": "pī",
+    "alts": [
+      "huài"
+    ]
+  },
+  "咶": {
+    "default": "shì",
+    "alts": [
+      "huài"
+    ]
+  },
+  "欢": {
+    "default": "hān",
+    "alts": [
+      "huān"
+    ]
+  },
+  "驩": {
+    "default": "xuān",
+    "alts": [
+      "huān"
+    ]
+  },
+  "狟": {
+    "default": "huán",
+    "alts": [
+      "huān"
+    ]
+  },
+  "圜": {
+    "default": "yuán",
+    "alts": [
+      "huán"
+    ]
+  },
+  "嬛": {
+    "default": "huán",
+    "alts": [
+      "qióng",
+      "xuān"
+    ]
+  },
+  "幻": {
+    "default": "huà",
+    "alts": [
+      "huàn"
+    ]
+  },
+  "换": {
+    "default": "huàng",
+    "alts": [
+      "huàn"
+    ]
+  },
+  "黄": {
+    "default": "háng",
+    "alts": [
+      "huang",
+      "huáng"
+    ]
+  },
+  "潢": {
+    "default": "huáng",
+    "alts": [
+      "guāng"
+    ]
+  },
+  "晃": {
+    "default": "huàng",
+    "alts": [
+      "huǎng"
+    ]
+  },
+  "隳": {
+    "default": "huī",
+    "alts": [
+      "duò"
+    ]
+  },
+  "虺": {
+    "default": "huǐ",
+    "alts": [
+      "huī"
+    ]
+  },
+  "毁": {
+    "default": "fuǐ",
+    "alts": [
+      "huǐ"
+    ]
+  },
+  "会": {
+    "default": "huì",
+    "alts": [
+      "kuàn",
+      "guì",
+      "kuài"
+    ]
+  },
+  "哕": {
+    "default": "yuě",
+    "alts": [
+      "huì"
+    ]
+  },
+  "浍": {
+    "default": "kuài",
+    "alts": [
+      "huì"
+    ]
+  },
+  "缋": {
+    "default": "huì",
+    "alts": [
+      "huí"
+    ]
+  },
+  "濊": {
+    "default": "hún",
+    "alts": [
+      "huì",
+      "huò"
+    ]
+  },
+  "篲": {
+    "default": "huǐ",
+    "alts": [
+      "huì"
+    ]
+  },
+  "惛": {
+    "default": "zào",
+    "alts": [
+      "hūn",
+      "mèn"
+    ]
+  },
+  "浑": {
+    "default": "hùn",
+    "alts": [
+      "hún"
+    ]
+  },
+  "诨": {
+    "default": "wù",
+    "alts": [
+      "hùn"
+    ]
+  },
+  "混": {
+    "default": "hùn",
+    "alts": [
+      "hún",
+      "gǔn"
+    ]
+  },
+  "豁": {
+    "default": "huò",
+    "alts": [
+      "huō",
+      "huá"
+    ]
+  },
+  "火": {
+    "default": "huò",
+    "alts": [
+      "huo",
+      "huǒ"
+    ]
+  },
+  "货": {
+    "default": "huo",
+    "alts": [
+      "huò"
+    ]
+  },
+  "获": {
+    "default": "hù",
+    "alts": [
+      "huò"
+    ]
+  },
+  "濩": {
+    "default": "hù",
+    "alts": [
+      "shī",
+      "huò"
+    ]
+  },
+  "击": {
+    "default": "jí",
+    "alts": [
+      "jī"
+    ]
+  },
+  "鸡": {
+    "default": "jì",
+    "alts": [
+      "jī"
+    ]
+  },
+  "嵇": {
+    "default": "jí",
+    "alts": [
+      "jī"
+    ]
+  },
+  "缉": {
+    "default": "jī",
+    "alts": [
+      "qī"
+    ]
+  },
+  "箕": {
+    "default": "qí",
+    "alts": [
+      "jī"
+    ]
+  },
+  "稽": {
+    "default": "jī",
+    "alts": [
+      "qǐ",
+      "jí",
+      "qī"
+    ]
+  },
+  "齑": {
+    "default": "jiū",
+    "alts": [
+      "jī"
+    ]
+  },
+  "激": {
+    "default": "jí",
+    "alts": [
+      "jī"
+    ]
+  },
+  "虀": {
+    "default": "jì",
+    "alts": [
+      "jī"
+    ]
+  },
+  "及": {
+    "default": "jǐ",
+    "alts": [
+      "jí"
+    ]
+  },
+  "汲": {
+    "default": "ji",
+    "alts": [
+      "jí"
+    ]
+  },
+  "即": {
+    "default": "jì",
+    "alts": [
+      "jí"
+    ]
+  },
+  "亟": {
+    "default": "jí",
+    "alts": [
+      "qì"
+    ]
+  },
+  "急": {
+    "default": "kǔ",
+    "alts": [
+      "jí"
+    ]
+  },
+  "疾": {
+    "default": "jì",
+    "alts": [
+      "jí"
+    ]
+  },
+  "棘": {
+    "default": "ji",
+    "alts": [
+      "jí"
+    ]
+  },
+  "集": {
+    "default": "ji",
+    "alts": [
+      "jí"
+    ]
+  },
+  "嫉": {
+    "default": "jì",
+    "alts": [
+      "jí"
+    ]
+  },
+  "瘠": {
+    "default": "jī",
+    "alts": [
+      "shòu",
+      "jí"
+    ]
+  },
+  "鹡": {
+    "default": "xià",
+    "alts": [
+      "jí"
+    ]
+  },
+  "藉": {
+    "default": "jí",
+    "alts": [
+      "jiè",
+      "ji"
+    ]
+  },
+  "蹐": {
+    "default": "guǎ",
+    "alts": [
+      "sāi",
+      "jí"
+    ]
+  },
+  "鷑": {
+    "default": "xiān",
+    "alts": [
+      "jì"
+    ]
+  },
+  "几": {
+    "default": "jǐ",
+    "alts": [
+      "jī"
+    ]
+  },
+  "己": {
+    "default": "yi",
+    "alts": [
+      "jǐ"
+    ]
+  },
+  "虮": {
+    "default": "jī",
+    "alts": [
+      "jǐ"
+    ]
+  },
+  "脊": {
+    "default": "jí",
+    "alts": [
+      "jǐ"
+    ]
+  },
+  "幾": {
+    "default": "jī",
+    "alts": [
+      "jǐ"
+    ]
+  },
+  "计": {
+    "default": "ji",
+    "alts": [
+      "jì"
+    ]
+  },
+  "伎": {
+    "default": "jì",
+    "alts": [
+      "qí"
+    ]
+  },
+  "纪": {
+    "default": "jì",
+    "alts": [
+      "jǐ"
+    ]
+  },
+  "济": {
+    "default": "jì",
+    "alts": [
+      "jǐ",
+      "ji"
+    ]
+  },
+  "荠": {
+    "default": "jì",
+    "alts": [
+      "qí"
+    ]
+  },
+  "迹": {
+    "default": "jì",
+    "alts": [
+      "jī",
+      "guǐ",
+      "jù"
+    ]
+  },
+  "继": {
+    "default": "xu",
+    "alts": [
+      "jì"
+    ]
+  },
+  "寂": {
+    "default": "jí",
+    "alts": [
+      "jì"
+    ]
+  },
+  "绩": {
+    "default": "jī",
+    "alts": [
+      "jì"
+    ]
+  },
+  "加": {
+    "default": "jiē",
+    "alts": [
+      "jia",
+      "jiā"
+    ]
+  },
+  "夹": {
+    "default": "jiā",
+    "alts": [
+      "jiá",
+      "gā"
+    ]
+  },
+  "浃": {
+    "default": "jiá",
+    "alts": [
+      "jiām",
+      "jiā"
+    ]
+  },
+  "家": {
+    "default": "jiā",
+    "alts": [
+      "jia",
+      "ji",
+      "jiān",
+      "jie"
+    ]
+  },
+  "甲": {
+    "default": "jiá",
+    "alts": [
+      "jiǎ"
+    ]
+  },
+  "贾": {
+    "default": "gǔ",
+    "alts": [
+      "jiǎ",
+      "jià"
+    ]
+  },
+  "假": {
+    "default": "jiǎ",
+    "alts": [
+      "jià"
+    ]
+  },
+  "斝": {
+    "default": "zǐ",
+    "alts": [
+      "zhēng",
+      "jiǎ"
+    ]
+  },
+  "价": {
+    "default": "jià",
+    "alts": [
+      "wù",
+      "jie",
+      "jiè"
+    ]
+  },
+  "间": {
+    "default": "jiān",
+    "alts": [
+      "jiàn",
+      "gān",
+      "jìan4"
+    ]
+  },
+  "肩": {
+    "default": "jān",
+    "alts": [
+      "jiān"
+    ]
+  },
+  "监": {
+    "default": "jiān",
+    "alts": [
+      "jiàn"
+    ]
+  },
+  "鞬": {
+    "default": "jiān",
+    "alts": [
+      "jiàn"
+    ]
+  },
+  "俭": {
+    "default": "jiān",
+    "alts": [
+      "jian",
+      "jiǎn"
+    ]
+  },
+  "堿": {
+    "default": "kàn",
+    "alts": [
+      "jiǎn"
+    ]
+  },
+  "简": {
+    "default": "jiǎ",
+    "alts": [
+      "jiǎn"
+    ]
+  },
+  "謭": {
+    "default": "guǎng",
+    "alts": [
+      "jiǎn"
+    ]
+  },
+  "鬋": {
+    "default": "jiàn",
+    "alts": [
+      "jiǎn",
+      "jiān"
+    ]
+  },
+  "见": {
+    "default": "jiàn",
+    "alts": [
+      "xiàn",
+      "xian"
+    ]
+  },
+  "剑": {
+    "default": "jian",
+    "alts": [
+      "jīn",
+      "jiàn"
+    ]
+  },
+  "渐": {
+    "default": "jiàn",
+    "alts": [
+      "jiān",
+      "qián"
+    ]
+  },
+  "谏": {
+    "default": "jiǎn",
+    "alts": [
+      "jiàn"
+    ]
+  },
+  "溅": {
+    "default": "jiàn",
+    "alts": [
+      "jiān"
+    ]
+  },
+  "键": {
+    "default": "jjàn",
+    "alts": [
+      "jiàn"
+    ]
+  },
+  "江": {
+    "default": "jīng",
+    "alts": [
+      "jiāng"
+    ]
+  },
+  "将": {
+    "default": "jiàng",
+    "alts": [
+      "jiāng",
+      "qiāng",
+      "àng",
+      "jiòn",
+      "jiang"
+    ]
+  },
+  "浆": {
+    "default": "jiāng",
+    "alts": [
+      "jiàng"
+    ]
+  },
+  "疆": {
+    "default": "jiāng",
+    "alts": [
+      "qiáng"
+    ]
+  },
+  "降": {
+    "default": "jiàng",
+    "alts": [
+      "xiáng",
+      "xiang"
+    ]
+  },
+  "彊": {
+    "default": "qiáng",
+    "alts": [
+      "jiàng",
+      "jiāng",
+      "qiǎng"
+    ]
+  },
+  "姣": {
+    "default": "jiāo",
+    "alts": [
+      "xiáo"
+    ]
+  },
+  "骄": {
+    "default": "jīng",
+    "alts": [
+      "jiāo"
+    ]
+  },
+  "胶": {
+    "default": "jiǎo",
+    "alts": [
+      "jiao)1",
+      "jiāo"
+    ]
+  },
+  "蛟": {
+    "default": "jāo",
+    "alts": [
+      "jiǎo",
+      "jiāo"
+    ]
+  },
+  "憍": {
+    "default": "xià",
+    "alts": [
+      "jiāo"
+    ]
+  },
+  "燋": {
+    "default": "jiāo",
+    "alts": [
+      "zhuó",
+      "jué",
+      "qiáo"
+    ]
+  },
+  "角": {
+    "default": "jiǎo",
+    "alts": [
+      "jué",
+      "jiao"
+    ]
+  },
+  "侥": {
+    "default": "jiǎo",
+    "alts": [
+      "yáo"
+    ]
+  },
+  "皎": {
+    "default": "jiāo",
+    "alts": [
+      "jiǎo"
+    ]
+  },
+  "矫": {
+    "default": "jiǎo",
+    "alts": [
+      "jiáo"
+    ]
+  },
+  "脚": {
+    "default": "jué",
+    "alts": [
+      "jiǎo"
+    ]
+  },
+  "剿": {
+    "default": "jiǎo",
+    "alts": [
+      "chāo"
+    ]
+  },
+  "缴": {
+    "default": "jiǎo",
+    "alts": [
+      "zhuó"
+    ]
+  },
+  "皦": {
+    "default": "bì",
+    "alts": [
+      "tóng",
+      "wéi",
+      "jiǎo"
+    ]
+  },
+  "峤": {
+    "default": "qiáo",
+    "alts": [
+      "jiào"
+    ]
+  },
+  "教": {
+    "default": "jiào",
+    "alts": [
+      "jiāo",
+      "jiàn"
+    ]
+  },
+  "斠": {
+    "default": "huàn",
+    "alts": [
+      "mí",
+      "jiào"
+    ]
+  },
+  "徼": {
+    "default": "jiǎo",
+    "alts": [
+      "jiào",
+      "yāo"
+    ]
+  },
+  "接": {
+    "default": "jiě",
+    "alts": [
+      "jie",
+      "jiē"
+    ]
+  },
+  "揭": {
+    "default": "jiē",
+    "alts": [
+      "qì"
+    ]
+  },
+  "节": {
+    "default": "jié",
+    "alts": [
+      "qiè",
+      "jiē"
+    ]
+  },
+  "杰": {
+    "default": "jie",
+    "alts": [
+      "jié"
+    ]
+  },
+  "诘": {
+    "default": "jié",
+    "alts": [
+      "jí"
+    ]
+  },
+  "拮": {
+    "default": "jié",
+    "alts": [
+      "jiá"
+    ]
+  },
+  "结": {
+    "default": "jié",
+    "alts": [
+      "jiē"
+    ]
+  },
+  "桔": {
+    "default": "jú",
+    "alts": [
+      "jié"
+    ]
+  },
+  "絜": {
+    "default": "xié",
+    "alts": [
+      "jié",
+      "gōng",
+      "jiào",
+      "lǐ",
+      "liàng",
+      "shèng"
+    ]
+  },
+  "竭": {
+    "default": "jiě",
+    "alts": [
+      "jié"
+    ]
+  },
+  "解": {
+    "default": "jiě",
+    "alts": [
+      "xiè",
+      "jiè",
+      "jie"
+    ]
+  },
+  "介": {
+    "default": "jiě",
+    "alts": [
+      "jiè"
+    ]
+  },
+  "戒": {
+    "default": "jǐng",
+    "alts": [
+      "jie",
+      "jiè"
+    ]
+  },
+  "芥": {
+    "default": "jiè",
+    "alts": [
+      "gài"
+    ]
+  },
+  "界": {
+    "default": "gà",
+    "alts": [
+      "jiè"
+    ]
+  },
+  "今": {
+    "default": "jīng",
+    "alts": [
+      "jīn"
+    ]
+  },
+  "金": {
+    "default": "jin",
+    "alts": [
+      "jing",
+      "jīn"
+    ]
+  },
+  "矜": {
+    "default": "jīn",
+    "alts": [
+      "guān",
+      "qín"
+    ]
+  },
+  "筋": {
+    "default": "jīng",
+    "alts": [
+      "jēn",
+      "jīn"
+    ]
+  },
+  "仅": {
+    "default": "jǐn",
+    "alts": [
+      "jìn"
+    ]
+  },
+  "尽": {
+    "default": "jìn",
+    "alts": [
+      "jǐn",
+      "jì"
+    ]
+  },
+  "紧": {
+    "default": "jīn",
+    "alts": [
+      "jiān",
+      "jǐn"
+    ]
+  },
+  "劲": {
+    "default": "jìn",
+    "alts": [
+      "jìng"
+    ]
+  },
+  "近": {
+    "default": "jīn",
+    "alts": [
+      "jìn"
+    ]
+  },
+  "进": {
+    "default": "jǐn",
+    "alts": [
+      "jin",
+      "jìn"
+    ]
+  },
+  "祲": {
+    "default": "lóng",
+    "alts": [
+      "jìn"
+    ]
+  },
+  "寖": {
+    "default": "jìn",
+    "alts": [
+      "qǐn"
+    ]
+  },
+  "禁": {
+    "default": "jìn",
+    "alts": [
+      "jīn",
+      "jǐn"
+    ]
+  },
+  "墐": {
+    "default": "jǐn",
+    "alts": [
+      "jìn"
+    ]
+  },
+  "经": {
+    "default": "jing",
+    "alts": [
+      "jīng"
+    ]
+  },
+  "茎": {
+    "default": "jìng",
+    "alts": [
+      "jīng"
+    ]
+  },
+  "荆": {
+    "default": "jí",
+    "alts": [
+      "jin",
+      "jing",
+      "jīng"
+    ]
+  },
+  "精": {
+    "default": "jing",
+    "alts": [
+      "jīng"
+    ]
+  },
+  "穽": {
+    "default": "yán",
+    "alts": [
+      "jǐng"
+    ]
+  },
+  "颈": {
+    "default": "jǐng",
+    "alts": [
+      "gěng"
+    ]
+  },
+  "景": {
+    "default": "jǐng",
+    "alts": [
+      "yǐng"
+    ]
+  },
+  "净": {
+    "default": "jìng",
+    "alts": [
+      "chēng"
+    ]
+  },
+  "敬": {
+    "default": "jìn",
+    "alts": [
+      "jìng"
+    ]
+  },
+  "靓": {
+    "default": "jìng",
+    "alts": [
+      "liàng"
+    ]
+  },
+  "静": {
+    "default": "jǐng",
+    "alts": [
+      "jing",
+      "jìng"
+    ]
+  },
+  "坰": {
+    "default": "jiòng",
+    "alts": [
+      "jiōng"
+    ]
+  },
+  "纠": {
+    "default": "jiu",
+    "alts": [
+      "jiū"
+    ]
+  },
+  "究": {
+    "default": "jiù",
+    "alts": [
+      "jiū"
+    ]
+  },
+  "鸠": {
+    "default": "jiu",
+    "alts": [
+      "zhèn",
+      "jiū"
+    ]
+  },
+  "揪": {
+    "default": "chǒu",
+    "alts": [
+      "jiū"
+    ]
+  },
+  "九": {
+    "default": "jiū",
+    "alts": [
+      "jiǔ"
+    ]
+  },
+  "灸": {
+    "default": "jiù",
+    "alts": [
+      "jiǔ"
+    ]
+  },
+  "酒": {
+    "default": "jjǔ",
+    "alts": [
+      "jiǔ"
+    ]
+  },
+  "就": {
+    "default": "jiu",
+    "alts": [
+      "jiù"
+    ]
+  },
+  "舅": {
+    "default": "rú",
+    "alts": [
+      "jiù"
+    ]
+  },
+  "居": {
+    "default": "jú",
+    "alts": [
+      "jī",
+      "jū"
+    ]
+  },
+  "拘": {
+    "default": "jū",
+    "alts": [
+      "gōu"
+    ]
+  },
+  "苴": {
+    "default": "jū",
+    "alts": [
+      "chá"
+    ]
+  },
+  "痀": {
+    "default": "jū",
+    "alts": [
+      "gōu"
+    ]
+  },
+  "砠": {
+    "default": "jū",
+    "alts": [
+      "qū"
+    ]
+  },
+  "趄": {
+    "default": "qiè",
+    "alts": [
+      "jū"
+    ]
+  },
+  "裾": {
+    "default": "jú",
+    "alts": [
+      "jù",
+      "jū"
+    ]
+  },
+  "鞠": {
+    "default": "jǖ",
+    "alts": [
+      "jū"
+    ]
+  },
+  "僪": {
+    "default": "yù",
+    "alts": [
+      "cáng",
+      "jú",
+      "jué"
+    ]
+  },
+  "咀": {
+    "default": "jǔ",
+    "alts": [
+      "zuǐ"
+    ]
+  },
+  "沮": {
+    "default": "jǔ",
+    "alts": [
+      "ju",
+      "jù"
+    ]
+  },
+  "举": {
+    "default": "ju",
+    "alts": [
+      "jù",
+      "jǔ"
+    ]
+  },
+  "矩": {
+    "default": "jù",
+    "alts": [
+      "jǔ"
+    ]
+  },
+  "句": {
+    "default": "jù",
+    "alts": [
+      "gōu"
+    ]
+  },
+  "具": {
+    "default": "ju",
+    "alts": [
+      "jù"
+    ]
+  },
+  "炬": {
+    "default": "jǔ",
+    "alts": [
+      "jù"
+    ]
+  },
+  "俱": {
+    "default": "jǜ",
+    "alts": [
+      "jù"
+    ]
+  },
+  "惧": {
+    "default": "jǔ",
+    "alts": [
+      "jù"
+    ]
+  },
+  "据": {
+    "default": "jù",
+    "alts": [
+      "jū"
+    ]
+  },
+  "距": {
+    "default": "jū",
+    "alts": [
+      "jù"
+    ]
+  },
+  "窭": {
+    "default": "lóu",
+    "alts": [
+      "jù"
+    ]
+  },
+  "遽": {
+    "default": "jǔ",
+    "alts": [
+      "jù"
+    ]
+  },
+  "卷": {
+    "default": "juǎn",
+    "alts": [
+      "juàn"
+    ]
+  },
+  "捲": {
+    "default": "juǎn",
+    "alts": [
+      "quán"
+    ]
+  },
+  "绢": {
+    "default": "juān",
+    "alts": [
+      "juàn"
+    ]
+  },
+  "隽": {
+    "default": "jùn",
+    "alts": [
+      "juàn",
+      "jūn"
+    ]
+  },
+  "撅": {
+    "default": "juē",
+    "alts": [
+      "jué"
+    ]
+  },
+  "撧": {
+    "default": "yōng",
+    "alts": [
+      "juē",
+      "yǎn",
+      "jué"
+    ]
+  },
+  "屩": {
+    "default": "juàn",
+    "alts": [
+      "juē",
+      "zhe",
+      "jué"
+    ]
+  },
+  "蹻": {
+    "default": "juē",
+    "alts": [
+      "zhe",
+      "jué",
+      "jiǎo",
+      "jú",
+      "qiāo",
+      "xuè"
+    ]
+  },
+  "决": {
+    "default": "jié",
+    "alts": [
+      "jué"
+    ]
+  },
+  "绝": {
+    "default": "jue",
+    "alts": [
+      "jué"
+    ]
+  },
+  "觉": {
+    "default": "jué",
+    "alts": [
+      "jiào"
+    ]
+  },
+  "倔": {
+    "default": "juè",
+    "alts": [
+      "jué"
+    ]
+  },
+  "厥": {
+    "default": "juè",
+    "alts": [
+      "jué"
+    ]
+  },
+  "憰": {
+    "default": "lián",
+    "alts": [
+      "jué"
+    ]
+  },
+  "鴂": {
+    "default": "xiāng",
+    "alts": [
+      "jué",
+      "jú"
+    ]
+  },
+  "爵": {
+    "default": "què",
+    "alts": [
+      "jüé",
+      "jué"
+    ]
+  },
+  "蹶": {
+    "default": "juě",
+    "alts": [
+      "jué",
+      "juè"
+    ]
+  },
+  "嚼": {
+    "default": "jiáo",
+    "alts": [
+      "jué",
+      "jiào"
+    ]
+  },
+  "军": {
+    "default": "jū",
+    "alts": [
+      "jūn"
+    ]
+  },
+  "君": {
+    "default": "jīng",
+    "alts": [
+      "jūng",
+      "jūn"
+    ]
+  },
+  "钧": {
+    "default": "yūn",
+    "alts": [
+      "jūn"
+    ]
+  },
+  "菌": {
+    "default": "jūn",
+    "alts": [
+      "jùn"
+    ]
+  },
+  "麇": {
+    "default": "qún",
+    "alts": [
+      "jūn"
+    ]
+  },
+  "麕": {
+    "default": "qún",
+    "alts": [
+      "qiān",
+      "yǒu",
+      "jūn"
+    ]
+  },
+  "骏": {
+    "default": "jun",
+    "alts": [
+      "jùn"
+    ]
+  },
+  "焌": {
+    "default": "zhēng",
+    "alts": [
+      "jùn",
+      "qū"
+    ]
+  },
+  "开": {
+    "default": "kai",
+    "alts": [
+      "dāi",
+      "kāi"
+    ]
+  },
+  "楷": {
+    "default": "kǎi",
+    "alts": [
+      "jiē"
+    ]
+  },
+  "忾": {
+    "default": "kài",
+    "alts": [
+      "xì"
+    ]
+  },
+  "欬": {
+    "default": "kài",
+    "alts": [
+      "ké",
+      "ài"
+    ]
+  },
+  "愒": {
+    "default": "kài",
+    "alts": [
+      "yī",
+      "ài",
+      "liáng",
+      "qì"
+    ]
+  },
+  "堪": {
+    "default": "kan",
+    "alts": [
+      "kān"
+    ]
+  },
+  "侃": {
+    "default": "kan",
+    "alts": [
+      "kǎn"
+    ]
+  },
+  "埳": {
+    "default": "kǎn",
+    "alts": [
+      "xiàn"
+    ]
+  },
+  "欿": {
+    "default": "jī",
+    "alts": [
+      "kǎn",
+      "qiàn"
+    ]
+  },
+  "槛": {
+    "default": "jiàn",
+    "alts": [
+      "kǎn"
+    ]
+  },
+  "看": {
+    "default": "kàn",
+    "alts": [
+      "kān"
+    ]
+  },
+  "康": {
+    "default": "kàn",
+    "alts": [
+      "kāng"
+    ]
+  },
+  "穅": {
+    "default": "kǎn",
+    "alts": [
+      "kāng"
+    ]
+  },
+  "糠": {
+    "default": "kang",
+    "alts": [
+      "kāng"
+    ]
+  },
+  "扛": {
+    "default": "gāng",
+    "alts": [
+      "káng"
+    ]
+  },
+  "亢": {
+    "default": "gāng",
+    "alts": [
+      "gàng",
+      "kàng"
+    ]
+  },
+  "伉": {
+    "default": "kāng",
+    "alts": [
+      "kàng"
+    ]
+  },
+  "匼": {
+    "default": "kē",
+    "alts": [
+      "ǎn",
+      "àn",
+      "qià"
+    ]
+  },
+  "苛": {
+    "default": "kē",
+    "alts": [
+      "hē"
+    ]
+  },
+  "疴": {
+    "default": "ē",
+    "alts": [
+      "kē"
+    ]
+  },
+  "嗑": {
+    "default": "kē",
+    "alts": [
+      "kè"
+    ]
+  },
+  "搕": {
+    "default": "kē",
+    "alts": [
+      "xiàn",
+      "è",
+      "kè"
+    ]
+  },
+  "榼": {
+    "default": "kē",
+    "alts": [
+      "kè"
+    ]
+  },
+  "壳": {
+    "default": "ké",
+    "alts": [
+      "qiào"
+    ]
+  },
+  "可": {
+    "default": "kě",
+    "alts": [
+      "ke",
+      "ké",
+      "kè"
+    ]
+  },
+  "坷": {
+    "default": "kě",
+    "alts": [
+      "kē"
+    ]
+  },
+  "克": {
+    "default": "ke",
+    "alts": [
+      "kè"
+    ]
+  },
+  "客": {
+    "default": "ke",
+    "alts": [
+      "kè"
+    ]
+  },
+  "垦": {
+    "default": "kěn",
+    "alts": [
+      "yín"
+    ]
+  },
+  "阬": {
+    "default": "gāng",
+    "alts": [
+      "kēng"
+    ]
+  },
+  "吭": {
+    "default": "háng",
+    "alts": [
+      "kēng",
+      "gāng"
+    ]
+  },
+  "坑": {
+    "default": "kéng",
+    "alts": [
+      "kēng"
+    ]
+  },
+  "空": {
+    "default": "kōng",
+    "alts": [
+      "kòng",
+      "kǒng"
+    ]
+  },
+  "倥": {
+    "default": "kǒng",
+    "alts": [
+      "kōng"
+    ]
+  },
+  "鞚": {
+    "default": "zhōu",
+    "alts": [
+      "kòng"
+    ]
+  },
+  "口": {
+    "default": "kōng",
+    "alts": [
+      "mì",
+      "kǒu"
+    ]
+  },
+  "寇": {
+    "default": "kou",
+    "alts": [
+      "kòu"
+    ]
+  },
+  "鷇": {
+    "default": "suō",
+    "alts": [
+      "yàn",
+      "kòu"
+    ]
+  },
+  "矻": {
+    "default": "kù",
+    "alts": [
+      "bàn",
+      "cuì",
+      "jí",
+      "mó",
+      "kū"
+    ]
+  },
+  "袴": {
+    "default": "kǔ",
+    "alts": [
+      "zhù",
+      "kù"
+    ]
+  },
+  "夸": {
+    "default": "kuā",
+    "alts": [
+      "kuà"
+    ]
+  },
+  "姱": {
+    "default": "kuā",
+    "alts": [
+      "hù"
+    ]
+  },
+  "快": {
+    "default": "shú",
+    "alts": [
+      "kuài"
+    ]
+  },
+  "窾": {
+    "default": "kuǎn",
+    "alts": [
+      "táo",
+      "yín",
+      "zhe",
+      "cuàn"
+    ]
+  },
+  "劻": {
+    "default": "dān",
+    "alts": [
+      "kuāng"
+    ]
+  },
+  "抂": {
+    "default": "kuāng",
+    "alts": [
+      "kuáng",
+      "wǎng",
+      "zài"
+    ]
+  },
+  "狂": {
+    "default": "káng",
+    "alts": [
+      "luàn",
+      "kuáng"
+    ]
+  },
+  "诳": {
+    "default": "kuāng",
+    "alts": [
+      "kuáng"
+    ]
+  },
+  "窥": {
+    "default": "quī",
+    "alts": [
+      "kuī"
+    ]
+  },
+  "揆": {
+    "default": "kuī",
+    "alts": [
+      "kuí"
+    ]
+  },
+  "傀": {
+    "default": "kuǐ",
+    "alts": [
+      "kuí",
+      "guī"
+    ]
+  },
+  "匮": {
+    "default": "kuì",
+    "alts": [
+      "guì"
+    ]
+  },
+  "愧": {
+    "default": "kuì",
+    "alts": [
+      "chǒu"
+    ]
+  },
+  "溃": {
+    "default": "kuì",
+    "alts": [
+      "huì"
+    ]
+  },
+  "馈": {
+    "default": "zuò",
+    "alts": [
+      "kuì"
+    ]
+  },
+  "鐀": {
+    "default": "guì",
+    "alts": [
+      "kuì"
+    ]
+  },
+  "壸": {
+    "default": "kuì",
+    "alts": [
+      "kǔn"
+    ]
+  },
+  "困": {
+    "default": "kun",
+    "alts": [
+      "kùn"
+    ]
+  },
+  "括": {
+    "default": "kuò",
+    "alts": [
+      "guā"
+    ]
+  },
+  "拉": {
+    "default": "lā",
+    "alts": [
+      "lá"
+    ]
+  },
+  "喇": {
+    "default": "lā",
+    "alts": [
+      "lǎ"
+    ]
+  },
+  "剌": {
+    "default": "lá",
+    "alts": [
+      "là"
+    ]
+  },
+  "腊": {
+    "default": "là",
+    "alts": [
+      "xī"
+    ]
+  },
+  "啦": {
+    "default": "lā",
+    "alts": [
+      "la"
+    ]
+  },
+  "惏": {
+    "default": "lín",
+    "alts": [
+      "lán"
+    ]
+  },
+  "烂": {
+    "default": "shí",
+    "alts": [
+      "làn"
+    ]
+  },
+  "郎": {
+    "default": "láng",
+    "alts": [
+      "làng"
+    ]
+  },
+  "琅": {
+    "default": "lǎng",
+    "alts": [
+      "láng"
+    ]
+  },
+  "浪": {
+    "default": "láng",
+    "alts": [
+      "làng"
+    ]
+  },
+  "阆": {
+    "default": "làng",
+    "alts": [
+      "liáng",
+      "láng"
+    ]
+  },
+  "唠": {
+    "default": "lāo",
+    "alts": [
+      "láo",
+      "lào"
+    ]
+  },
+  "老": {
+    "default": "láo",
+    "alts": [
+      "lào",
+      "lǎo"
+    ]
+  },
+  "乐": {
+    "default": "lè",
+    "alts": [
+      "yuè",
+      "yào",
+      "le",
+      "lào"
+    ]
+  },
+  "了": {
+    "default": "liǎo",
+    "alts": [
+      "le",
+      "lé"
+    ]
+  },
+  "勒": {
+    "default": "lè",
+    "alts": [
+      "lēi"
+    ]
+  },
+  "擂": {
+    "default": "léi",
+    "alts": [
+      "lèi"
+    ]
+  },
+  "礌": {
+    "default": "léi",
+    "alts": [
+      "lěi"
+    ]
+  },
+  "儽": {
+    "default": "lěi",
+    "alts": [
+      "léi"
+    ]
+  },
+  "絫": {
+    "default": "lèi",
+    "alts": [
+      "léi",
+      "lěi"
+    ]
+  },
+  "傫": {
+    "default": "shì",
+    "alts": [
+      "lěi"
+    ]
+  },
+  "肋": {
+    "default": "lèi",
+    "alts": [
+      "lē"
+    ]
+  },
+  "累": {
+    "default": "lěi",
+    "alts": [
+      "lèi",
+      "léi"
+    ]
+  },
+  "颣": {
+    "default": "léi",
+    "alts": [
+      "lèi"
+    ]
+  },
+  "棱": {
+    "default": "léng",
+    "alts": [
+      "lēng",
+      "líng"
+    ]
+  },
+  "楞": {
+    "default": "lèng",
+    "alts": [
+      "léng"
+    ]
+  },
+  "睖": {
+    "default": "léng",
+    "alts": [
+      "líng"
+    ]
+  },
+  "哩": {
+    "default": "lǐ",
+    "alts": [
+      "lī"
+    ]
+  },
+  "狸": {
+    "default": "lǐ",
+    "alts": [
+      "li",
+      "lí"
+    ]
+  },
+  "离": {
+    "default": "xián",
+    "alts": [
+      "lí"
+    ]
+  },
+  "蜊": {
+    "default": "lí",
+    "alts": [
+      "lì"
+    ]
+  },
+  "醨": {
+    "default": "fǎ",
+    "alts": [
+      "lí"
+    ]
+  },
+  "蠡": {
+    "default": "lí",
+    "alts": [
+      "lǐ"
+    ]
+  },
+  "廲": {
+    "default": "sōu",
+    "alts": [
+      "lí"
+    ]
+  },
+  "纚": {
+    "default": "sǎ",
+    "alts": [
+      "xǐ",
+      "shí",
+      "sì",
+      "lí",
+      "lǐ"
+    ]
+  },
+  "里": {
+    "default": "ǐ",
+    "alts": [
+      "lǐ"
+    ]
+  },
+  "力": {
+    "default": "l埇5",
+    "alts": [
+      "lì"
+    ]
+  },
+  "立": {
+    "default": "li",
+    "alts": [
+      "lì"
+    ]
+  },
+  "丽": {
+    "default": "lì",
+    "alts": [
+      "lí"
+    ]
+  },
+  "隶": {
+    "default": "lì",
+    "alts": [
+      "dài"
+    ]
+  },
+  "栎": {
+    "default": "lì",
+    "alts": [
+      "yuè"
+    ]
+  },
+  "郦": {
+    "default": "lì",
+    "alts": [
+      "zhí"
+    ]
+  },
+  "俩": {
+    "default": "liǎng",
+    "alts": [
+      "liǎ"
+    ]
+  },
+  "廉": {
+    "default": "měi",
+    "alts": [
+      "lián"
+    ]
+  },
+  "溓": {
+    "default": "lián",
+    "alts": [
+      "liǎn",
+      "nián",
+      "xián",
+      "xiàn"
+    ]
+  },
+  "脸": {
+    "default": "lián",
+    "alts": [
+      "liǎn"
+    ]
+  },
+  "练": {
+    "default": "zh",
+    "alts": [
+      "liàn"
+    ]
+  },
+  "凉": {
+    "default": "liáng",
+    "alts": [
+      "liàng"
+    ]
+  },
+  "两": {
+    "default": "liàng",
+    "alts": [
+      "liǎng"
+    ]
+  },
+  "量": {
+    "default": "liàng",
+    "alts": [
+      "liáng",
+      "ér"
+    ]
+  },
+  "踉": {
+    "default": "liàng",
+    "alts": [
+      "liáng"
+    ]
+  },
+  "撩": {
+    "default": "liáo",
+    "alts": [
+      "liāo"
+    ]
+  },
+  "潦": {
+    "default": "liáo",
+    "alts": [
+      "liǎo",
+      "lǎo",
+      "lào"
+    ]
+  },
+  "獠": {
+    "default": "lǎo",
+    "alts": [
+      "liáo"
+    ]
+  },
+  "燎": {
+    "default": "liáo",
+    "alts": [
+      "liǎo"
+    ]
+  },
+  "蓼": {
+    "default": "liǎo",
+    "alts": [
+      "lù"
+    ]
+  },
+  "咧": {
+    "default": "liē",
+    "alts": [
+      "liě",
+      "lie",
+      "lié"
+    ]
+  },
+  "列": {
+    "default": "luè",
+    "alts": [
+      "liè"
+    ]
+  },
+  "裂": {
+    "default": "liè",
+    "alts": [
+      "liě"
+    ]
+  },
+  "林": {
+    "default": "lí",
+    "alts": [
+      "lín"
+    ]
+  },
+  "淋": {
+    "default": "lín",
+    "alts": [
+      "lìn"
+    ]
+  },
+  "磷": {
+    "default": "lin",
+    "alts": [
+      "lín"
+    ]
+  },
+  "岭": {
+    "default": "lǐng",
+    "alts": [
+      "líng"
+    ]
+  },
+  "令": {
+    "default": "lìng",
+    "alts": [
+      "líng",
+      "lǐng"
+    ]
+  },
+  "溜": {
+    "default": "liū",
+    "alts": [
+      "liù"
+    ]
+  },
+  "流": {
+    "default": "liu",
+    "alts": [
+      "liú"
+    ]
+  },
+  "骝": {
+    "default": "liu",
+    "alts": [
+      "liú"
+    ]
+  },
+  "柳": {
+    "default": "jiǔ",
+    "alts": [
+      "liǔ"
+    ]
+  },
+  "六": {
+    "default": "liù",
+    "alts": [
+      "lù"
+    ]
+  },
+  "龙": {
+    "default": "long",
+    "alts": [
+      "lóng"
+    ]
+  },
+  "泷": {
+    "default": "lóng",
+    "alts": [
+      "shuāng"
+    ]
+  },
+  "笼": {
+    "default": "lóng",
+    "alts": [
+      "lǒng"
+    ]
+  },
+  "隆": {
+    "default": "lōng",
+    "alts": [
+      "lóng"
+    ]
+  },
+  "偻": {
+    "default": "lóu",
+    "alts": [
+      "lǚ"
+    ]
+  },
+  "蒌": {
+    "default": "lǚ",
+    "alts": [
+      "lóu"
+    ]
+  },
+  "楼": {
+    "default": "lou",
+    "alts": [
+      "lóu"
+    ]
+  },
+  "搂": {
+    "default": "sǒu",
+    "alts": [
+      "lǒu",
+      "lōu"
+    ]
+  },
+  "漏": {
+    "default": "lou",
+    "alts": [
+      "lòu"
+    ]
+  },
+  "芦": {
+    "default": "lu",
+    "alts": [
+      "lú"
+    ]
+  },
+  "卤": {
+    "default": "lǔ",
+    "alts": [
+      "xī"
+    ]
+  },
+  "鲁": {
+    "default": "lú",
+    "alts": [
+      "lǔ"
+    ]
+  },
+  "陆": {
+    "default": "lù",
+    "alts": [
+      "liù"
+    ]
+  },
+  "禄": {
+    "default": "lǜ",
+    "alts": [
+      "lù"
+    ]
+  },
+  "僇": {
+    "default": "guī",
+    "alts": [
+      "jié",
+      "ruò",
+      "xié",
+      "lù"
+    ]
+  },
+  "碌": {
+    "default": "lù",
+    "alts": [
+      "liù"
+    ]
+  },
+  "露": {
+    "default": "lù",
+    "alts": [
+      "lòu"
+    ]
+  },
+  "闾": {
+    "default": "lǚ",
+    "alts": [
+      "lǔ",
+      "lǘ"
+    ]
+  },
+  "吕": {
+    "default": "lǜ",
+    "alts": [
+      "lǚ"
+    ]
+  },
+  "捋": {
+    "default": "luō",
+    "alts": [
+      "lǚ"
+    ]
+  },
+  "屡": {
+    "default": "lǜ",
+    "alts": [
+      "lǚ"
+    ]
+  },
+  "缕": {
+    "default": "lǜ",
+    "alts": [
+      "lǚ"
+    ]
+  },
+  "履": {
+    "default": "lǔ",
+    "alts": [
+      "lǚ"
+    ]
+  },
+  "律": {
+    "default": "lù",
+    "alts": [
+      "lǜ"
+    ]
+  },
+  "虑": {
+    "default": "lü",
+    "alts": [
+      "lǜ"
+    ]
+  },
+  "率": {
+    "default": "shuài",
+    "alts": [
+      "lǜ"
+    ]
+  },
+  "绿": {
+    "default": "lǜ",
+    "alts": [
+      "lù",
+      "lü"
+    ]
+  },
+  "鸾": {
+    "default": "láun",
+    "alts": [
+      "luán"
+    ]
+  },
+  "脔": {
+    "default": "luán",
+    "alts": [
+      "jī"
+    ]
+  },
+  "卵": {
+    "default": "luán",
+    "alts": [
+      "luǎn"
+    ]
+  },
+  "乱": {
+    "default": "làun",
+    "alts": [
+      "kuáng",
+      "luan",
+      "luàn"
+    ]
+  },
+  "掠": {
+    "default": "lüě",
+    "alts": [
+      "lüè"
+    ]
+  },
+  "略": {
+    "default": "luè",
+    "alts": [
+      "lue",
+      "lǜe4",
+      "lüè"
+    ]
+  },
+  "抡": {
+    "default": "lún",
+    "alts": [
+      "lūn"
+    ]
+  },
+  "伦": {
+    "default": "lú",
+    "alts": [
+      "lún"
+    ]
+  },
+  "纶": {
+    "default": "lún",
+    "alts": [
+      "guān",
+      "lun"
+    ]
+  },
+  "轮": {
+    "default": "kún",
+    "alts": [
+      "lún"
+    ]
+  },
+  "论": {
+    "default": "lùn",
+    "alts": [
+      "lún"
+    ]
+  },
+  "啰": {
+    "default": "luó",
+    "alts": [
+      "huā",
+      "luo",
+      "luō"
+    ]
+  },
+  "罗": {
+    "default": "luo",
+    "alts": [
+      "luò",
+      "luó"
+    ]
+  },
+  "攞": {
+    "default": "luǒ",
+    "alts": [
+      "lǒng",
+      "luó",
+      "luō"
+    ]
+  },
+  "络": {
+    "default": "luò",
+    "alts": [
+      "lào"
+    ]
+  },
+  "落": {
+    "default": "luò",
+    "alts": [
+      "là",
+      "luō",
+      "luo",
+      "méi",
+      "pò",
+      "lào"
+    ]
+  },
+  "蟆": {
+    "default": "má",
+    "alts": [
+      "mò"
+    ]
+  },
+  "马": {
+    "default": "méi",
+    "alts": [
+      "má",
+      "ma",
+      "mǎ"
+    ]
+  },
+  "蚂": {
+    "default": "mǎ",
+    "alts": [
+      "mà",
+      "mā"
+    ]
+  },
+  "埋": {
+    "default": "mái",
+    "alts": [
+      "mán"
+    ]
+  },
+  "脉": {
+    "default": "mài",
+    "alts": [
+      "mò"
+    ]
+  },
+  "瞒": {
+    "default": "mán",
+    "alts": [
+      "mén"
+    ]
+  },
+  "谩": {
+    "default": "màn",
+    "alts": [
+      "mán"
+    ]
+  },
+  "慢": {
+    "default": "man",
+    "alts": [
+      "màn"
+    ]
+  },
+  "蔓": {
+    "default": "màn",
+    "alts": [
+      "wàn"
+    ]
+  },
+  "忙": {
+    "default": "mang",
+    "alts": [
+      "máng"
+    ]
+  },
+  "尨": {
+    "default": "chóu",
+    "alts": [
+      "méng",
+      "shāng",
+      "lóng",
+      "máng",
+      "páng"
+    ]
+  },
+  "氓": {
+    "default": "méng",
+    "alts": [
+      "máng"
+    ]
+  },
+  "厖": {
+    "default": "páng",
+    "alts": [
+      "máng"
+    ]
+  },
+  "铓": {
+    "default": "huì",
+    "alts": [
+      "máng"
+    ]
+  },
+  "蟒": {
+    "default": "mǎng",
+    "alts": [
+      "měng"
+    ]
+  },
+  "猫": {
+    "default": "māo",
+    "alts": [
+      "máo"
+    ]
+  },
+  "毛": {
+    "default": "mao",
+    "alts": [
+      "mɑo5",
+      "máo"
+    ]
+  },
+  "牦": {
+    "default": "lí",
+    "alts": [
+      "máo"
+    ]
+  },
+  "旄": {
+    "default": "máo",
+    "alts": [
+      "mào"
+    ]
+  },
+  "茂": {
+    "default": "mǎo",
+    "alts": [
+      "mào"
+    ]
+  },
+  "冒": {
+    "default": "mào",
+    "alts": [
+      "mò"
+    ]
+  },
+  "貌": {
+    "default": "mao",
+    "alts": [
+      "mào"
+    ]
+  },
+  "么": {
+    "default": "yāo",
+    "alts": [
+      "mó",
+      "mǒ",
+      "ma",
+      "me"
+    ]
+  },
+  "没": {
+    "default": "méi",
+    "alts": [
+      "mò"
+    ]
+  },
+  "枚": {
+    "default": "mǎ",
+    "alts": [
+      "méi"
+    ]
+  },
+  "眉": {
+    "default": "mé",
+    "alts": [
+      "mei",
+      "méi"
+    ]
+  },
+  "梅": {
+    "default": "mén",
+    "alts": [
+      "méi"
+    ]
+  },
+  "穈": {
+    "default": "qún",
+    "alts": [
+      "méi",
+      "mén"
+    ]
+  },
+  "美": {
+    "default": "mei",
+    "alts": [
+      "lián",
+      "měi"
+    ]
+  },
+  "黣": {
+    "default": "móu",
+    "alts": [
+      "měi"
+    ]
+  },
+  "沬": {
+    "default": "mèi",
+    "alts": [
+      "huì"
+    ]
+  },
+  "门": {
+    "default": "kǒu",
+    "alts": [
+      "gé",
+      "nén",
+      "mén"
+    ]
+  },
+  "闷": {
+    "default": "mèn",
+    "alts": [
+      "mēn"
+    ]
+  },
+  "萌": {
+    "default": "máng",
+    "alts": [
+      "méng"
+    ]
+  },
+  "蒙": {
+    "default": "méng",
+    "alts": [
+      "mēng",
+      "měng"
+    ]
+  },
+  "瞢": {
+    "default": "méng",
+    "alts": [
+      "měng"
+    ]
+  },
+  "梦": {
+    "default": "mēng",
+    "alts": [
+      "mèng"
+    ]
+  },
+  "眯": {
+    "default": "mǐ",
+    "alts": [
+      "mí",
+      "mī"
+    ]
+  },
+  "瞇": {
+    "default": "mī",
+    "alts": [
+      "mí"
+    ]
+  },
+  "弥": {
+    "default": "mí",
+    "alts": [
+      "mǐ"
+    ]
+  },
+  "迷": {
+    "default": "méi",
+    "alts": [
+      "mí"
+    ]
+  },
+  "糜": {
+    "default": "mí",
+    "alts": [
+      "mǐ",
+      "méi"
+    ]
+  },
+  "靡": {
+    "default": "mǐ",
+    "alts": [
+      "mí"
+    ]
+  },
+  "祕": {
+    "default": "bì",
+    "alts": [
+      "mì"
+    ]
+  },
+  "秘": {
+    "default": "mì",
+    "alts": [
+      "bì"
+    ]
+  },
+  "蜜": {
+    "default": "kǒu",
+    "alts": [
+      "mì"
+    ]
+  },
+  "渑": {
+    "default": "miǎn",
+    "alts": [
+      "shéng"
+    ]
+  },
+  "腼": {
+    "default": "tiǎn",
+    "alts": [
+      "miǎn"
+    ]
+  },
+  "眄": {
+    "default": "miàn",
+    "alts": [
+      "miǎn"
+    ]
+  },
+  "面": {
+    "default": "miān",
+    "alts": [
+      "mian",
+      "mìan4",
+      "miàn"
+    ]
+  },
+  "乜": {
+    "default": "niè",
+    "alts": [
+      "miē"
+    ]
+  },
+  "民": {
+    "default": "mí",
+    "alts": [
+      "min",
+      "míng",
+      "hǔ",
+      "mín"
+    ]
+  },
+  "黾": {
+    "default": "měng",
+    "alts": [
+      "mǐn",
+      "miǎn"
+    ]
+  },
+  "名": {
+    "default": "gè",
+    "alts": [
+      "yù",
+      "ming",
+      "wén",
+      "míng"
+    ]
+  },
+  "明": {
+    "default": "jíng",
+    "alts": [
+      "minɡ2",
+      "míng"
+    ]
+  },
+  "瞑": {
+    "default": "míng",
+    "alts": [
+      "mián"
+    ]
+  },
+  "命": {
+    "default": "míng",
+    "alts": [
+      "mìmg",
+      "mingǜ",
+      "mìng"
+    ]
+  },
+  "摸": {
+    "default": "mó",
+    "alts": [
+      "mō"
+    ]
+  },
+  "谟": {
+    "default": "mò",
+    "alts": [
+      "mo",
+      "mó"
+    ]
+  },
+  "模": {
+    "default": "mó",
+    "alts": [
+      "mú"
+    ]
+  },
+  "膜": {
+    "default": "mò",
+    "alts": [
+      "mó"
+    ]
+  },
+  "麽": {
+    "default": "mǒ",
+    "alts": [
+      "ma",
+      "me",
+      "mó"
+    ]
+  },
+  "摩": {
+    "default": "mó",
+    "alts": [
+      "mā"
+    ]
+  },
+  "磨": {
+    "default": "mó",
+    "alts": [
+      "mò",
+      "mo"
+    ]
+  },
+  "劘": {
+    "default": "jīn",
+    "alts": [
+      "mó"
+    ]
+  },
+  "抹": {
+    "default": "mǒ",
+    "alts": [
+      "mò",
+      "mā"
+    ]
+  },
+  "莫": {
+    "default": "mò",
+    "alts": [
+      "mù",
+      "mó"
+    ]
+  },
+  "牟": {
+    "default": "móu",
+    "alts": [
+      "mù"
+    ]
+  },
+  "谋": {
+    "default": "mǒu",
+    "alts": [
+      "móu"
+    ]
+  },
+  "缪": {
+    "default": "miù",
+    "alts": [
+      "móu",
+      "liáo",
+      "miu",
+      "miào",
+      "mù"
+    ]
+  },
+  "母": {
+    "default": "mù",
+    "alts": [
+      "mǔ"
+    ]
+  },
+  "畒": {
+    "default": "wèng",
+    "alts": [
+      "mǔ"
+    ]
+  },
+  "目": {
+    "default": "mú",
+    "alts": [
+      "mu",
+      "zhāng",
+      "mù"
+    ]
+  },
+  "沐": {
+    "default": "mǔ",
+    "alts": [
+      "mù"
+    ]
+  },
+  "幙": {
+    "default": "yú",
+    "alts": [
+      "mù"
+    ]
+  },
+  "拏": {
+    "default": "mù",
+    "alts": [
+      "bō",
+      "kāi",
+      "yào",
+      "zhuō",
+      "ná"
+    ]
+  },
+  "那": {
+    "default": "nà",
+    "alts": [
+      "nèi"
+    ]
+  },
+  "呐": {
+    "default": "nà",
+    "alts": [
+      "nè"
+    ]
+  },
+  "娜": {
+    "default": "nuó",
+    "alts": [
+      "nà"
+    ]
+  },
+  "乃": {
+    "default": "nai",
+    "alts": [
+      "nǎi"
+    ]
+  },
+  "佴": {
+    "default": "er",
+    "alts": [
+      "èr",
+      "nài"
+    ]
+  },
+  "奈": {
+    "default": "nai",
+    "alts": [
+      "nài"
+    ]
+  },
+  "耐": {
+    "default": "néng",
+    "alts": [
+      "nai",
+      "nài"
+    ]
+  },
+  "鼐": {
+    "default": "nai",
+    "alts": [
+      "nài"
+    ]
+  },
+  "南": {
+    "default": "nán",
+    "alts": [
+      "nā"
+    ]
+  },
+  "难": {
+    "default": "nán",
+    "alts": [
+      "nàn",
+      "nan",
+      "nuó"
+    ]
+  },
+  "囊": {
+    "default": "náng",
+    "alts": [
+      "nāng"
+    ]
+  },
+  "脑": {
+    "default": "nao)3",
+    "alts": [
+      "nǎo"
+    ]
+  },
+  "呢": {
+    "default": "ní",
+    "alts": [
+      "ne"
+    ]
+  },
+  "内": {
+    "default": "nèi",
+    "alts": [
+      "nà"
+    ]
+  },
+  "能": {
+    "default": "néng",
+    "alts": [
+      "nài"
+    ]
+  },
+  "泥": {
+    "default": "ní",
+    "alts": [
+      "nì",
+      "niè"
+    ]
+  },
+  "蜺": {
+    "default": "yī",
+    "alts": [
+      "ní"
+    ]
+  },
+  "臡": {
+    "default": "ní",
+    "alts": [
+      "luán"
+    ]
+  },
+  "儗": {
+    "default": "nǐ",
+    "alts": [
+      "lǐ",
+      "shì",
+      "yì"
+    ]
+  },
+  "溺": {
+    "default": "nì",
+    "alts": [
+      "niào"
+    ]
+  },
+  "拈": {
+    "default": "diān",
+    "alts": [
+      "nián",
+      "niǎn",
+      "niān"
+    ]
+  },
+  "年": {
+    "default": "nian",
+    "alts": [
+      "nián"
+    ]
+  },
+  "捻": {
+    "default": "niǎn",
+    "alts": [
+      "niē"
+    ]
+  },
+  "尿": {
+    "default": "niào",
+    "alts": [
+      "suī"
+    ]
+  },
+  "苶": {
+    "default": "niè",
+    "alts": [
+      "nié"
+    ]
+  },
+  "枿": {
+    "default": "niǎo",
+    "alts": [
+      "niè"
+    ]
+  },
+  "蘖": {
+    "default": "bò",
+    "alts": [
+      "niè"
+    ]
+  },
+  "宁": {
+    "default": "níng",
+    "alts": [
+      "nìng",
+      "ning",
+      "zhù"
+    ]
+  },
+  "拧": {
+    "default": "níng",
+    "alts": [
+      "nìng",
+      "nǐng"
+    ]
+  },
+  "襛": {
+    "default": "yàn",
+    "alts": [
+      "nóng"
+    ]
+  },
+  "弄": {
+    "default": "nòng",
+    "alts": [
+      "lòng"
+    ]
+  },
+  "驽": {
+    "default": "nǔ",
+    "alts": [
+      "nú"
+    ]
+  },
+  "怒": {
+    "default": "mù",
+    "alts": [
+      "nǔ",
+      "lù",
+      "nù"
+    ]
+  },
+  "女": {
+    "default": "nǚ",
+    "alts": [
+      "nǔ",
+      "nǘ",
+      "rǔ"
+    ]
+  },
+  "暖": {
+    "default": "xuán",
+    "alts": [
+      "nuǎn"
+    ]
+  },
+  "虐": {
+    "default": "nuè",
+    "alts": [
+      "xià",
+      "nǜe4",
+      "nüè"
+    ]
+  },
+  "喏": {
+    "default": "nuò",
+    "alts": [
+      "rě"
+    ]
+  },
+  "喔": {
+    "default": "ō",
+    "alts": [
+      "ōu",
+      "wō"
+    ]
+  },
+  "鸥": {
+    "default": "ou",
+    "alts": [
+      "ōu"
+    ]
+  },
+  "呕": {
+    "default": "ǒu",
+    "alts": [
+      "òu",
+      "ōu"
+    ]
+  },
+  "偶": {
+    "default": "ou",
+    "alts": [
+      "ǒu"
+    ]
+  },
+  "沤": {
+    "default": "ōu",
+    "alts": [
+      "òu"
+    ]
+  },
+  "琶": {
+    "default": "pā",
+    "alts": [
+      "pá"
+    ]
+  },
+  "排": {
+    "default": "pái",
+    "alts": [
+      "pǎi"
+    ]
+  },
+  "派": {
+    "default": "pai",
+    "alts": [
+      "pài"
+    ]
+  },
+  "渒": {
+    "default": "péng",
+    "alts": [
+      "pài"
+    ]
+  },
+  "湃": {
+    "default": "pai",
+    "alts": [
+      "pài"
+    ]
+  },
+  "盘": {
+    "default": "pan",
+    "alts": [
+      "pán"
+    ]
+  },
+  "蟠": {
+    "default": "pān",
+    "alts": [
+      "pán"
+    ]
+  },
+  "拚": {
+    "default": "pàn",
+    "alts": [
+      "fān",
+      "pīn"
+    ]
+  },
+  "滂": {
+    "default": "páng",
+    "alts": [
+      "pāng"
+    ]
+  },
+  "彷": {
+    "default": "páng",
+    "alts": [
+      "fǎng"
+    ]
+  },
+  "旁": {
+    "default": "páng",
+    "alts": [
+      "bàng"
+    ]
+  },
+  "嗙": {
+    "default": "pǎng",
+    "alts": [
+      "bēng"
+    ]
+  },
+  "胖": {
+    "default": "pán",
+    "alts": [
+      "pàng",
+      "pàn"
+    ]
+  },
+  "刨": {
+    "default": "páo",
+    "alts": [
+      "pao",
+      "bào"
+    ]
+  },
+  "炰": {
+    "default": "páo",
+    "alts": [
+      "fèng",
+      "fǒu"
+    ]
+  },
+  "袍": {
+    "default": "pào",
+    "alts": [
+      "páo"
+    ]
+  },
+  "跑": {
+    "default": "pǎo",
+    "alts": [
+      "páo"
+    ]
+  },
+  "泡": {
+    "default": "pào",
+    "alts": [
+      "pāo"
+    ]
+  },
+  "炮": {
+    "default": "pào",
+    "alts": [
+      "páo",
+      "bāo"
+    ]
+  },
+  "培": {
+    "default": "pei",
+    "alts": [
+      "péi"
+    ]
+  },
+  "喷": {
+    "default": "pēn",
+    "alts": [
+      "pèn"
+    ]
+  },
+  "弸": {
+    "default": "péng",
+    "alts": [
+      "bēng"
+    ]
+  },
+  "淜": {
+    "default": "péng",
+    "alts": [
+      "píng"
+    ]
+  },
+  "彭": {
+    "default": "péng",
+    "alts": [
+      "bāng"
+    ]
+  },
+  "蓬": {
+    "default": "bó",
+    "alts": [
+      "péng"
+    ]
+  },
+  "纰": {
+    "default": "pī",
+    "alts": [
+      "bǐ",
+      "pí"
+    ]
+  },
+  "披": {
+    "default": "jīn",
+    "alts": [
+      "pī"
+    ]
+  },
+  "劈": {
+    "default": "pī",
+    "alts": [
+      "pǐ"
+    ]
+  },
+  "皮": {
+    "default": "pǐ",
+    "alts": [
+      "shuǐ",
+      "pí"
+    ]
+  },
+  "陂": {
+    "default": "bēi",
+    "alts": [
+      "bì",
+      "pí",
+      "pō"
+    ]
+  },
+  "疲": {
+    "default": "láo",
+    "alts": [
+      "pí"
+    ]
+  },
+  "蚍": {
+    "default": "bí",
+    "alts": [
+      "pí"
+    ]
+  },
+  "匹": {
+    "default": "pī",
+    "alts": [
+      "pí",
+      "pǐ"
+    ]
+  },
+  "擗": {
+    "default": "pǐ",
+    "alts": [
+      "bì",
+      "pì",
+      "bò"
+    ]
+  },
+  "睥": {
+    "default": "pì",
+    "alts": [
+      "bì"
+    ]
+  },
+  "辟": {
+    "default": "pì",
+    "alts": [
+      "bì"
+    ]
+  },
+  "偏": {
+    "default": "piāng",
+    "alts": [
+      "piān"
+    ]
+  },
+  "片": {
+    "default": "piàn",
+    "alts": [
+      "piān"
+    ]
+  },
+  "缥": {
+    "default": "piāo",
+    "alts": [
+      "piǎo"
+    ]
+  },
+  "嫖": {
+    "default": "piáo",
+    "alts": [
+      "piāo"
+    ]
+  },
+  "殍": {
+    "default": "piao",
+    "alts": [
+      "piǎo"
+    ]
+  },
+  "票": {
+    "default": "piào",
+    "alts": [
+      "piāo"
+    ]
+  },
+  "僄": {
+    "default": "piào",
+    "alts": [
+      "bù",
+      "biāo",
+      "piāo"
+    ]
+  },
+  "漂": {
+    "default": "piāo",
+    "alts": [
+      "piào",
+      "piǎo"
+    ]
+  },
+  "撇": {
+    "default": "piē",
+    "alts": [
+      "piě"
+    ]
+  },
+  "频": {
+    "default": "pín",
+    "alts": [
+      "bīn"
+    ]
+  },
+  "蠙": {
+    "default": "pín",
+    "alts": [
+      "bīn"
+    ]
+  },
+  "品": {
+    "default": "kǒu",
+    "alts": [
+      "pǐn"
+    ]
+  },
+  "娉": {
+    "default": "píng",
+    "alts": [
+      "pīng"
+    ]
+  },
+  "平": {
+    "default": "pián",
+    "alts": [
+      "píng"
+    ]
+  },
+  "苹": {
+    "default": "píng",
+    "alts": [
+      "pēng"
+    ]
+  },
+  "屏": {
+    "default": "bǐng",
+    "alts": [
+      "píng"
+    ]
+  },
+  "帡": {
+    "default": "jú",
+    "alts": [
+      "píng"
+    ]
+  },
+  "萍": {
+    "default": "péng",
+    "alts": [
+      "píng"
+    ]
+  },
+  "泊": {
+    "default": "bó",
+    "alts": [
+      "pō"
+    ]
+  },
+  "颇": {
+    "default": "pǒ",
+    "alts": [
+      "pō"
+    ]
+  },
+  "迫": {
+    "default": "pò",
+    "alts": [
+      "pǎi"
+    ]
+  },
+  "魄": {
+    "default": "hún",
+    "alts": [
+      "tuo",
+      "pò"
+    ]
+  },
+  "剖": {
+    "default": "pǒu",
+    "alts": [
+      "pōu"
+    ]
+  },
+  "掊": {
+    "default": "pǒu",
+    "alts": [
+      "póu"
+    ]
+  },
+  "裒": {
+    "default": "pū",
+    "alts": [
+      "yòu",
+      "póu"
+    ]
+  },
+  "仆": {
+    "default": "pú",
+    "alts": [
+      "pū"
+    ]
+  },
+  "扑": {
+    "default": "pǔ",
+    "alts": [
+      "pū"
+    ]
+  },
+  "脯": {
+    "default": "pú",
+    "alts": [
+      "fǔ"
+    ]
+  },
+  "蒲": {
+    "default": "pǔ",
+    "alts": [
+      "pú"
+    ]
+  },
+  "酺": {
+    "default": "pū",
+    "alts": [
+      "pú"
+    ]
+  },
+  "璞": {
+    "default": "pǔ",
+    "alts": [
+      "bú",
+      "pú"
+    ]
+  },
+  "朴": {
+    "default": "pǔ",
+    "alts": [
+      "pò",
+      "pú",
+      "piáo",
+      "pō"
+    ]
+  },
+  "铺": {
+    "default": "pū",
+    "alts": [
+      "pù"
+    ]
+  },
+  "曝": {
+    "default": "pù",
+    "alts": [
+      "bào"
+    ]
+  },
+  "妻": {
+    "default": "qī",
+    "alts": [
+      "qì"
+    ]
+  },
+  "栖": {
+    "default": "qī",
+    "alts": [
+      "xī"
+    ]
+  },
+  "戚": {
+    "default": "qi",
+    "alts": [
+      "qì",
+      "qī"
+    ]
+  },
+  "期": {
+    "default": "qī",
+    "alts": [
+      "jī",
+      "qi",
+      "qí"
+    ]
+  },
+  "蹊": {
+    "default": "xī",
+    "alts": [
+      "qī"
+    ]
+  },
+  "齐": {
+    "default": "qí",
+    "alts": [
+      "jì",
+      "qi",
+      "zhāi",
+      "zī"
+    ]
+  },
+  "其": {
+    "default": "qí",
+    "alts": [
+      "qi",
+      "jī",
+      "qì",
+      "suǒ"
+    ]
+  },
+  "奇": {
+    "default": "qí",
+    "alts": [
+      "jī",
+      "qì",
+      "qī",
+      "ji"
+    ]
+  },
+  "祇": {
+    "default": "qí",
+    "alts": [
+      "zhǐ"
+    ]
+  },
+  "祈": {
+    "default": "qǐ",
+    "alts": [
+      "qí"
+    ]
+  },
+  "俟": {
+    "default": "sì",
+    "alts": [
+      "qí"
+    ]
+  },
+  "耆": {
+    "default": "qí",
+    "alts": [
+      "shì"
+    ]
+  },
+  "畦": {
+    "default": "xī",
+    "alts": [
+      "qí"
+    ]
+  },
+  "萁": {
+    "default": "qí",
+    "alts": [
+      "jī"
+    ]
+  },
+  "跂": {
+    "default": "qì",
+    "alts": [
+      "qǐ",
+      "qí",
+      "bìng",
+      "guì"
+    ]
+  },
+  "骑": {
+    "default": "jì",
+    "alts": [
+      "qí"
+    ]
+  },
+  "棊": {
+    "default": "què",
+    "alts": [
+      "qí"
+    ]
+  },
+  "乞": {
+    "default": "qi",
+    "alts": [
+      "qǐ"
+    ]
+  },
+  "岂": {
+    "default": "kǎi",
+    "alts": [
+      "qǐ"
+    ]
+  },
+  "气": {
+    "default": "qi",
+    "alts": [
+      "qí",
+      "qì"
+    ]
+  },
+  "泣": {
+    "default": "qǐ",
+    "alts": [
+      "qì"
+    ]
+  },
+  "契": {
+    "default": "qì",
+    "alts": [
+      "qiè",
+      "xiè"
+    ]
+  },
+  "砌": {
+    "default": "qì",
+    "alts": [
+      "qiè"
+    ]
+  },
+  "袷": {
+    "default": "jiá",
+    "alts": [
+      "jié",
+      "qiā"
+    ]
+  },
+  "帢": {
+    "default": "jiá",
+    "alts": [
+      "qià"
+    ]
+  },
+  "洽": {
+    "default": "xiá",
+    "alts": [
+      "qià"
+    ]
+  },
+  "千": {
+    "default": "qián",
+    "alts": [
+      "qian",
+      "qiān"
+    ]
+  },
+  "铅": {
+    "default": "qiān",
+    "alts": [
+      "yán"
+    ]
+  },
+  "愆": {
+    "default": "qian",
+    "alts": [
+      "qiān"
+    ]
+  },
+  "前": {
+    "default": "qiáng",
+    "alts": [
+      "qián"
+    ]
+  },
+  "乾": {
+    "default": "qián",
+    "alts": [
+      "qiān",
+      "gān"
+    ]
+  },
+  "浅": {
+    "default": "qiǎn",
+    "alts": [
+      "jiān"
+    ]
+  },
+  "嗛": {
+    "default": "xián",
+    "alts": [
+      "qiàn",
+      "qiè"
+    ]
+  },
+  "堑": {
+    "default": "piàn",
+    "alts": [
+      "qiàn"
+    ]
+  },
+  "戗": {
+    "default": "qiāng",
+    "alts": [
+      "qiàng"
+    ]
+  },
+  "斨": {
+    "default": "zhōu",
+    "alts": [
+      "miàn",
+      "qiāng"
+    ]
+  },
+  "镪": {
+    "default": "qiāng",
+    "alts": [
+      "qiǎng"
+    ]
+  },
+  "鎗": {
+    "default": "qiāng",
+    "alts": [
+      "chēng"
+    ]
+  },
+  "强": {
+    "default": "qiáng",
+    "alts": [
+      "qiǎng",
+      "jiàng"
+    ]
+  },
+  "抢": {
+    "default": "qiǎng",
+    "alts": [
+      "qiāng",
+      "chēng"
+    ]
+  },
+  "跄": {
+    "default": "qiàng",
+    "alts": [
+      "qiāng"
+    ]
+  },
+  "悄": {
+    "default": "qiāo",
+    "alts": [
+      "qiǎo"
+    ]
+  },
+  "俏": {
+    "default": "qiào",
+    "alts": [
+      "xiào"
+    ]
+  },
+  "翘": {
+    "default": "qiáo",
+    "alts": [
+      "qiào"
+    ]
+  },
+  "鞘": {
+    "default": "qiào",
+    "alts": [
+      "shāo"
+    ]
+  },
+  "且": {
+    "default": "qiě",
+    "alts": [
+      "qiè",
+      "jū"
+    ]
+  },
+  "切": {
+    "default": "qiè",
+    "alts": [
+      "qiē"
+    ]
+  },
+  "亲": {
+    "default": "qīn",
+    "alts": [
+      "qìng"
+    ]
+  },
+  "嵚": {
+    "default": "shì",
+    "alts": [
+      "qīn"
+    ]
+  },
+  "琴": {
+    "default": "qí",
+    "alts": [
+      "qín"
+    ]
+  },
+  "鬵": {
+    "default": "qí",
+    "alts": [
+      "zèng"
+    ]
+  },
+  "青": {
+    "default": "jīng",
+    "alts": [
+      "qīng"
+    ]
+  },
+  "轻": {
+    "default": "qing",
+    "alts": [
+      "qīng"
+    ]
+  },
+  "清": {
+    "default": "qing",
+    "alts": [
+      "qīng"
+    ]
+  },
+  "情": {
+    "default": "qing",
+    "alts": [
+      "qíng"
+    ]
+  },
+  "晴": {
+    "default": "áing",
+    "alts": [
+      "jīng",
+      "qíng"
+    ]
+  },
+  "请": {
+    "default": "qing",
+    "alts": [
+      "qǐng"
+    ]
+  },
+  "凊": {
+    "default": "jìng",
+    "alts": [
+      "qǐng",
+      "qìng"
+    ]
+  },
+  "綮": {
+    "default": "qǐng",
+    "alts": [
+      "qìng",
+      "qǐ"
+    ]
+  },
+  "穷": {
+    "default": "qing",
+    "alts": [
+      "qióng"
+    ]
+  },
+  "惸": {
+    "default": "dì",
+    "alts": [
+      "gū",
+      "qióng"
+    ]
+  },
+  "秋": {
+    "default": "shuǐ",
+    "alts": [
+      "qiū"
+    ]
+  },
+  "囚": {
+    "default": "qiu",
+    "alts": [
+      "qiú"
+    ]
+  },
+  "求": {
+    "default": "tú",
+    "alts": [
+      "qiú"
+    ]
+  },
+  "区": {
+    "default": "qū",
+    "alts": [
+      "ōu"
+    ]
+  },
+  "曲": {
+    "default": "qū",
+    "alts": [
+      "qǔ",
+      "qu"
+    ]
+  },
+  "屈": {
+    "default": "jué",
+    "alts": [
+      "qù",
+      "qū"
+    ]
+  },
+  "胠": {
+    "default": "wú",
+    "alts": [
+      "qū"
+    ]
+  },
+  "躯": {
+    "default": "qù",
+    "alts": [
+      "qū"
+    ]
+  },
+  "趋": {
+    "default": "qū",
+    "alts": [
+      "qiù",
+      "qú",
+      "cù"
+    ]
+  },
+  "渠": {
+    "default": "qú",
+    "alts": [
+      "jù"
+    ]
+  },
+  "瞿": {
+    "default": "jù",
+    "alts": [
+      "qú"
+    ]
+  },
+  "取": {
+    "default": "qu",
+    "alts": [
+      "qú",
+      "qǔ"
+    ]
+  },
+  "呿": {
+    "default": "qù",
+    "alts": [
+      "fēn",
+      "qū"
+    ]
+  },
+  "觑": {
+    "default": "qù",
+    "alts": [
+      "qū"
+    ]
+  },
+  "趣": {
+    "default": "qù",
+    "alts": [
+      "cù",
+      "qū"
+    ]
+  },
+  "圈": {
+    "default": "quān",
+    "alts": [
+      "juàn",
+      "juān"
+    ]
+  },
+  "棬": {
+    "default": "juàn",
+    "alts": [
+      "quān"
+    ]
+  },
+  "惓": {
+    "default": "quán",
+    "alts": [
+      "tiě",
+      "juàn",
+      "quān"
+    ]
+  },
+  "犬": {
+    "default": "quān",
+    "alts": [
+      "quán",
+      "quǎn"
+    ]
+  },
+  "券": {
+    "default": "quàn",
+    "alts": [
+      "xuàn"
+    ]
+  },
+  "阙": {
+    "default": "què",
+    "alts": [
+      "quē",
+      "que"
+    ]
+  },
+  "雀": {
+    "default": "què",
+    "alts": [
+      "qué",
+      "qiǎo",
+      "qiāo"
+    ]
+  },
+  "鹊": {
+    "default": "que",
+    "alts": [
+      "què"
+    ]
+  },
+  "碻": {
+    "default": "zhòu",
+    "alts": [
+      "qiāo",
+      "què"
+    ]
+  },
+  "囷": {
+    "default": "jūn",
+    "alts": [
+      "fèng",
+      "què",
+      "qūn"
+    ]
+  },
+  "裙": {
+    "default": "jū",
+    "alts": [
+      "qún"
+    ]
+  },
+  "群": {
+    "default": "qùn",
+    "alts": [
+      "qūn",
+      "qún"
+    ]
+  },
+  "然": {
+    "default": "ran",
+    "alts": [
+      "rán"
+    ]
+  },
+  "髯": {
+    "default": "ran",
+    "alts": [
+      "rǎn",
+      "rán"
+    ]
+  },
+  "穣": {
+    "default": "gǔ",
+    "alts": [
+      "ráng"
+    ]
+  },
+  "勷": {
+    "default": "xiào",
+    "alts": [
+      "ráng",
+      "xiāng"
+    ]
+  },
+  "穰": {
+    "default": "rǎng",
+    "alts": [
+      "ráng"
+    ]
+  },
+  "嚷": {
+    "default": "rǎng",
+    "alts": [
+      "rāng"
+    ]
+  },
+  "攘": {
+    "default": "ráng",
+    "alts": [
+      "ràng",
+      "rǎng"
+    ]
+  },
+  "娆": {
+    "default": "ráo",
+    "alts": [
+      "rǎo"
+    ]
+  },
+  "桡": {
+    "default": "ráo",
+    "alts": [
+      "náo"
+    ]
+  },
+  "绕": {
+    "default": "rào",
+    "alts": [
+      "ráo",
+      "rǎo"
+    ]
+  },
+  "热": {
+    "default": "rě",
+    "alts": [
+      "rè"
+    ]
+  },
+  "人": {
+    "default": "ren",
+    "alts": [
+      "én",
+      "mén",
+      "mín",
+      "rèn",
+      "rén"
+    ]
+  },
+  "忍": {
+    "default": "rèn",
+    "alts": [
+      "rěn"
+    ]
+  },
+  "任": {
+    "default": "rèn",
+    "alts": [
+      "rén"
+    ]
+  },
+  "日": {
+    "default": "rí",
+    "alts": [
+      "yuè",
+      "mì",
+      "ri",
+      "rì"
+    ]
+  },
+  "容": {
+    "default": "ān",
+    "alts": [
+      "róng"
+    ]
+  },
+  "溶": {
+    "default": "rong",
+    "alts": [
+      "róng"
+    ]
+  },
+  "柔": {
+    "default": "rou",
+    "alts": [
+      "róu"
+    ]
+  },
+  "楺": {
+    "default": "zhī",
+    "alts": [
+      "róu"
+    ]
+  },
+  "如": {
+    "default": "rū",
+    "alts": [
+      "ru",
+      "sì",
+      "rù",
+      "rú"
+    ]
+  },
+  "儒": {
+    "default": "rǔ",
+    "alts": [
+      "rú"
+    ]
+  },
+  "嚅": {
+    "default": "rǔ",
+    "alts": [
+      "rú"
+    ]
+  },
+  "濡": {
+    "default": "rǔ",
+    "alts": [
+      "rú"
+    ]
+  },
+  "汝": {
+    "default": "zhuāng",
+    "alts": [
+      "nu",
+      "rǔ"
+    ]
+  },
+  "辱": {
+    "default": "rù",
+    "alts": [
+      "rǔ"
+    ]
+  },
+  "擩": {
+    "default": "rù",
+    "alts": [
+      "rǔ"
+    ]
+  },
+  "入": {
+    "default": "ru",
+    "alts": [
+      "rù"
+    ]
+  },
+  "婑": {
+    "default": "wǒ",
+    "alts": [
+      "ruí"
+    ]
+  },
+  "瑞": {
+    "default": "rèi",
+    "alts": [
+      "ruì"
+    ]
+  },
+  "若": {
+    "default": "ruò",
+    "alts": [
+      "rě",
+      "ruo"
+    ]
+  },
+  "弱": {
+    "default": "ruo",
+    "alts": [
+      "ruò"
+    ]
+  },
+  "爇": {
+    "default": "yì",
+    "alts": [
+      "tú",
+      "ruò"
+    ]
+  },
+  "挲": {
+    "default": "suō",
+    "alts": [
+      "shā"
+    ]
+  },
+  "撒": {
+    "default": "sā",
+    "alts": [
+      "sǎ"
+    ]
+  },
+  "洒": {
+    "default": "sǎ",
+    "alts": [
+      "jiǔ",
+      "xǐ"
+    ]
+  },
+  "摋": {
+    "default": "sà",
+    "alts": [
+      "shā"
+    ]
+  },
+  "塞": {
+    "default": "sāi",
+    "alts": [
+      "sè",
+      "sài",
+      "saī4"
+    ]
+  },
+  "鳃": {
+    "default": "xǐ",
+    "alts": [
+      "sāi"
+    ]
+  },
+  "僿": {
+    "default": "sāi",
+    "alts": [
+      "sài"
+    ]
+  },
+  "三": {
+    "default": "sā",
+    "alts": [
+      "sān"
+    ]
+  },
+  "散": {
+    "default": "sàn",
+    "alts": [
+      "sǎn",
+      "sà"
+    ]
+  },
+  "丧": {
+    "default": "sàng",
+    "alts": [
+      "sāng",
+      "shàng"
+    ]
+  },
+  "骚": {
+    "default": "sāo",
+    "alts": [
+      "sǎo"
+    ]
+  },
+  "臊": {
+    "default": "sāo",
+    "alts": [
+      "sào"
+    ]
+  },
+  "扫": {
+    "default": "sǎo",
+    "alts": [
+      "sào"
+    ]
+  },
+  "埽": {
+    "default": "sào",
+    "alts": [
+      "sǎo"
+    ]
+  },
+  "色": {
+    "default": "se",
+    "alts": [
+      "she",
+      "sè"
+    ]
+  },
+  "杀": {
+    "default": "shài",
+    "alts": [
+      "shā"
+    ]
+  },
+  "沙": {
+    "default": "shā",
+    "alts": [
+      "shē",
+      "sha",
+      "shà"
+    ]
+  },
+  "煞": {
+    "default": "shà",
+    "alts": [
+      "shā"
+    ]
+  },
+  "厦": {
+    "default": "shà",
+    "alts": [
+      "xià"
+    ]
+  },
+  "箑": {
+    "default": "zhá",
+    "alts": [
+      "shà"
+    ]
+  },
+  "晒": {
+    "default": "shai",
+    "alts": [
+      "shài"
+    ]
+  },
+  "山": {
+    "default": "shā",
+    "alts": [
+      "shan",
+      "shān"
+    ]
+  },
+  "姗": {
+    "default": "shān",
+    "alts": [
+      "shàn"
+    ]
+  },
+  "苫": {
+    "default": "shān",
+    "alts": [
+      "shàn"
+    ]
+  },
+  "埏": {
+    "default": "yán",
+    "alts": [
+      "shān"
+    ]
+  },
+  "搧": {
+    "default": "yǒu",
+    "alts": [
+      "shān"
+    ]
+  },
+  "膻": {
+    "default": "shān",
+    "alts": [
+      "dàn"
+    ]
+  },
+  "扇": {
+    "default": "shàn",
+    "alts": [
+      "shān"
+    ]
+  },
+  "擅": {
+    "default": "shà",
+    "alts": [
+      "shàn"
+    ]
+  },
+  "赡": {
+    "default": "shan",
+    "alts": [
+      "shàn"
+    ]
+  },
+  "伤": {
+    "default": "shēng",
+    "alts": [
+      "shāng"
+    ]
+  },
+  "觞": {
+    "default": "shang",
+    "alts": [
+      "shāng"
+    ]
+  },
+  "赏": {
+    "default": "shàng",
+    "alts": [
+      "shǎng"
+    ]
+  },
+  "上": {
+    "default": "shàng",
+    "alts": [
+      "shǎng"
+    ]
+  },
+  "裳": {
+    "default": "cháng",
+    "alts": [
+      "shang",
+      "shāng",
+      "sháng"
+    ]
+  },
+  "捎": {
+    "default": "shāo",
+    "alts": [
+      "shào"
+    ]
+  },
+  "梢": {
+    "default": "shāo",
+    "alts": [
+      "sào"
+    ]
+  },
+  "稍": {
+    "default": "shāo",
+    "alts": [
+      "shào"
+    ]
+  },
+  "苕": {
+    "default": "tiáo",
+    "alts": [
+      "sháo"
+    ]
+  },
+  "韶": {
+    "default": "shǎo",
+    "alts": [
+      "sháo"
+    ]
+  },
+  "少": {
+    "default": "shǎo",
+    "alts": [
+      "shào",
+      "xhǎo",
+      "shao"
+    ]
+  },
+  "卲": {
+    "default": "ér",
+    "alts": [
+      "shào"
+    ]
+  },
+  "哨": {
+    "default": "shāo",
+    "alts": [
+      "qiào",
+      "shào"
+    ]
+  },
+  "奢": {
+    "default": "she",
+    "alts": [
+      "shē"
+    ]
+  },
+  "舌": {
+    "default": "cí",
+    "alts": [
+      "shè",
+      "shé"
+    ]
+  },
+  "蛇": {
+    "default": "shé",
+    "alts": [
+      "yí"
+    ]
+  },
+  "舍": {
+    "default": "shě",
+    "alts": [
+      "shè",
+      "cáng",
+      "she"
+    ]
+  },
+  "射": {
+    "default": "shè",
+    "alts": [
+      "yè",
+      "yì"
+    ]
+  },
+  "摄": {
+    "default": "shè",
+    "alts": [
+      "niè"
+    ]
+  },
+  "慴": {
+    "default": "shè",
+    "alts": [
+      "zhé"
+    ]
+  },
+  "歙": {
+    "default": "shè",
+    "alts": [
+      "xī"
+    ]
+  },
+  "谁": {
+    "default": "shuí",
+    "alts": [
+      "shui",
+      "shéi"
+    ]
+  },
+  "身": {
+    "default": "shēng",
+    "alts": [
+      "sheng",
+      "shen",
+      "shēn"
+    ]
+  },
+  "莘": {
+    "default": "shēn",
+    "alts": [
+      "xīn"
+    ]
+  },
+  "深": {
+    "default": "shēng",
+    "alts": [
+      "shēn"
+    ]
+  },
+  "什": {
+    "default": "shí",
+    "alts": [
+      "shén"
+    ]
+  },
+  "神": {
+    "default": "shēn",
+    "alts": [
+      "shé",
+      "sheng",
+      "shen",
+      "shén"
+    ]
+  },
+  "沈": {
+    "default": "shěn",
+    "alts": [
+      "chén"
+    ]
+  },
+  "甚": {
+    "default": "shèn",
+    "alts": [
+      "shén"
+    ]
+  },
+  "慎": {
+    "default": "shè",
+    "alts": [
+      "shèn"
+    ]
+  },
+  "生": {
+    "default": "shēn",
+    "alts": [
+      "sheng",
+      "shàng",
+      "zhì",
+      "shēng"
+    ]
+  },
+  "鼪": {
+    "default": "tiān",
+    "alts": [
+      "wéi",
+      "shēng"
+    ]
+  },
+  "绳": {
+    "default": "mǐn",
+    "alts": [
+      "sheng",
+      "shéng"
+    ]
+  },
+  "省": {
+    "default": "xǐng",
+    "alts": [
+      "shěng",
+      "shèng"
+    ]
+  },
+  "圣": {
+    "default": "shèng",
+    "alts": [
+      "kū"
+    ]
+  },
+  "胜": {
+    "default": "shēng",
+    "alts": [
+      "shèng"
+    ]
+  },
+  "盛": {
+    "default": "shèng",
+    "alts": [
+      "chéng"
+    ]
+  },
+  "失": {
+    "default": "sh",
+    "alts": [
+      "shi",
+      "shí",
+      "shī"
+    ]
+  },
+  "诗": {
+    "default": "shi",
+    "alts": [
+      "shī"
+    ]
+  },
+  "施": {
+    "default": "yǐ",
+    "alts": [
+      "shī"
+    ]
+  },
+  "浉": {
+    "default": "jiǎ",
+    "alts": [
+      "shī"
+    ]
+  },
+  "酾": {
+    "default": "shāi",
+    "alts": [
+      "shī"
+    ]
+  },
+  "石": {
+    "default": "shí",
+    "alts": [
+      "dàn",
+      "làn"
+    ]
+  },
+  "时": {
+    "default": "shi",
+    "alts": [
+      "shī",
+      "shǐ",
+      "shí"
+    ]
+  },
+  "识": {
+    "default": "shí",
+    "alts": [
+      "shì",
+      "zhì"
+    ]
+  },
+  "拾": {
+    "default": "shí",
+    "alts": [
+      "shi",
+      "shè"
+    ]
+  },
+  "食": {
+    "default": "shí",
+    "alts": [
+      "sì",
+      "shi",
+      "yì"
+    ]
+  },
+  "始": {
+    "default": "shi",
+    "alts": [
+      "shǐ"
+    ]
+  },
+  "士": {
+    "default": "sh",
+    "alts": [
+      "shì"
+    ]
+  },
+  "氏": {
+    "default": "shì",
+    "alts": [
+      "zhī"
+    ]
+  },
+  "世": {
+    "default": "shi",
+    "alts": [
+      "shí",
+      "shì"
+    ]
+  },
+  "事": {
+    "default": "shù",
+    "alts": [
+      "shì"
+    ]
+  },
+  "视": {
+    "default": "shǐ",
+    "alts": [
+      "shī",
+      "shì"
+    ]
+  },
+  "试": {
+    "default": "shi",
+    "alts": [
+      "shì"
+    ]
+  },
+  "室": {
+    "default": "shǐ",
+    "alts": [
+      "shi",
+      "shì"
+    ]
+  },
+  "适": {
+    "default": "shì",
+    "alts": [
+      "dí",
+      "kuò"
+    ]
+  },
+  "適": {
+    "default": "dí",
+    "alts": [
+      "shì"
+    ]
+  },
+  "螫": {
+    "default": "zhē",
+    "alts": [
+      "shì"
+    ]
+  },
+  "匙": {
+    "default": "shì",
+    "alts": [
+      "shi",
+      "chí"
+    ]
+  },
+  "手": {
+    "default": "shòu",
+    "alts": [
+      "shǒ",
+      "shóu",
+      "shǒu"
+    ]
+  },
+  "守": {
+    "default": "shòu",
+    "alts": [
+      "shǒu"
+    ]
+  },
+  "首": {
+    "default": "shòu",
+    "alts": [
+      "shōu",
+      "shǒ",
+      "shǒu"
+    ]
+  },
+  "售": {
+    "default": "shou",
+    "alts": [
+      "shòu"
+    ]
+  },
+  "书": {
+    "default": "shu",
+    "alts": [
+      "shū"
+    ]
+  },
+  "殊": {
+    "default": "shòu",
+    "alts": [
+      "shū"
+    ]
+  },
+  "菽": {
+    "default": "shú",
+    "alts": [
+      "shū"
+    ]
+  },
+  "熟": {
+    "default": "shú",
+    "alts": [
+      "shóu"
+    ]
+  },
+  "属": {
+    "default": "zhǔ",
+    "alts": [
+      "shǔ",
+      "shú"
+    ]
+  },
+  "术": {
+    "default": "shù",
+    "alts": [
+      "shú",
+      "zhú"
+    ]
+  },
+  "树": {
+    "default": "shu",
+    "alts": [
+      "shù"
+    ]
+  },
+  "竖": {
+    "default": "shǔ",
+    "alts": [
+      "shù"
+    ]
+  },
+  "数": {
+    "default": "shǔ",
+    "alts": [
+      "shù",
+      "shuò",
+      "shu"
+    ]
+  },
+  "鉥": {
+    "default": "xù",
+    "alts": [
+      "jiū",
+      "diāo",
+      "fèng",
+      "huì",
+      "kè",
+      "qiā",
+      "shāng",
+      "tóng",
+      "shù"
+    ]
+  },
+  "漱": {
+    "default": "sòu",
+    "alts": [
+      "shù"
+    ]
+  },
+  "鏣": {
+    "default": "biāo",
+    "alts": [
+      "shù"
+    ]
+  },
+  "刷": {
+    "default": "shuā",
+    "alts": [
+      "shuà"
+    ]
+  },
+  "衰": {
+    "default": "shuāi",
+    "alts": [
+      "ai",
+      "shuā",
+      "cuī"
+    ]
+  },
+  "双": {
+    "default": "huān",
+    "alts": [
+      "shuài",
+      "shuāng"
+    ]
+  },
+  "水": {
+    "default": "shǔ",
+    "alts": [
+      "bīng",
+      "huǐ",
+      "qiū",
+      "shǒu",
+      "shui",
+      "shuǐ"
+    ]
+  },
+  "顺": {
+    "default": "shǔn",
+    "alts": [
+      "shùn"
+    ]
+  },
+  "瞚": {
+    "default": "xǐ",
+    "alts": [
+      "shùn"
+    ]
+  },
+  "说": {
+    "default": "shuō",
+    "alts": [
+      "yuè",
+      "shuò",
+      "shuì"
+    ]
+  },
+  "硕": {
+    "default": "shuò",
+    "alts": [
+      "shí"
+    ]
+  },
+  "丝": {
+    "default": "si",
+    "alts": [
+      "sī"
+    ]
+  },
+  "思": {
+    "default": "sī",
+    "alts": [
+      "ēn",
+      "fāng",
+      "si",
+      "sāi"
+    ]
+  },
+  "斯": {
+    "default": "ī",
+    "alts": [
+      "sī"
+    ]
+  },
+  "死": {
+    "default": "si",
+    "alts": [
+      "féi",
+      "shi",
+      "sǐ"
+    ]
+  },
+  "四": {
+    "default": "si",
+    "alts": [
+      "sì"
+    ]
+  },
+  "似": {
+    "default": "sì",
+    "alts": [
+      "shì"
+    ]
+  },
+  "忪": {
+    "default": "sōng",
+    "alts": [
+      "zhōng"
+    ]
+  },
+  "擞": {
+    "default": "sǒu",
+    "alts": [
+      "sòu"
+    ]
+  },
+  "嗽": {
+    "default": "shù",
+    "alts": [
+      "sòu"
+    ]
+  },
+  "苏": {
+    "default": "sū",
+    "alts": [
+      "sù"
+    ]
+  },
+  "速": {
+    "default": "gōng",
+    "alts": [
+      "sù"
+    ]
+  },
+  "宿": {
+    "default": "sù",
+    "alts": [
+      "xiǔ",
+      "xiù"
+    ]
+  },
+  "愬": {
+    "default": "xiāng",
+    "alts": [
+      "sù"
+    ]
+  },
+  "遬": {
+    "default": "tì",
+    "alts": [
+      "sù"
+    ]
+  },
+  "餗": {
+    "default": "lán",
+    "alts": [
+      "yǎn",
+      "zhào",
+      "zú",
+      "sù"
+    ]
+  },
+  "虽": {
+    "default": "shui",
+    "alts": [
+      "suī"
+    ]
+  },
+  "睢": {
+    "default": "suī",
+    "alts": [
+      "huī"
+    ]
+  },
+  "隋": {
+    "default": "suí",
+    "alts": [
+      "duò"
+    ]
+  },
+  "随": {
+    "default": "shui",
+    "alts": [
+      "suí"
+    ]
+  },
+  "隨": {
+    "default": "suǐ",
+    "alts": [
+      "suí"
+    ]
+  },
+  "髓": {
+    "default": "suí",
+    "alts": [
+      "suì",
+      "suǐ"
+    ]
+  },
+  "遂": {
+    "default": "suí",
+    "alts": [
+      "suì"
+    ]
+  },
+  "睟": {
+    "default": "suì",
+    "alts": [
+      "zuì"
+    ]
+  },
+  "碎": {
+    "default": "zuì",
+    "alts": [
+      "suì"
+    ]
+  },
+  "燧": {
+    "default": "suí",
+    "alts": [
+      "suì"
+    ]
+  },
+  "孙": {
+    "default": "sūn",
+    "alts": [
+      "xùn"
+    ]
+  },
+  "梭": {
+    "default": "léng",
+    "alts": [
+      "suō"
+    ]
+  },
+  "缩": {
+    "default": "suō",
+    "alts": [
+      "sù"
+    ]
+  },
+  "所": {
+    "default": "shuo",
+    "alts": [
+      "suǒ"
+    ]
+  },
+  "索": {
+    "default": "suō",
+    "alts": [
+      "suǒ"
+    ]
+  },
+  "塌": {
+    "default": "tǎ",
+    "alts": [
+      "tā"
+    ]
+  },
+  "拓": {
+    "default": "tuò",
+    "alts": [
+      "tà",
+      "zhí"
+    ]
+  },
+  "狧": {
+    "default": "shì",
+    "alts": [
+      "tà"
+    ]
+  },
+  "搨": {
+    "default": "dá",
+    "alts": [
+      "hú",
+      "tà"
+    ]
+  },
+  "踏": {
+    "default": "tā",
+    "alts": [
+      "tà"
+    ]
+  },
+  "蹋": {
+    "default": "tā",
+    "alts": [
+      "tà"
+    ]
+  },
+  "遢": {
+    "default": "tā",
+    "alts": [
+      "tà"
+    ]
+  },
+  "台": {
+    "default": "tái",
+    "alts": [
+      "tāi"
+    ]
+  },
+  "苔": {
+    "default": "tāi",
+    "alts": [
+      "tái"
+    ]
+  },
+  "太": {
+    "default": "tai",
+    "alts": [
+      "tài"
+    ]
+  },
+  "态": {
+    "default": "tai",
+    "alts": [
+      "tài"
+    ]
+  },
+  "泰": {
+    "default": "tai",
+    "alts": [
+      "tài"
+    ]
+  },
+  "惔": {
+    "default": "tán",
+    "alts": [
+      "dàn"
+    ]
+  },
+  "覃": {
+    "default": "tán",
+    "alts": [
+      "qín"
+    ]
+  },
+  "汤": {
+    "default": "tāng",
+    "alts": [
+      "shāng"
+    ]
+  },
+  "帑": {
+    "default": "nú",
+    "alts": [
+      "tǎng"
+    ]
+  },
+  "倘": {
+    "default": "tǎng",
+    "alts": [
+      "cháng"
+    ]
+  },
+  "淌": {
+    "default": "tǎng",
+    "alts": [
+      "chǎng"
+    ]
+  },
+  "趟": {
+    "default": "tàng",
+    "alts": [
+      "tāng"
+    ]
+  },
+  "涛": {
+    "default": "táo",
+    "alts": [
+      "tāo"
+    ]
+  },
+  "搯": {
+    "default": "chāo",
+    "alts": [
+      "tāo"
+    ]
+  },
+  "咷": {
+    "default": "huó",
+    "alts": [
+      "táo"
+    ]
+  },
+  "梼": {
+    "default": "táo",
+    "alts": [
+      "chóu",
+      "dào"
+    ]
+  },
+  "慝": {
+    "default": "tè",
+    "alts": [
+      "nì"
+    ]
+  },
+  "腾": {
+    "default": "tēng",
+    "alts": [
+      "téng"
+    ]
+  },
+  "剔": {
+    "default": "tì",
+    "alts": [
+      "tī"
+    ]
+  },
+  "擿": {
+    "default": "tī",
+    "alts": [
+      "tì",
+      "zhāi",
+      "zhì",
+      "zhé",
+      "fā",
+      "huài",
+      "niǎo",
+      "wàn",
+      "yuán",
+      "zhí"
+    ]
+  },
+  "荑": {
+    "default": "tí",
+    "alts": [
+      "yí"
+    ]
+  },
+  "绨": {
+    "default": "tí",
+    "alts": [
+      "tì"
+    ]
+  },
+  "提": {
+    "default": "tí",
+    "alts": [
+      "chí",
+      "dǐ",
+      "dī"
+    ]
+  },
+  "綈": {
+    "default": "tì",
+    "alts": [
+      "tí"
+    ]
+  },
+  "醍": {
+    "default": "tí",
+    "alts": [
+      "tǐ"
+    ]
+  },
+  "鶗": {
+    "default": "tí",
+    "alts": [
+      "chí"
+    ]
+  },
+  "体": {
+    "default": "tǐ",
+    "alts": [
+      "qi",
+      "tī"
+    ]
+  },
+  "涕": {
+    "default": "tí",
+    "alts": [
+      "tì"
+    ]
+  },
+  "裼": {
+    "default": "xī",
+    "alts": [
+      "tì"
+    ]
+  },
+  "殢": {
+    "default": "jiù",
+    "alts": [
+      "ná",
+      "xīn",
+      "yóu",
+      "zhì",
+      "zhú",
+      "tì"
+    ]
+  },
+  "天": {
+    "default": "shān",
+    "alts": [
+      "tian",
+      "tān",
+      "tiāo",
+      "tiān"
+    ]
+  },
+  "恬": {
+    "default": "tian",
+    "alts": [
+      "tián"
+    ]
+  },
+  "填": {
+    "default": "tián",
+    "alts": [
+      "zhèn"
+    ]
+  },
+  "靦": {
+    "default": "tiǎn",
+    "alts": [
+      "miǎn"
+    ]
+  },
+  "佻": {
+    "default": "tiáo",
+    "alts": [
+      "tiāo"
+    ]
+  },
+  "挑": {
+    "default": "tiāo",
+    "alts": [
+      "tiǎo"
+    ]
+  },
+  "条": {
+    "default": "tiáo",
+    "alts": [
+      "tóu",
+      "tiāo"
+    ]
+  },
+  "窕": {
+    "default": "tiǎo",
+    "alts": [
+      "yáo"
+    ]
+  },
+  "跳": {
+    "default": "tiào",
+    "alts": [
+      "táo"
+    ]
+  },
+  "帖": {
+    "default": "tiē",
+    "alts": [
+      "tiě",
+      "tiè"
+    ]
+  },
+  "呫": {
+    "default": "chè",
+    "alts": [
+      "tiè"
+    ]
+  },
+  "听": {
+    "default": "tìng",
+    "alts": [
+      "tīng"
+    ]
+  },
+  "渟": {
+    "default": "tíng",
+    "alts": [
+      "tīng",
+      "zī",
+      "shēng"
+    ]
+  },
+  "铤": {
+    "default": "dìng",
+    "alts": [
+      "tǐng"
+    ]
+  },
+  "痌": {
+    "default": "tōng",
+    "alts": [
+      "tóng"
+    ]
+  },
+  "同": {
+    "default": "tóng",
+    "alts": [
+      "rú",
+      "tong",
+      "toón",
+      "tòng"
+    ]
+  },
+  "僮": {
+    "default": "tóng",
+    "alts": [
+      "zhuàng"
+    ]
+  },
+  "痛": {
+    "default": "tò",
+    "alts": [
+      "tong",
+      "tòng"
+    ]
+  },
+  "媮": {
+    "default": "tōu",
+    "alts": [
+      "yú"
+    ]
+  },
+  "头": {
+    "default": "tóu",
+    "alts": [
+      "tou"
+    ]
+  },
+  "突": {
+    "default": "tú",
+    "alts": [
+      "tū"
+    ]
+  },
+  "痜": {
+    "default": "zhì",
+    "alts": [
+      "máo",
+      "shǔ",
+      "zǔ",
+      "tū"
+    ]
+  },
+  "徒": {
+    "default": "xǐ",
+    "alts": [
+      "tú"
+    ]
+  },
+  "涂": {
+    "default": "tū",
+    "alts": [
+      "tú"
+    ]
+  },
+  "荼": {
+    "default": "shū",
+    "alts": [
+      "tú"
+    ]
+  },
+  "瘏": {
+    "default": "kōng",
+    "alts": [
+      "tú"
+    ]
+  },
+  "土": {
+    "default": "tú",
+    "alts": [
+      "gǔ",
+      "yù",
+      "dù",
+      "tǔ"
+    ]
+  },
+  "吐": {
+    "default": "tǔ",
+    "alts": [
+      "tù"
+    ]
+  },
+  "兔": {
+    "default": "tǔ",
+    "alts": [
+      "tu",
+      "tù"
+    ]
+  },
+  "菟": {
+    "default": "tú",
+    "alts": [
+      "tù"
+    ]
+  },
+  "猯": {
+    "default": "xī",
+    "alts": [
+      "tuàn",
+      "tuān"
+    ]
+  },
+  "团": {
+    "default": "tuàn",
+    "alts": [
+      "tuán"
+    ]
+  },
+  "剸": {
+    "default": "shí",
+    "alts": [
+      "tuán"
+    ]
+  },
+  "颓": {
+    "default": "tuì",
+    "alts": [
+      "tuí"
+    ]
+  },
+  "退": {
+    "default": "tui",
+    "alts": [
+      "tuì"
+    ]
+  },
+  "褪": {
+    "default": "tuì",
+    "alts": [
+      "tùn"
+    ]
+  },
+  "屯": {
+    "default": "tún",
+    "alts": [
+      "zhūn"
+    ]
+  },
+  "忳": {
+    "default": "wǎng",
+    "alts": [
+      "dùn",
+      "tún",
+      "zhūn"
+    ]
+  },
+  "饨": {
+    "default": "dun",
+    "alts": [
+      "tún"
+    ]
+  },
+  "讬": {
+    "default": "quàn",
+    "alts": [
+      "tún",
+      "xíng",
+      "xiù",
+      "zhì",
+      "tuō"
+    ]
+  },
+  "佗": {
+    "default": "tuó",
+    "alts": [
+      "tā",
+      "tuò",
+      "tuō",
+      "yí"
+    ]
+  },
+  "沲": {
+    "default": "tuó",
+    "alts": [
+      "duò"
+    ]
+  },
+  "驼": {
+    "default": "tuō",
+    "alts": [
+      "tuó"
+    ]
+  },
+  "柁": {
+    "default": "duò",
+    "alts": [
+      "tuó"
+    ]
+  },
+  "跅": {
+    "default": "rú",
+    "alts": [
+      "tuò"
+    ]
+  },
+  "瓦": {
+    "default": "wǎ",
+    "alts": [
+      "wà"
+    ]
+  },
+  "外": {
+    "default": "wai",
+    "alts": [
+      "wài"
+    ]
+  },
+  "刓": {
+    "default": "liǎng",
+    "alts": [
+      "shū",
+      "wán"
+    ]
+  },
+  "宛": {
+    "default": "wǎn",
+    "alts": [
+      "yuān"
+    ]
+  },
+  "万": {
+    "default": "wàn",
+    "alts": [
+      "wan",
+      "mò"
+    ]
+  },
+  "腕": {
+    "default": "wǎn",
+    "alts": [
+      "wàn"
+    ]
+  },
+  "輐": {
+    "default": "wàn",
+    "alts": [
+      "huǎn"
+    ]
+  },
+  "亡": {
+    "default": "wáng",
+    "alts": [
+      "wú",
+      "wang",
+      "bēn",
+      "wǎng"
+    ]
+  },
+  "王": {
+    "default": "wáng",
+    "alts": [
+      "zhǔ",
+      "wàng"
+    ]
+  },
+  "网": {
+    "default": "ròu",
+    "alts": [
+      "wǎng"
+    ]
+  },
+  "望": {
+    "default": "wāng",
+    "alts": [
+      "wàng"
+    ]
+  },
+  "危": {
+    "default": "wéi",
+    "alts": [
+      "wěi",
+      "shēn",
+      "wēi"
+    ]
+  },
+  "微": {
+    "default": "wéi",
+    "alts": [
+      "wei",
+      "wēi"
+    ]
+  },
+  "围": {
+    "default": "wei",
+    "alts": [
+      "wén",
+      "wéi"
+    ]
+  },
+  "违": {
+    "default": "wén",
+    "alts": [
+      "wéi"
+    ]
+  },
+  "唯": {
+    "default": "wěi",
+    "alts": [
+      "wéi"
+    ]
+  },
+  "湋": {
+    "default": "fù",
+    "alts": [
+      "wéi"
+    ]
+  },
+  "伪": {
+    "default": "wèi",
+    "alts": [
+      "wěi"
+    ]
+  },
+  "尾": {
+    "default": "wěi",
+    "alts": [
+      "yǐ"
+    ]
+  },
+  "委": {
+    "default": "wěi",
+    "alts": [
+      "wēi"
+    ]
+  },
+  "隗": {
+    "default": "wěi",
+    "alts": [
+      "kuí"
+    ]
+  },
+  "亹": {
+    "default": "wěi",
+    "alts": [
+      "tān",
+      "mén"
+    ]
+  },
+  "为": {
+    "default": "wéi",
+    "alts": [
+      "wèi",
+      "wei",
+      "wé"
+    ]
+  },
+  "未": {
+    "default": "wei",
+    "alts": [
+      "wèn",
+      "wèi"
+    ]
+  },
+  "尉": {
+    "default": "wèi",
+    "alts": [
+      "yù"
+    ]
+  },
+  "硙": {
+    "default": "wèi",
+    "alts": [
+      "wéi"
+    ]
+  },
+  "蔚": {
+    "default": "wèi",
+    "alts": [
+      "yù"
+    ]
+  },
+  "餧": {
+    "default": "sì",
+    "alts": [
+      "wèi"
+    ]
+  },
+  "文": {
+    "default": "wēn",
+    "alts": [
+      "wén"
+    ]
+  },
+  "纹": {
+    "default": "wén",
+    "alts": [
+      "wèn"
+    ]
+  },
+  "闻": {
+    "default": "wéi",
+    "alts": [
+      "wán",
+      "wén"
+    ]
+  },
+  "紊": {
+    "default": "wèn",
+    "alts": [
+      "wěn"
+    ]
+  },
+  "稳": {
+    "default": "wén",
+    "alts": [
+      "wěn"
+    ]
+  },
+  "汶": {
+    "default": "wèn",
+    "alts": [
+      "mén"
+    ]
+  },
+  "翁": {
+    "default": "wèng",
+    "alts": [
+      "wēng"
+    ]
+  },
+  "瓮": {
+    "default": "wěng",
+    "alts": [
+      "wòng",
+      "wèng"
+    ]
+  },
+  "挝": {
+    "default": "zhuā",
+    "alts": [
+      "wō"
+    ]
+  },
+  "涡": {
+    "default": "wō",
+    "alts": [
+      "guō"
+    ]
+  },
+  "蜗": {
+    "default": "wo",
+    "alts": [
+      "wō"
+    ]
+  },
+  "我": {
+    "default": "wo",
+    "alts": [
+      "wǒ"
+    ]
+  },
+  "捰": {
+    "default": "lǒng",
+    "alts": [
+      "luò",
+      "luǒ",
+      "wǒ"
+    ]
+  },
+  "斡": {
+    "default": "wò",
+    "alts": [
+      "guǎn"
+    ]
+  },
+  "屋": {
+    "default": "wu",
+    "alts": [
+      "wū"
+    ]
+  },
+  "无": {
+    "default": "wǔ",
+    "alts": [
+      "wu",
+      "wū",
+      "mó",
+      "wéi",
+      "wú"
+    ]
+  },
+  "毋": {
+    "default": "wù",
+    "alts": [
+      "wú"
+    ]
+  },
+  "吾": {
+    "default": "wú",
+    "alts": [
+      "wǔ",
+      "wū",
+      "wu",
+      "yù"
+    ]
+  },
+  "梧": {
+    "default": "wǔ",
+    "alts": [
+      "wū",
+      "wú"
+    ]
+  },
+  "武": {
+    "default": "wán",
+    "alts": [
+      "wǔ"
+    ]
+  },
+  "碔": {
+    "default": "zhì",
+    "alts": [
+      "wǔ"
+    ]
+  },
+  "儛": {
+    "default": "sāi",
+    "alts": [
+      "wǔ"
+    ]
+  },
+  "兀": {
+    "default": "wū",
+    "alts": [
+      "wù"
+    ]
+  },
+  "务": {
+    "default": "wu",
+    "alts": [
+      "wù"
+    ]
+  },
+  "物": {
+    "default": "jià",
+    "alts": [
+      "wù"
+    ]
+  },
+  "靰": {
+    "default": "jī",
+    "alts": [
+      "wù"
+    ]
+  },
+  "夕": {
+    "default": "xì",
+    "alts": [
+      "xī"
+    ]
+  },
+  "扱": {
+    "default": "xī",
+    "alts": [
+      "chā",
+      "qì"
+    ]
+  },
+  "西": {
+    "default": "xi",
+    "alts": [
+      "xī"
+    ]
+  },
+  "恓": {
+    "default": "xī",
+    "alts": [
+      "qī",
+      "xù"
+    ]
+  },
+  "息": {
+    "default": "xí",
+    "alts": [
+      "xi",
+      "xī"
+    ]
+  },
+  "狶": {
+    "default": "xī",
+    "alts": [
+      "shǐ",
+      "xǐ"
+    ]
+  },
+  "惜": {
+    "default": "xí",
+    "alts": [
+      "xī"
+    ]
+  },
+  "豨": {
+    "default": "yǒu",
+    "alts": [
+      "xī"
+    ]
+  },
+  "膝": {
+    "default": "qī",
+    "alts": [
+      "xī"
+    ]
+  },
+  "谿": {
+    "default": "xī",
+    "alts": [
+      "qī"
+    ]
+  },
+  "釐": {
+    "default": "lí",
+    "alts": [
+      "xǐ",
+      "xī"
+    ]
+  },
+  "巇": {
+    "default": "yín",
+    "alts": [
+      "yōu",
+      "xī"
+    ]
+  },
+  "觿": {
+    "default": "lín",
+    "alts": [
+      "xī"
+    ]
+  },
+  "习": {
+    "default": "xī",
+    "alts": [
+      "xí"
+    ]
+  },
+  "袭": {
+    "default": "xi",
+    "alts": [
+      "xī",
+      "xí"
+    ]
+  },
+  "洗": {
+    "default": "xǐ",
+    "alts": [
+      "xiǎn"
+    ]
+  },
+  "喜": {
+    "default": "xi",
+    "alts": [
+      "xǐ"
+    ]
+  },
+  "戏": {
+    "default": "xì",
+    "alts": [
+      "hū"
+    ]
+  },
+  "系": {
+    "default": "xì",
+    "alts": [
+      "jì"
+    ]
+  },
+  "细": {
+    "default": "xǐ",
+    "alts": [
+      "xì"
+    ]
+  },
+  "舄": {
+    "default": "xì",
+    "alts": [
+      "què"
+    ]
+  },
+  "隙": {
+    "default": "xī",
+    "alts": [
+      "xì"
+    ]
+  },
+  "呷": {
+    "default": "gā",
+    "alts": [
+      "xiā"
+    ]
+  },
+  "虾": {
+    "default": "xiā",
+    "alts": [
+      "hā"
+    ]
+  },
+  "下": {
+    "default": "nüè",
+    "alts": [
+      "xia",
+      "xià"
+    ]
+  },
+  "吓": {
+    "default": "xià",
+    "alts": [
+      "hè"
+    ]
+  },
+  "纤": {
+    "default": "xiān",
+    "alts": [
+      "qiàn"
+    ]
+  },
+  "忺": {
+    "default": "zuǐ",
+    "alts": [
+      "xiān"
+    ]
+  },
+  "铦": {
+    "default": "xiān",
+    "alts": [
+      "guā",
+      "kuò",
+      "tiǎn"
+    ]
+  },
+  "鲜": {
+    "default": "xiān",
+    "alts": [
+      "xiǎn",
+      "xiàn"
+    ]
+  },
+  "鶱": {
+    "default": "xiān",
+    "alts": [
+      "xuān"
+    ]
+  },
+  "弦": {
+    "default": "xiǎn",
+    "alts": [
+      "xián"
+    ]
+  },
+  "挦": {
+    "default": "chán",
+    "alts": [
+      "lóng",
+      "tún",
+      "xián"
+    ]
+  },
+  "閒": {
+    "default": "róng",
+    "alts": [
+      "jiàn",
+      "xián",
+      "jiān"
+    ]
+  },
+  "嫌": {
+    "default": "yán",
+    "alts": [
+      "xián"
+    ]
+  },
+  "险": {
+    "default": "liǎn",
+    "alts": [
+      "xiǎn"
+    ]
+  },
+  "县": {
+    "default": "xiàn",
+    "alts": [
+      "xuán"
+    ]
+  },
+  "线": {
+    "default": "xian",
+    "alts": [
+      "xiàn"
+    ]
+  },
+  "睍": {
+    "default": "qǔ",
+    "alts": [
+      "tū",
+      "xiàn"
+    ]
+  },
+  "缐": {
+    "default": "yú",
+    "alts": [
+      "xiàn"
+    ]
+  },
+  "僩": {
+    "default": "bù",
+    "alts": [
+      "xiàn"
+    ]
+  },
+  "乡": {
+    "default": "xiǎng",
+    "alts": [
+      "xiàng",
+      "xiāng"
+    ]
+  },
+  "相": {
+    "default": "xiāng",
+    "alts": [
+      "xiàng",
+      "xiēng",
+      "xīng"
+    ]
+  },
+  "香": {
+    "default": "xiān",
+    "alts": [
+      "xiang",
+      "xiāng"
+    ]
+  },
+  "详": {
+    "default": "xiáng",
+    "alts": [
+      "yáng"
+    ]
+  },
+  "祥": {
+    "default": "xián",
+    "alts": [
+      "xiáng"
+    ]
+  },
+  "翔": {
+    "default": "xiang",
+    "alts": [
+      "xiáng"
+    ]
+  },
+  "巷": {
+    "default": "xiàng",
+    "alts": [
+      "xiòng",
+      "hàng"
+    ]
+  },
+  "项": {
+    "default": "dǐng",
+    "alts": [
+      "xiàng"
+    ]
+  },
+  "消": {
+    "default": "xiao",
+    "alts": [
+      "xiāo"
+    ]
+  },
+  "鸮": {
+    "default": "xiǎo",
+    "alts": [
+      "háo",
+      "zhāng",
+      "niǎo",
+      "qīng",
+      "rén",
+      "xiāo"
+    ]
+  },
+  "箫": {
+    "default": "xiao",
+    "alts": [
+      "xiāo"
+    ]
+  },
+  "嚣": {
+    "default": "áo",
+    "alts": [
+      "xiāo"
+    ]
+  },
+  "崤": {
+    "default": "xiáo",
+    "alts": [
+      "yáo"
+    ]
+  },
+  "殽": {
+    "default": "yāo",
+    "alts": [
+      "yáo",
+      "xiáo",
+      "xiào"
+    ]
+  },
+  "小": {
+    "default": "xiāo",
+    "alts": [
+      "rù",
+      "dà",
+      "xiǎo"
+    ]
+  },
+  "肖": {
+    "default": "xiāo",
+    "alts": [
+      "xiào"
+    ]
+  },
+  "哮": {
+    "default": "xiāo",
+    "alts": [
+      "xiào"
+    ]
+  },
+  "校": {
+    "default": "jiào",
+    "alts": [
+      "xiào"
+    ]
+  },
+  "啸": {
+    "default": "xiāo",
+    "alts": [
+      "xiào"
+    ]
+  },
+  "敩": {
+    "default": "zuàn",
+    "alts": [
+      "xiào",
+      "xué"
+    ]
+  },
+  "猲": {
+    "default": "xì",
+    "alts": [
+      "xiē"
+    ]
+  },
+  "邪": {
+    "default": "xié",
+    "alts": [
+      "yé",
+      "ye"
+    ]
+  },
+  "挟": {
+    "default": "xié",
+    "alts": [
+      "jiā"
+    ]
+  },
+  "携": {
+    "default": "xī",
+    "alts": [
+      "xié"
+    ]
+  },
+  "写": {
+    "default": "xiè",
+    "alts": [
+      "xiě"
+    ]
+  },
+  "泄": {
+    "default": "xiè",
+    "alts": [
+      "yì"
+    ]
+  },
+  "媟": {
+    "default": "liǎng",
+    "alts": [
+      "xiè"
+    ]
+  },
+  "燮": {
+    "default": "xié",
+    "alts": [
+      "xiè"
+    ]
+  },
+  "心": {
+    "default": "xīng",
+    "alts": [
+      "xin",
+      "xīn"
+    ]
+  },
+  "伈": {
+    "default": "fù",
+    "alts": [
+      "xīn",
+      "xǐn"
+    ]
+  },
+  "信": {
+    "default": "xìn",
+    "alts": [
+      "shēn"
+    ]
+  },
+  "焮": {
+    "default": "jú",
+    "alts": [
+      "xìn"
+    ]
+  },
+  "星": {
+    "default": "xing",
+    "alts": [
+      "xīng"
+    ]
+  },
+  "骍": {
+    "default": "mài",
+    "alts": [
+      "yuè",
+      "xīng"
+    ]
+  },
+  "腥": {
+    "default": "xíng",
+    "alts": [
+      "xīng"
+    ]
+  },
+  "行": {
+    "default": "xíng",
+    "alts": [
+      "háng",
+      "xìng",
+      "xǐng"
+    ]
+  },
+  "饧": {
+    "default": "táng",
+    "alts": [
+      "xíng"
+    ]
+  },
+  "兴": {
+    "default": "xīng",
+    "alts": [
+      "xìng"
+    ]
+  },
+  "恟": {
+    "default": "yì",
+    "alts": [
+      "zhuó",
+      "xiōng"
+    ]
+  },
+  "雄": {
+    "default": "xóng",
+    "alts": [
+      "xióng"
+    ]
+  },
+  "敻": {
+    "default": "xiòng",
+    "alts": [
+      "xuàn"
+    ]
+  },
+  "休": {
+    "default": "xiū",
+    "alts": [
+      "xǔ"
+    ]
+  },
+  "修": {
+    "default": "yǒu",
+    "alts": [
+      "xiū"
+    ]
+  },
+  "飍": {
+    "default": "zhǎn",
+    "alts": [
+      "xiū"
+    ]
+  },
+  "秀": {
+    "default": "suì",
+    "alts": [
+      "xou",
+      "xiù"
+    ]
+  },
+  "褎": {
+    "default": "yòu",
+    "alts": [
+      "xiù"
+    ]
+  },
+  "吁": {
+    "default": "xū",
+    "alts": [
+      "yù"
+    ]
+  },
+  "胥": {
+    "default": "xù",
+    "alts": [
+      "xū"
+    ]
+  },
+  "须": {
+    "default": "xu",
+    "alts": [
+      "xū"
+    ]
+  },
+  "虚": {
+    "default": "xiù",
+    "alts": [
+      "xu",
+      "xū"
+    ]
+  },
+  "谞": {
+    "default": "ér",
+    "alts": [
+      "xǔ",
+      "xū"
+    ]
+  },
+  "嘘": {
+    "default": "xū",
+    "alts": [
+      "shī"
+    ]
+  },
+  "魆": {
+    "default": "zhuō",
+    "alts": [
+      "xū"
+    ]
+  },
+  "徐": {
+    "default": "xǘ",
+    "alts": [
+      "xú"
+    ]
+  },
+  "许": {
+    "default": "xǔ",
+    "alts": [
+      "hǔ"
+    ]
+  },
+  "呴": {
+    "default": "xǔ",
+    "alts": [
+      "xū",
+      "nì",
+      "gòu",
+      "hǒu"
+    ]
+  },
+  "叙": {
+    "default": "xu",
+    "alts": [
+      "xù"
+    ]
+  },
+  "絮": {
+    "default": "xū",
+    "alts": [
+      "xù"
+    ]
+  },
+  "煦": {
+    "default": "xǔ",
+    "alts": [
+      "xù"
+    ]
+  },
+  "蓿": {
+    "default": "xū",
+    "alts": [
+      "xù"
+    ]
+  },
+  "諠": {
+    "default": "xī",
+    "alts": [
+      "xuān"
+    ]
+  },
+  "悬": {
+    "default": "xián",
+    "alts": [
+      "xuán"
+    ]
+  },
+  "旋": {
+    "default": "xuán",
+    "alts": [
+      "xuàn"
+    ]
+  },
+  "炫": {
+    "default": "xuán",
+    "alts": [
+      "xuàn"
+    ]
+  },
+  "眴": {
+    "default": "shùn",
+    "alts": [
+      "xuàn",
+      "xún"
+    ]
+  },
+  "衒": {
+    "default": "zuì",
+    "alts": [
+      "hái",
+      "xuàn"
+    ]
+  },
+  "削": {
+    "default": "xuē",
+    "alts": [
+      "xiāo",
+      "xuè"
+    ]
+  },
+  "穴": {
+    "default": "xuè",
+    "alts": [
+      "xué"
+    ]
+  },
+  "学": {
+    "default": "xuá",
+    "alts": [
+      "xué"
+    ]
+  },
+  "噱": {
+    "default": "jué",
+    "alts": [
+      "xué"
+    ]
+  },
+  "血": {
+    "default": "xuè",
+    "alts": [
+      "xuě",
+      "xiě"
+    ]
+  },
+  "吷": {
+    "default": "guī",
+    "alts": [
+      "xuè",
+      "chuò",
+      "jué"
+    ]
+  },
+  "谑": {
+    "default": "nüè",
+    "alts": [
+      "xuè"
+    ]
+  },
+  "勋": {
+    "default": "xún",
+    "alts": [
+      "xūn"
+    ]
+  },
+  "熏": {
+    "default": "xūn",
+    "alts": [
+      "xún",
+      "xùn"
+    ]
+  },
+  "薰": {
+    "default": "xún",
+    "alts": [
+      "xūn"
+    ]
+  },
+  "循": {
+    "default": "xùn",
+    "alts": [
+      "xún"
+    ]
+  },
+  "训": {
+    "default": "xún",
+    "alts": [
+      "xùn"
+    ]
+  },
+  "驯": {
+    "default": "xún",
+    "alts": [
+      "xùn"
+    ]
+  },
+  "徇": {
+    "default": "xún",
+    "alts": [
+      "xùn"
+    ]
+  },
+  "狥": {
+    "default": "huái",
+    "alts": [
+      "yě",
+      "xùn",
+      "huán"
+    ]
+  },
+  "噀": {
+    "default": "jīn",
+    "alts": [
+      "wéi",
+      "xùn"
+    ]
+  },
+  "潠": {
+    "default": "xùn",
+    "alts": [
+      "sùn",
+      "xuàn"
+    ]
+  },
+  "压": {
+    "default": "yā",
+    "alts": [
+      "yà"
+    ]
+  },
+  "牙": {
+    "default": "yā",
+    "alts": [
+      "yá"
+    ]
+  },
+  "厓": {
+    "default": "zhì",
+    "alts": [
+      "yá"
+    ]
+  },
+  "崖": {
+    "default": "yái",
+    "alts": [
+      "yá"
+    ]
+  },
+  "涯": {
+    "default": "ya",
+    "alts": [
+      "yá"
+    ]
+  },
+  "哑": {
+    "default": "yǎ",
+    "alts": [
+      "yā",
+      "è"
+    ]
+  },
+  "雅": {
+    "default": "yá",
+    "alts": [
+      "yǎ"
+    ]
+  },
+  "呀": {
+    "default": "yā",
+    "alts": [
+      "ya"
+    ]
+  },
+  "焉": {
+    "default": "yán",
+    "alts": [
+      "yān"
+    ]
+  },
+  "湮": {
+    "default": "yān",
+    "alts": [
+      "yīn"
+    ]
+  },
+  "妍": {
+    "default": "yàn",
+    "alts": [
+      "yán"
+    ]
+  },
+  "言": {
+    "default": "yan",
+    "alts": [
+      "yán"
+    ]
+  },
+  "研": {
+    "default": "yán",
+    "alts": [
+      "yàn"
+    ]
+  },
+  "盐": {
+    "default": "yún",
+    "alts": [
+      "yán"
+    ]
+  },
+  "筵": {
+    "default": "yàn",
+    "alts": [
+      "yán"
+    ]
+  },
+  "颜": {
+    "default": "péi",
+    "alts": [
+      "yán"
+    ]
+  },
+  "檐": {
+    "default": "dàn",
+    "alts": [
+      "yán"
+    ]
+  },
+  "奄": {
+    "default": "yān",
+    "alts": [
+      "yǎn"
+    ]
+  },
+  "匽": {
+    "default": "diào",
+    "alts": [
+      "yàn",
+      "yǎn"
+    ]
+  },
+  "衍": {
+    "default": "yān",
+    "alts": [
+      "yǎn"
+    ]
+  },
+  "揜": {
+    "default": "ān",
+    "alts": [
+      "yǒu",
+      "yǎn"
+    ]
+  },
+  "魇": {
+    "default": "yàn",
+    "alts": [
+      "yǎn"
+    ]
+  },
+  "咽": {
+    "default": "yàn",
+    "alts": [
+      "yè",
+      "yān",
+      "yē"
+    ]
+  },
+  "艳": {
+    "default": "yèn",
+    "alts": [
+      "yàn"
+    ]
+  },
+  "验": {
+    "default": "yà",
+    "alts": [
+      "yàn"
+    ]
+  },
+  "掞": {
+    "default": "shǎn",
+    "alts": [
+      "yàn",
+      "shàn",
+      "yǎn"
+    ]
+  },
+  "燕": {
+    "default": "yàn",
+    "alts": [
+      "yān"
+    ]
+  },
+  "央": {
+    "default": "yang",
+    "alts": [
+      "yāng"
+    ]
+  },
+  "眏": {
+    "default": "yìng",
+    "alts": [
+      "yǎng",
+      "yāng"
+    ]
+  },
+  "鞅": {
+    "default": "yāng",
+    "alts": [
+      "yàng"
+    ]
+  },
+  "扬": {
+    "default": "yán",
+    "alts": [
+      "yáng"
+    ]
+  },
+  "羊": {
+    "default": "yáng",
+    "alts": [
+      "yán",
+      "xiáng"
+    ]
+  },
+  "飏": {
+    "default": "chén",
+    "alts": [
+      "zǒu",
+      "shān",
+      "yáng"
+    ]
+  },
+  "仰": {
+    "default": "yǎng",
+    "alts": [
+      "yang",
+      "áng"
+    ]
+  },
+  "坱": {
+    "default": "yǎng",
+    "alts": [
+      "yāng"
+    ]
+  },
+  "痒": {
+    "default": "yanɡ3",
+    "alts": [
+      "yang",
+      "yǎng"
+    ]
+  },
+  "怏": {
+    "default": "yāng",
+    "alts": [
+      "yàng"
+    ]
+  },
+  "幺": {
+    "default": "mó",
+    "alts": [
+      "yāo"
+    ]
+  },
+  "腰": {
+    "default": "yiāo",
+    "alts": [
+      "yāo"
+    ]
+  },
+  "窑": {
+    "default": "jiào",
+    "alts": [
+      "yáo"
+    ]
+  },
+  "傜": {
+    "default": "yāo",
+    "alts": [
+      "yáo"
+    ]
+  },
+  "摇": {
+    "default": "yáng",
+    "alts": [
+      "yáo"
+    ]
+  },
+  "飖": {
+    "default": "shàn",
+    "alts": [
+      "yáo"
+    ]
+  },
+  "繇": {
+    "default": "yáo",
+    "alts": [
+      "yóu",
+      "zhòu"
+    ]
+  },
+  "抭": {
+    "default": "xī",
+    "alts": [
+      "tāo",
+      "yǎo"
+    ]
+  },
+  "要": {
+    "default": "yào",
+    "alts": [
+      "yāo"
+    ]
+  },
+  "钥": {
+    "default": "yào",
+    "alts": [
+      "yuè"
+    ]
+  },
+  "掖": {
+    "default": "yè",
+    "alts": [
+      "yē"
+    ]
+  },
+  "暍": {
+    "default": "ér",
+    "alts": [
+      "hè"
+    ]
+  },
+  "耶": {
+    "default": "yē",
+    "alts": [
+      "yé",
+      "ye"
+    ]
+  },
+  "也": {
+    "default": "ye",
+    "alts": [
+      "yě"
+    ]
+  },
+  "野": {
+    "default": "yiě",
+    "alts": [
+      "yé",
+      "yě"
+    ]
+  },
+  "业": {
+    "default": "yiè",
+    "alts": [
+      "yè"
+    ]
+  },
+  "叶": {
+    "default": "yè",
+    "alts": [
+      "xié",
+      "yiè"
+    ]
+  },
+  "曳": {
+    "default": "yì",
+    "alts": [
+      "yè"
+    ]
+  },
+  "夜": {
+    "default": "ye",
+    "alts": [
+      "yè"
+    ]
+  },
+  "腋": {
+    "default": "yì",
+    "alts": [
+      "yè"
+    ]
+  },
+  "馌": {
+    "default": "gǒu",
+    "alts": [
+      "yè"
+    ]
+  },
+  "靥": {
+    "default": "yǎn",
+    "alts": [
+      "yè"
+    ]
+  },
+  "一": {
+    "default": "yí",
+    "alts": [
+      "yì",
+      "yi",
+      "yī"
+    ]
+  },
+  "伊": {
+    "default": "yí",
+    "alts": [
+      "yī"
+    ]
+  },
+  "衣": {
+    "default": "yì",
+    "alts": [
+      "yī"
+    ]
+  },
+  "猗": {
+    "default": "yī",
+    "alts": [
+      "yǐ"
+    ]
+  },
+  "噫": {
+    "default": "yì",
+    "alts": [
+      "yī"
+    ]
+  },
+  "夷": {
+    "default": "jí",
+    "alts": [
+      "yì",
+      "yí"
+    ]
+  },
+  "诒": {
+    "default": "yí",
+    "alts": [
+      "dài"
+    ]
+  },
+  "宜": {
+    "default": "yú",
+    "alts": [
+      "yi",
+      "yì",
+      "yí"
+    ]
+  },
+  "迤": {
+    "default": "yí",
+    "alts": [
+      "yǐ"
+    ]
+  },
+  "貤": {
+    "default": "yí",
+    "alts": [
+      "xī",
+      "yì"
+    ]
+  },
+  "遗": {
+    "default": "yi",
+    "alts": [
+      "yí"
+    ]
+  },
+  "颐": {
+    "default": "yī",
+    "alts": [
+      "yí"
+    ]
+  },
+  "疑": {
+    "default": "yí",
+    "alts": [
+      "nǐ"
+    ]
+  },
+  "已": {
+    "default": "jǐ",
+    "alts": [
+      "yǐ"
+    ]
+  },
+  "以": {
+    "default": "yi",
+    "alts": [
+      "yī",
+      "jǐ",
+      "yǐ"
+    ]
+  },
+  "矣": {
+    "default": "yi",
+    "alts": [
+      "yǐ"
+    ]
+  },
+  "倚": {
+    "default": "yī",
+    "alts": [
+      "yǐ"
+    ]
+  },
+  "义": {
+    "default": "yù",
+    "alts": [
+      "yi",
+      "yì"
+    ]
+  },
+  "亦": {
+    "default": "yi",
+    "alts": [
+      "yì"
+    ]
+  },
+  "佚": {
+    "default": "yì",
+    "alts": [
+      "dié"
+    ]
+  },
+  "抑": {
+    "default": "yi",
+    "alts": [
+      "yì"
+    ]
+  },
+  "易": {
+    "default": "yi",
+    "alts": [
+      "yì"
+    ]
+  },
+  "泆": {
+    "default": "yí",
+    "alts": [
+      "zhuàng",
+      "dié",
+      "yì"
+    ]
+  },
+  "枻": {
+    "default": "yì",
+    "alts": [
+      "xiè"
+    ]
+  },
+  "谊": {
+    "default": "yí",
+    "alts": [
+      "yì"
+    ]
+  },
+  "埶": {
+    "default": "xīn",
+    "alts": [
+      "zhì",
+      "zhōu",
+      "shì",
+      "yì"
+    ]
+  },
+  "蓺": {
+    "default": "tiě",
+    "alts": [
+      "yì"
+    ]
+  },
+  "鹢": {
+    "default": "huā",
+    "alts": [
+      "yī",
+      "yì"
+    ]
+  },
+  "斁": {
+    "default": "dù",
+    "alts": [
+      "yì"
+    ]
+  },
+  "翼": {
+    "default": "yù",
+    "alts": [
+      "yì"
+    ]
+  },
+  "襼": {
+    "default": "zhēng",
+    "alts": [
+      "yì"
+    ]
+  },
+  "因": {
+    "default": "yin",
+    "alts": [
+      "yīn"
+    ]
+  },
+  "荫": {
+    "default": "yīn",
+    "alts": [
+      "yìn"
+    ]
+  },
+  "殷": {
+    "default": "yīn",
+    "alts": [
+      "yǐn",
+      "yān"
+    ]
+  },
+  "喑": {
+    "default": "yìn",
+    "alts": [
+      "yīn"
+    ]
+  },
+  "吟": {
+    "default": "yīn",
+    "alts": [
+      "yín"
+    ]
+  },
+  "訚": {
+    "default": "luó",
+    "alts": [
+      "què",
+      "yín"
+    ]
+  },
+  "崟": {
+    "default": "shì",
+    "alts": [
+      "yín"
+    ]
+  },
+  "龈": {
+    "default": "yín",
+    "alts": [
+      "kěn"
+    ]
+  },
+  "饮": {
+    "default": "yìn",
+    "alts": [
+      "yǐn"
+    ]
+  },
+  "隐": {
+    "default": "yǐn",
+    "alts": [
+      "yìn",
+      "yin"
+    ]
+  },
+  "应": {
+    "default": "yìng",
+    "alts": [
+      "yīng",
+      "yìn"
+    ]
+  },
+  "莺": {
+    "default": "yíng",
+    "alts": [
+      "yīng"
+    ]
+  },
+  "鹰": {
+    "default": "xīng",
+    "alts": [
+      "yīng"
+    ]
+  },
+  "迎": {
+    "default": "yǐng",
+    "alts": [
+      "yìng",
+      "yíng"
+    ]
+  },
+  "盈": {
+    "default": "yǐng",
+    "alts": [
+      "yíng"
+    ]
+  },
+  "莹": {
+    "default": "yin",
+    "alts": [
+      "yíng"
+    ]
+  },
+  "蝇": {
+    "default": "ying",
+    "alts": [
+      "yīng",
+      "yíng"
+    ]
+  },
+  "赢": {
+    "default": "ying",
+    "alts": [
+      "yǐng",
+      "yíng"
+    ]
+  },
+  "影": {
+    "default": "yǐ",
+    "alts": [
+      "ying",
+      "yǐng"
+    ]
+  },
+  "佣": {
+    "default": "yōng",
+    "alts": [
+      "yòng"
+    ]
+  },
+  "拥": {
+    "default": "yǒng",
+    "alts": [
+      "yōng"
+    ]
+  },
+  "澭": {
+    "default": "yōng",
+    "alts": [
+      "yǒng"
+    ]
+  },
+  "喁": {
+    "default": "yú",
+    "alts": [
+      "yóng"
+    ]
+  },
+  "永": {
+    "default": "shì",
+    "alts": [
+      "yǒng"
+    ]
+  },
+  "勇": {
+    "default": "lóng",
+    "alts": [
+      "yòng",
+      "yǒng"
+    ]
+  },
+  "涌": {
+    "default": "yǒng",
+    "alts": [
+      "yōng",
+      "chōng"
+    ]
+  },
+  "忧": {
+    "default": "rǎo",
+    "alts": [
+      "yóu",
+      "yōu"
+    ]
+  },
+  "由": {
+    "default": "you",
+    "alts": [
+      "yóu"
+    ]
+  },
+  "犹": {
+    "default": "you",
+    "alts": [
+      "yóu"
+    ]
+  },
+  "肬": {
+    "default": "shé",
+    "alts": [
+      "yóu"
+    ]
+  },
+  "游": {
+    "default": "yōu",
+    "alts": [
+      "yuó",
+      "tóu",
+      "you",
+      "yóu"
+    ]
+  },
+  "有": {
+    "default": "yǒu",
+    "alts": [
+      "you",
+      "fú",
+      "yòu",
+      "yuǒ"
+    ]
+  },
+  "牗": {
+    "default": "yǒu",
+    "alts": [
+      "yōng"
+    ]
+  },
+  "狖": {
+    "default": "yàn",
+    "alts": [
+      "yòu"
+    ]
+  },
+  "宥": {
+    "default": "yǒu",
+    "alts": [
+      "yòu"
+    ]
+  },
+  "柚": {
+    "default": "zhóu",
+    "alts": [
+      "yóu",
+      "yòu"
+    ]
+  },
+  "诱": {
+    "default": "yuò",
+    "alts": [
+      "yòu"
+    ]
+  },
+  "于": {
+    "default": "yù",
+    "alts": [
+      "yǔ",
+      "yǐ",
+      "yú"
+    ]
+  },
+  "於": {
+    "default": "yú",
+    "alts": [
+      "wū"
+    ]
+  },
+  "鱼": {
+    "default": "yù",
+    "alts": [
+      "yǔ",
+      "yū",
+      "yú"
+    ]
+  },
+  "俞": {
+    "default": "yú",
+    "alts": [
+      "shù",
+      "yù"
+    ]
+  },
+  "渔": {
+    "default": "yǔ",
+    "alts": [
+      "yú"
+    ]
+  },
+  "隅": {
+    "default": "yù",
+    "alts": [
+      "yú"
+    ]
+  },
+  "愉": {
+    "default": "yú",
+    "alts": [
+      "tōu"
+    ]
+  },
+  "与": {
+    "default": "yǔ",
+    "alts": [
+      "yú",
+      "yu",
+      "yù"
+    ]
+  },
+  "予": {
+    "default": "yú",
+    "alts": [
+      "yù",
+      "yǔ"
+    ]
+  },
+  "雨": {
+    "default": "yǔ",
+    "alts": [
+      "yù",
+      "yǚ"
+    ]
+  },
+  "禹": {
+    "default": "yú",
+    "alts": [
+      "yǔ"
+    ]
+  },
+  "语": {
+    "default": "yǔ",
+    "alts": [
+      "yán",
+      "yù"
+    ]
+  },
+  "玉": {
+    "default": "yǔ",
+    "alts": [
+      "yu",
+      "yù"
+    ]
+  },
+  "欲": {
+    "default": "yu",
+    "alts": [
+      "ruò",
+      "yù"
+    ]
+  },
+  "裕": {
+    "default": "yu",
+    "alts": [
+      "yù"
+    ]
+  },
+  "愈": {
+    "default": "yu",
+    "alts": [
+      "yù"
+    ]
+  },
+  "誉": {
+    "default": "míng",
+    "alts": [
+      "yù"
+    ]
+  },
+  "蜎": {
+    "default": "xuān",
+    "alts": [
+      "juān",
+      "yuān"
+    ]
+  },
+  "员": {
+    "default": "yuán",
+    "alts": [
+      "yún",
+      "yùn"
+    ]
+  },
+  "援": {
+    "default": "yá",
+    "alts": [
+      "yuán"
+    ]
+  },
+  "湲": {
+    "default": "tóng",
+    "alts": [
+      "yuán"
+    ]
+  },
+  "远": {
+    "default": "yuǎn",
+    "alts": [
+      "juǎn",
+      "yuàn",
+      "yuan"
+    ]
+  },
+  "苑": {
+    "default": "yàun",
+    "alts": [
+      "yuàn"
+    ]
+  },
+  "曰": {
+    "default": "yuè",
+    "alts": [
+      "yuē"
+    ]
+  },
+  "约": {
+    "default": "yuē",
+    "alts": [
+      "yuè",
+      "yāo"
+    ]
+  },
+  "矱": {
+    "default": "huò",
+    "alts": [
+      "yuē"
+    ]
+  },
+  "彟": {
+    "default": "yuē",
+    "alts": [
+      "xīng",
+      "huò"
+    ]
+  },
+  "月": {
+    "default": "yue",
+    "alts": [
+      "yuè"
+    ]
+  },
+  "跃": {
+    "default": "yué",
+    "alts": [
+      "yue",
+      "yuè"
+    ]
+  },
+  "晕": {
+    "default": "yūn",
+    "alts": [
+      "yùn"
+    ]
+  },
+  "沄": {
+    "default": "chā",
+    "alts": [
+      "kē",
+      "yún"
+    ]
+  },
+  "耘": {
+    "default": "yùn",
+    "alts": [
+      "yún"
+    ]
+  },
+  "筠": {
+    "default": "yún",
+    "alts": [
+      "jūn"
+    ]
+  },
+  "磒": {
+    "default": "zǐ",
+    "alts": [
+      "yǔn"
+    ]
+  },
+  "运": {
+    "default": "yun",
+    "alts": [
+      "yùn"
+    ]
+  },
+  "缊": {
+    "default": "yùn",
+    "alts": [
+      "yūn",
+      "hé",
+      "wēn"
+    ]
+  },
+  "韫": {
+    "default": "yùn",
+    "alts": [
+      "wēn"
+    ]
+  },
+  "熨": {
+    "default": "yùn",
+    "alts": [
+      "yù"
+    ]
+  },
+  "杂": {
+    "default": "zái",
+    "alts": [
+      "zá"
+    ]
+  },
+  "咋": {
+    "default": "zhà",
+    "alts": [
+      "zé",
+      "zǎ",
+      "zhā"
+    ]
+  },
+  "在": {
+    "default": "zào",
+    "alts": [
+      "zhai",
+      "zāi",
+      "zài"
+    ]
+  },
+  "载": {
+    "default": "zài",
+    "alts": [
+      "zǎi",
+      "cái",
+      "zhǎi"
+    ]
+  },
+  "攒": {
+    "default": "cuán",
+    "alts": [
+      "zǎn"
+    ]
+  },
+  "赃": {
+    "default": "zhuō",
+    "alts": [
+      "zāng"
+    ]
+  },
+  "臧": {
+    "default": "zāng",
+    "alts": [
+      "cáng",
+      "zàng"
+    ]
+  },
+  "脏": {
+    "default": "zāng",
+    "alts": [
+      "zàng",
+      "zang"
+    ]
+  },
+  "凿": {
+    "default": "zuò",
+    "alts": [
+      "záo"
+    ]
+  },
+  "蚤": {
+    "default": "sāo",
+    "alts": [
+      "zǎo"
+    ]
+  },
+  "皁": {
+    "default": "hǎi",
+    "alts": [
+      "tóu",
+      "wěn",
+      "wú",
+      "yě",
+      "yí",
+      "zào"
+    ]
+  },
+  "皂": {
+    "default": "zǎo",
+    "alts": [
+      "zào"
+    ]
+  },
+  "择": {
+    "default": "zé",
+    "alts": [
+      "zhái"
+    ]
+  },
+  "泽": {
+    "default": "zé",
+    "alts": [
+      "shì"
+    ]
+  },
+  "责": {
+    "default": "zé",
+    "alts": [
+      "zè",
+      "zhài"
+    ]
+  },
+  "齰": {
+    "default": "zé",
+    "alts": [
+      "cuò"
+    ]
+  },
+  "谮": {
+    "default": "zèn",
+    "alts": [
+      "jiàn"
+    ]
+  },
+  "增": {
+    "default": "zhen",
+    "alts": [
+      "zēng"
+    ]
+  },
+  "憎": {
+    "default": "zèng",
+    "alts": [
+      "zēng"
+    ]
+  },
+  "甑": {
+    "default": "zēng",
+    "alts": [
+      "zèng"
+    ]
+  },
+  "扎": {
+    "default": "zhā",
+    "alts": [
+      "zhá",
+      "zā"
+    ]
+  },
+  "吒": {
+    "default": "zhà",
+    "alts": [
+      "zhā"
+    ]
+  },
+  "奓": {
+    "default": "chǐ",
+    "alts": [
+      "shē",
+      "zhà"
+    ]
+  },
+  "喳": {
+    "default": "chā",
+    "alts": [
+      "zhā"
+    ]
+  },
+  "炸": {
+    "default": "zhà",
+    "alts": [
+      "zhá"
+    ]
+  },
+  "摘": {
+    "default": "tì",
+    "alts": [
+      "tī",
+      "zhāi"
+    ]
+  },
+  "债": {
+    "default": "zhai",
+    "alts": [
+      "zhà",
+      "zhài"
+    ]
+  },
+  "寨": {
+    "default": "zhai",
+    "alts": [
+      "zhài"
+    ]
+  },
+  "沾": {
+    "default": "zhān",
+    "alts": [
+      "diàn",
+      "tiān"
+    ]
+  },
+  "毡": {
+    "default": "guān",
+    "alts": [
+      "zhān"
+    ]
+  },
+  "粘": {
+    "default": "nián",
+    "alts": [
+      "zhān",
+      "niān"
+    ]
+  },
+  "邅": {
+    "default": "zǔ",
+    "alts": [
+      "zhān"
+    ]
+  },
+  "瞻": {
+    "default": "shàn",
+    "alts": [
+      "zhān"
+    ]
+  },
+  "鹯": {
+    "default": "yīng",
+    "alts": [
+      "zhān"
+    ]
+  },
+  "展": {
+    "default": "chǎn",
+    "alts": [
+      "zhǎn"
+    ]
+  },
+  "崭": {
+    "default": "zhǎn",
+    "alts": [
+      "chán"
+    ]
+  },
+  "辗": {
+    "default": "zhǎn",
+    "alts": [
+      "niǎn"
+    ]
+  },
+  "占": {
+    "default": "zhān",
+    "alts": [
+      "zhàn",
+      "zhan"
+    ]
+  },
+  "佔": {
+    "default": "zhàn",
+    "alts": [
+      "diān"
+    ]
+  },
+  "战": {
+    "default": "zhān",
+    "alts": [
+      "zhàn"
+    ]
+  },
+  "张": {
+    "default": "zhng",
+    "alts": [
+      "zhāng"
+    ]
+  },
+  "章": {
+    "default": "zhān",
+    "alts": [
+      "zhāng"
+    ]
+  },
+  "麞": {
+    "default": "suō",
+    "alts": [
+      "zhāng"
+    ]
+  },
+  "长": {
+    "default": "cháng",
+    "alts": [
+      "zhǎng",
+      "zhàng",
+      "chāng",
+      "chàng",
+      "chéng"
+    ]
+  },
+  "涨": {
+    "default": "zhǎng",
+    "alts": [
+      "zhàng"
+    ]
+  },
+  "杖": {
+    "default": "zhǎng",
+    "alts": [
+      "zhàng"
+    ]
+  },
+  "招": {
+    "default": "zhā",
+    "alts": [
+      "zhāo"
+    ]
+  },
+  "爪": {
+    "default": "zhǎo",
+    "alts": [
+      "zhuǎ"
+    ]
+  },
+  "沼": {
+    "default": "zhao",
+    "alts": [
+      "zhǎo"
+    ]
+  },
+  "召": {
+    "default": "zhào",
+    "alts": [
+      "zhāo",
+      "shào"
+    ]
+  },
+  "兆": {
+    "default": "zhī",
+    "alts": [
+      "zhào"
+    ]
+  },
+  "棹": {
+    "default": "zhào",
+    "alts": [
+      "zhuō"
+    ]
+  },
+  "折": {
+    "default": "zhé",
+    "alts": [
+      "shé",
+      "zhe",
+      "zhē"
+    ]
+  },
+  "蛰": {
+    "default": "zhí",
+    "alts": [
+      "zhé"
+    ]
+  },
+  "詟": {
+    "default": "miàn",
+    "alts": [
+      "zhé"
+    ]
+  },
+  "辙": {
+    "default": "chè",
+    "alts": [
+      "shé",
+      "zhé"
+    ]
+  },
+  "者": {
+    "default": "zhe",
+    "alts": [
+      "zhě"
+    ]
+  },
+  "这": {
+    "default": "zhè",
+    "alts": [
+      "zhèi"
+    ]
+  },
+  "着": {
+    "default": "zhuó",
+    "alts": [
+      "zhe",
+      "zháo",
+      "zhù",
+      "zhāo",
+      "zhé"
+    ]
+  },
+  "针": {
+    "default": "zhén",
+    "alts": [
+      "zhēn"
+    ]
+  },
+  "帧": {
+    "default": "zhèng",
+    "alts": [
+      "zhēn"
+    ]
+  },
+  "珍": {
+    "default": "zhěn",
+    "alts": [
+      "zhén",
+      "zhēn"
+    ]
+  },
+  "珎": {
+    "default": "zhū",
+    "alts": [
+      "zhēn"
+    ]
+  },
+  "真": {
+    "default": "zhē",
+    "alts": [
+      "zhēn"
+    ]
+  },
+  "枕": {
+    "default": "zhèn",
+    "alts": [
+      "chén",
+      "zhen",
+      "zhěn"
+    ]
+  },
+  "震": {
+    "default": "liè",
+    "alts": [
+      "zhèn"
+    ]
+  },
+  "鴆": {
+    "default": "yǐ",
+    "alts": [
+      "zhèn"
+    ]
+  },
+  "争": {
+    "default": "zèng",
+    "alts": [
+      "zhēng"
+    ]
+  },
+  "征": {
+    "default": "zhèng",
+    "alts": [
+      "zhēng"
+    ]
+  },
+  "挣": {
+    "default": "zhēng",
+    "alts": [
+      "zhèng"
+    ]
+  },
+  "整": {
+    "default": "zheng",
+    "alts": [
+      "zhěng"
+    ]
+  },
+  "正": {
+    "default": "zhèng",
+    "alts": [
+      "zheng",
+      "zhēng"
+    ]
+  },
+  "症": {
+    "default": "zhèng",
+    "alts": [
+      "zhēng"
+    ]
+  },
+  "之": {
+    "default": "zhì",
+    "alts": [
+      "zi",
+      "xhī",
+      "huā",
+      "shī",
+      "zhí",
+      "zī",
+      "zhī"
+    ]
+  },
+  "芝": {
+    "default": "zhi",
+    "alts": [
+      "zhī"
+    ]
+  },
+  "枝": {
+    "default": "zhī",
+    "alts": [
+      "qí"
+    ]
+  },
+  "知": {
+    "default": "zhī",
+    "alts": [
+      "zhì",
+      "shì"
+    ]
+  },
+  "织": {
+    "default": "zhī",
+    "alts": [
+      "zhì"
+    ]
+  },
+  "直": {
+    "default": "zhǐ",
+    "alts": [
+      "zhí"
+    ]
+  },
+  "殖": {
+    "default": "zhí",
+    "alts": [
+      "shi"
+    ]
+  },
+  "止": {
+    "default": "zi",
+    "alts": [
+      "zhǐ"
+    ]
+  },
+  "只": {
+    "default": "zhī",
+    "alts": [
+      "zhǐ",
+      "yán"
+    ]
+  },
+  "旨": {
+    "default": "zhì",
+    "alts": [
+      "zhǐ"
+    ]
+  },
+  "徵": {
+    "default": "zhēng",
+    "alts": [
+      "zhǐ"
+    ]
+  },
+  "帙": {
+    "default": "yì",
+    "alts": [
+      "zhì"
+    ]
+  },
+  "炙": {
+    "default": "jiǔ",
+    "alts": [
+      "zhì"
+    ]
+  },
+  "质": {
+    "default": "zhí",
+    "alts": [
+      "zhì"
+    ]
+  },
+  "峙": {
+    "default": "zhì",
+    "alts": [
+      "shì"
+    ]
+  },
+  "栉": {
+    "default": "jié",
+    "alts": [
+      "zhì"
+    ]
+  },
+  "挚": {
+    "default": "chè",
+    "alts": [
+      "zhì"
+    ]
+  },
+  "致": {
+    "default": "zhī",
+    "alts": [
+      "zhì"
+    ]
+  },
+  "猘": {
+    "default": "xiǎn",
+    "alts": [
+      "zhì"
+    ]
+  },
+  "智": {
+    "default": "shēng",
+    "alts": [
+      "zhì"
+    ]
+  },
+  "跱": {
+    "default": "shēn",
+    "alts": [
+      "yín",
+      "jià",
+      "zhì"
+    ]
+  },
+  "疐": {
+    "default": "zhì",
+    "alts": [
+      "máo",
+      "zǔ",
+      "shǔ",
+      "dì"
+    ]
+  },
+  "中": {
+    "default": "zhōng",
+    "alts": [
+      "zhòng",
+      "zhōu",
+      "zong",
+      "zhong"
+    ]
+  },
+  "终": {
+    "default": "shǐ",
+    "alts": [
+      "zhong",
+      "zhōng"
+    ]
+  },
+  "盅": {
+    "default": "gǔ",
+    "alts": [
+      "zhōng"
+    ]
+  },
+  "种": {
+    "default": "zhǒng",
+    "alts": [
+      "zhòng",
+      "chóng"
+    ]
+  },
+  "众": {
+    "default": "zhōng",
+    "alts": [
+      "zhòn",
+      "zhòng"
+    ]
+  },
+  "重": {
+    "default": "chóng",
+    "alts": [
+      "zhòng",
+      "chong",
+      "zhóng",
+      "zhàng"
+    ]
+  },
+  "诌": {
+    "default": "zōu",
+    "alts": [
+      "zhōu"
+    ]
+  },
+  "诪": {
+    "default": "zhōu",
+    "alts": [
+      "shī",
+      "chóu"
+    ]
+  },
+  "粥": {
+    "default": "zhōu",
+    "alts": [
+      "yù"
+    ]
+  },
+  "轴": {
+    "default": "zhóu",
+    "alts": [
+      "zhòu"
+    ]
+  },
+  "咮": {
+    "default": "shòu",
+    "alts": [
+      "zhòu"
+    ]
+  },
+  "僽": {
+    "default": "jī",
+    "alts": [
+      "zhòu"
+    ]
+  },
+  "骤": {
+    "default": "zòu",
+    "alts": [
+      "zhòu"
+    ]
+  },
+  "朱": {
+    "default": "zhū",
+    "alts": [
+      "shú"
+    ]
+  },
+  "诸": {
+    "default": "zh",
+    "alts": [
+      "zhū"
+    ]
+  },
+  "猪": {
+    "default": "zhòu",
+    "alts": [
+      "zhū"
+    ]
+  },
+  "竹": {
+    "default": "zhū",
+    "alts": [
+      "zhú"
+    ]
+  },
+  "逐": {
+    "default": "zhù",
+    "alts": [
+      "zhu",
+      "zhú"
+    ]
+  },
+  "劚": {
+    "default": "diāo",
+    "alts": [
+      "mí",
+      "míng",
+      "zhú"
+    ]
+  },
+  "斸": {
+    "default": "zhú",
+    "alts": [
+      "zhǔ"
+    ]
+  },
+  "助": {
+    "default": "zhù",
+    "alts": [
+      "zhu",
+      "chú"
+    ]
+  },
+  "杼": {
+    "default": "shū",
+    "alts": [
+      "zhù"
+    ]
+  },
+  "著": {
+    "default": "zhù",
+    "alts": [
+      "zhuó",
+      "zháo",
+      "zhe",
+      "zhāo"
+    ]
+  },
+  "筑": {
+    "default": "zhù",
+    "alts": [
+      "zhú"
+    ]
+  },
+  "翥": {
+    "default": "zhu",
+    "alts": [
+      "zhù"
+    ]
+  },
+  "拽": {
+    "default": "zhuài",
+    "alts": [
+      "zhuāi",
+      "yè"
+    ]
+  },
+  "专": {
+    "default": "zhān",
+    "alts": [
+      "zhuan",
+      "zhuān"
+    ]
+  },
+  "转": {
+    "default": "zhuǎn",
+    "alts": [
+      "zhuàn",
+      "zhǎn",
+      "zhuān",
+      "zhuǎi",
+      "xhuǎn"
+    ]
+  },
+  "妆": {
+    "default": "zhāng",
+    "alts": [
+      "zhuang",
+      "zhuāng"
+    ]
+  },
+  "庄": {
+    "default": "zhuāng",
+    "alts": [
+      "péng"
+    ]
+  },
+  "壮": {
+    "default": "zhuàn",
+    "alts": [
+      "zhuàng"
+    ]
+  },
+  "状": {
+    "default": "zhuǎng",
+    "alts": [
+      "zhuàng"
+    ]
+  },
+  "追": {
+    "default": "zhuī",
+    "alts": [
+      "duī"
+    ]
+  },
+  "椎": {
+    "default": "chuí",
+    "alts": [
+      "zhuī",
+      "chuī"
+    ]
+  },
+  "锥": {
+    "default": "chuí",
+    "alts": [
+      "zhui",
+      "zhuī"
+    ]
+  },
+  "缀": {
+    "default": "zhuī",
+    "alts": [
+      "zhuì"
+    ]
+  },
+  "迍": {
+    "default": "chù",
+    "alts": [
+      "zhūn"
+    ]
+  },
+  "拙": {
+    "default": "zhuó",
+    "alts": [
+      "zhuō"
+    ]
+  },
+  "捉": {
+    "default": "zhuo",
+    "alts": [
+      "zhuō"
+    ]
+  },
+  "棁": {
+    "default": "shuì",
+    "alts": [
+      "lì",
+      "zhuō"
+    ]
+  },
+  "卓": {
+    "default": "zhuō",
+    "alts": [
+      "zhuó"
+    ]
+  },
+  "啄": {
+    "default": "zhòu",
+    "alts": [
+      "zhuó"
+    ]
+  },
+  "濯": {
+    "default": "zhuó",
+    "alts": [
+      "zhào"
+    ]
+  },
+  "兹": {
+    "default": "zī",
+    "alts": [
+      "cí"
+    ]
+  },
+  "粢": {
+    "default": "zī",
+    "alts": [
+      "cí"
+    ]
+  },
+  "觜": {
+    "default": "zī",
+    "alts": [
+      "zuǐ"
+    ]
+  },
+  "子": {
+    "default": "zǐ",
+    "alts": [
+      "zi"
+    ]
+  },
+  "仔": {
+    "default": "zǐ",
+    "alts": [
+      "zǎi",
+      "zī"
+    ]
+  },
+  "紫": {
+    "default": "zi",
+    "alts": [
+      "zǐ"
+    ]
+  },
+  "訾": {
+    "default": "zī",
+    "alts": [
+      "zǐ"
+    ]
+  },
+  "自": {
+    "default": "zhì",
+    "alts": [
+      "zhi",
+      "zi",
+      "zì"
+    ]
+  },
+  "剚": {
+    "default": "rǎo",
+    "alts": [
+      "zì"
+    ]
+  },
+  "恣": {
+    "default": "zī",
+    "alts": [
+      "zí",
+      "zì"
+    ]
+  },
+  "胔": {
+    "default": "lián",
+    "alts": [
+      "zì"
+    ]
+  },
+  "综": {
+    "default": "zōng",
+    "alts": [
+      "zòng",
+      "zèng"
+    ]
+  },
+  "纵": {
+    "default": "zòng",
+    "alts": [
+      "zōng",
+      "zǒng"
+    ]
+  },
+  "走": {
+    "default": "bù",
+    "alts": [
+      "zǒu"
+    ]
+  },
+  "足": {
+    "default": "jǜ",
+    "alts": [
+      "zú"
+    ]
+  },
+  "卒": {
+    "default": "zú",
+    "alts": [
+      "cù",
+      "fú"
+    ]
+  },
+  "族": {
+    "default": "zu",
+    "alts": [
+      "zú"
+    ]
+  },
+  "踤": {
+    "default": "jià",
+    "alts": [
+      "shēn",
+      "yín",
+      "zú"
+    ]
+  },
+  "阻": {
+    "default": "zú",
+    "alts": [
+      "zǔ"
+    ]
+  },
+  "祖": {
+    "default": "zú",
+    "alts": [
+      "zǔ"
+    ]
+  },
+  "钻": {
+    "default": "zuān",
+    "alts": [
+      "zuàn"
+    ]
+  },
+  "朘": {
+    "default": "juān",
+    "alts": [
+      "zuàn",
+      "zuī"
+    ]
+  },
+  "嘴": {
+    "default": "zhuǐ",
+    "alts": [
+      "zuǐ"
+    ]
+  },
+  "最": {
+    "default": "zhui",
+    "alts": [
+      "zuì"
+    ]
+  },
+  "晬": {
+    "default": "chén",
+    "alts": [
+      "zuì"
+    ]
+  },
+  "罪": {
+    "default": "zhui",
+    "alts": [
+      "zuì"
+    ]
+  },
+  "莋": {
+    "default": "cè",
+    "alts": [
+      "huá",
+      "jí",
+      "zuó"
+    ]
+  },
+  "琢": {
+    "default": "zhuó",
+    "alts": [
+      "zuo",
+      "zuó"
+    ]
+  },
+  "作": {
+    "default": "zuō",
+    "alts": [
+      "zuò"
+    ]
+  },
+  "怍": {
+    "default": "zuò",
+    "alts": [
+      "zhà"
+    ]
+  }
+}

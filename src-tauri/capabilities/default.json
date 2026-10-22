@@ -1,0 +1,16 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "default",
+  "description": "主窗口权限：窗口拖动 / 主题 / 背景色、剪贴板写入（读写用户数据走自定义命令，见 lib.rs）",
+  "windows": ["main"],
+  "permissions": [
+    "core:default",
+    "core:window:allow-start-dragging",
+    "core:window:allow-internal-toggle-maximize",
+    "core:window:allow-toggle-maximize",
+    "core:window:allow-set-theme",
+    "core:window:allow-set-background-color",
+    "core:window:allow-set-title",
+    "clipboard-manager:allow-write-text"
+  ]
+}

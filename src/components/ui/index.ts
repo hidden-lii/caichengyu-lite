@@ -1,0 +1,25 @@
+// 基础控件（Material 3 交互与组件层，= MaterialUI.swift + AppBar.swift 里的 MaterialSegmented 等）。
+export { default as Icon } from "./Icon.vue";
+export { ICON_NAMES, type IconName, type IconWeight } from "./iconNames";
+export { default as MButton, type MButtonKind } from "./MButton.vue";
+export { default as MIconButton } from "./MIconButton.vue";
+export { default as MFab } from "./MFab.vue";
+export { default as MTouch } from "./MTouch.vue";
+export { default as MCardButton } from "./MCardButton.vue";
+export { default as MSegmented } from "./MSegmented.vue";
+export { default as MChip } from "./MChip.vue";
+export { default as MBadge } from "./MBadge.vue";
+export { default as MCheckbox } from "./MCheckbox.vue";
+export { default as MSurface } from "./MSurface.vue";
+export { default as MSpinner } from "./MSpinner.vue";
+export { default as MBusyOverlay } from "./MBusyOverlay.vue";
+export { default as MSheet } from "./MSheet.vue";
+export { default as MDialog } from "./MDialog.vue";
+export { default as MTextField } from "./MTextField.vue";
+export { default as MSlider } from "./MSlider.vue";
+export { default as MSelect } from "./MSelect.vue";
+export { default as MPicker } from "./MPicker.vue";
+export { default as MDisclosure } from "./MDisclosure.vue";
+export { default as MColorWell } from "./MColorWell.vue";
+export { addRipple, attachRipple, localPoint, prefersReducedMotion, releaseOnGlobalPointerUp, useManualFX, useRipple, vRipple } from "./ripple";
+export { useModal } from "./modal";
